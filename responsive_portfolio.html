@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Portfolio</title>
+
+	<link rel="stylesheet" type="text/css" href="external/cssreset-min.css">
+	<link rel="stylesheet" type="text/css" href="responsive_portfolio.css">
+</head>
+
+<!-- Body --------------------------------------------------------------------->
+<body>
+
+	<h1>Allan Callaghan</h1>
+	<p>Because building stuff rocks!</p>
+
+	<div id="masonry" class="container"></div>
+
+<!-- Scripts ------------------------------------------------------------------>
+<script src="external/jquery.min.js"></script>
+<script src="external/masonry.pkgd.min.js"></script>
+
+<script>
+	DEFAULT_WIDTH = 1;
+	DEFAULT_HEIGHT = 1;
+	ITEM_TEMPLATE = ' \
+		<div class="item"> \
+			<div class="item_wrapper"><div class="overlay"></div> \
+				<h2 class="title"></h2> \
+			</div> \
+		</div> \
+	';
+				//<img src="" class="background"> \
+			   //<p class="description"></p> \
+	
+	function build_masonry(items) {
+		$masonry = $('#masonry');
+		$.each(items, function(i, item){
+			$item = $(ITEM_TEMPLATE);
+			$item.find('.title').html(item.title);
+			$item.find('.description').html(item.description);
+			//$item.find('.background').attr('src', 'images/projects/'+item.image);
+			$item.find('.item_wrapper').css('background-image', 'url("images/projects/'+item.image+'")');
+			$item.addClass('w'+(item.width || DEFAULT_WIDTH));
+			$item.addClass('h'+(item.height || DEFAULT_HEIGHT));
+			$masonry.append($item);
+		});
+	};
+</script>
+<script src="portfolio_items.js"></script>
+
+<script>
+	docReady( function() {
+		var masonry_element = document.querySelector('#masonry');
+		var masonry = new Masonry( masonry_element, {
+			columnWidth: 150
+		});
+	});
+</script>
+
+</body>
+</html>
