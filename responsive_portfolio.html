@@ -12,10 +12,24 @@
 <!-- Body --------------------------------------------------------------------->
 <body>
 
-	<h1>Allan Callaghan</h1>
-	<p>Because building stuff rocks!</p>
+	<div class="header">
+		<div class="links">
+			<ul>
+				<li><a href="http://">LinkedIn</a></li>
+				<li><a href="http://">Twitter</a></li>
+				<li><a href="http://">Google+</a></li>
+				<li><a href="http://">Facebook</a></li>
+				<li><a href="http://">Github</a></li>
+				<li><a href="http://">Amazon Wishlist</a></li>
+			<ul>
+		</div>
+		<div class="title">
+			<h1>Allan Callaghan</h1>
+			<p class="quote">"Because building stuff rocks!"</p>
+		</div>
+	</div>
 
-	<div id="masonry" class="container"></div>
+	<ul id="masonry"></ul>
 
 <!-- Scripts ------------------------------------------------------------------>
 <script src="external/jquery.min.js"></script>
@@ -25,14 +39,18 @@
 	DEFAULT_WIDTH = 1;
 	DEFAULT_HEIGHT = 1;
 	ITEM_TEMPLATE = ' \
-		<div class="item"> \
-			<div class="item_wrapper"><div class="overlay"></div> \
-				<h2 class="title"></h2> \
+		<li class="item"> \
+			<div class="item_wrapper"> \
+				<img src="" class="background"> \
+				<div class="content"> \
+					<h2 class="title"></h2> \
+				</div> \
 			</div> \
-		</div> \
+		</li> \
 	';
-				//<img src="" class="background"> \
+				// <div class="overlay"></div> \
 			   //<p class="description"></p> \
+			   //
 	
 	function build_masonry(items) {
 		$masonry = $('#masonry');
@@ -40,8 +58,8 @@
 			$item = $(ITEM_TEMPLATE);
 			$item.find('.title').html(item.title);
 			$item.find('.description').html(item.description);
-			//$item.find('.background').attr('src', 'images/projects/'+item.image);
-			$item.find('.item_wrapper').css('background-image', 'url("images/projects/'+item.image+'")');
+			$item.find('.background').attr('src', 'images/projects/'+item.image);
+			//$item.find('.item_wrapper').css('background-image', 'url("images/projects/'+item.image+'")');
 			$item.addClass('w'+(item.width || DEFAULT_WIDTH));
 			$item.addClass('h'+(item.height || DEFAULT_HEIGHT));
 			$masonry.append($item);
