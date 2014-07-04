@@ -20,7 +20,7 @@ build_masonry(
         'description_extended': "HTML5 websocket full screen projector displays the main view to the audience. Mobile/Tablets can connect to a local 'karaoke' wifi. Used at Minamicon 2014",
         'year': '2012-now',
         'team': ['carl','shish'],
-        'language': ['py','js'],
+        'icons': ['py','js','postgres','jquerymobile'],
         'category': 'code',
         'width': 2,
         'height': 3
@@ -32,6 +32,7 @@ build_masonry(
         'description_extended': "A pentatonic scale has 5 notes. A Guitar Hero controller has 5 buttons. Making the controls to a MIDI guitar synth, an amature can join a live band, bash any key in any order and it sounds good. They user cant go wrong. Used in live music performances to call audience member up to play with a band live. Demoed at Canterbury Barcamp 2014",
         'year': '2014',
         'category': 'code',
+        'icons': ['py', 'pygame'],
         'width': 1,
         'height': 1
     },
@@ -43,6 +44,7 @@ build_masonry(
         'description': "Used as the focus for a live music performance. A mock Final Fantasy style 3D battle system designed for crowd participation from mobile phones.",
         'year': 2014,
         'category': 'code',
+        'icons': ['py','js','threejs'],
         'width': 1,
         'height': 2
     },
@@ -52,6 +54,8 @@ build_masonry(
         'description': 'Hack day project to provide a free open source comunity tracking system. Trial example to track Buss, Taxis, School trips',
         'category': 'code',
         'team': ['shish', 'joe'],
+        'year': 2014,
+        'icons': ['py','js','posgres'],
         'width': 1,
         'height': 1
     },
@@ -64,7 +68,7 @@ build_masonry(
         'description': "To assit the digitial publication of a 'pen and paper' rpg system developed by a startup. Responsive content distributed with HTML5 offline storeage.",
         'year':'2013-2014',
         'team': ['dan','terry'],
-        'language': ['py','js'],
+        'icons': ['py','js','pyramid'],
         'category': 'code',
         'width': 2,
         'height': 1
@@ -77,6 +81,7 @@ build_masonry(
         'category': ['music'],
         'year': 2013,
         'team': ['lyle','matt','joe'],
+        'icons': ['piano', 'bass', 'drums'],
         'width': 2,
         'height': 2
     },
@@ -85,6 +90,7 @@ build_masonry(
         'title': 'Taxpayers alliance',
         'description': 'Heatmap visulation of national statistics',
         'year': 2013,
+        'icons': ['py'],
         'width': 1,
         'height': 1
     },
@@ -95,6 +101,7 @@ build_masonry(
         'year': 2013,
         'link': '',
         'category': 'code',
+        'icons': ['py', 'js'],
         'width': 2,
         'height': 1
     },
@@ -103,6 +110,7 @@ build_masonry(
         'title': 'Streets of DIFID',
         'year': 2012,
         'team': ['proto', 'shish', 'amy'],
+        'icons': ['py', 'js'],
         'width': 1,
         'height': 2,
     },
@@ -114,7 +122,7 @@ build_masonry(
         'description': "Learn to program multiplayer games in HTML5/Javascript, Python, Java, VB.NET and PHP. Teaching resources and activities.",
         'description_extended': "",
         'year':'2012',
-        'language': ['py','java','vb','php','js'],
+        'icons': ['py','java','vb','php','js'],
         'category': 'code',
         'width': 3,
         'height': 1
@@ -123,6 +131,7 @@ build_masonry(
         'title': 'Open mic performances',
         'year': '2013',
         'category': 'music',
+        'icons': ['piano'],
         'width': 1,
         'height': 1
     },
@@ -143,7 +152,7 @@ build_masonry(
         'description': "Lead developer of a team of four. A citizen journalism platform with an API, Mobile apps, Media uploads, Geopositioning, QRCode generation, Facebook/Twitter integration, Segmented server architecture. 60,000 lines of Python/HTML/JS code with formal bug tracking using the agile methadology.",
         'year':'2009-2012',
         'team': ['shish','greg','proto'],
-        'language': ['py','js'],
+        'icons': ['py','js'],
         'category': 'employer',
         'width': 3,
         'height': 3
@@ -166,7 +175,7 @@ build_masonry(
         'description': "A three projector pong game with mobile phones as input devices.",
         'year':'2012',
         'team': ['shish','greg'],
-        'language': ['py'],
+        'icons': ['py'],
         'category': 'code',
         'width': 1,
         'height': 1
@@ -179,7 +188,7 @@ build_masonry(
         'description_extended': "I wrote the music generator based on speed, gear, indicators, breaks, etc.",
         'year':'2011',
         'team': ['shish','greg'],
-        'language': ['py'],
+        'icons': ['py'],
         'category': 'code',
         'width': 1,
         'height': 2
@@ -190,7 +199,7 @@ build_masonry(
         'image': 'projects/',
         'description': "Hack weekend project. Every word said in parliament is logged. We process this and create a word cloud browser to browse what politicians are talking about.",
         'year':'2011',
-        'language': ['py'],
+        'icons': ['py'],
         'category': 'code',
         'team': ['shish','greg'],
         'width': 2,
@@ -204,7 +213,7 @@ build_masonry(
         'description_extended': "Scan a barcode from your phone, server gives you, average price on eBay, if it's in your collection, previews of media e.g trailer from youtube, amazon mp3 previews of songs.",
         'year':'2011',
         'team': ['shish','greg'],
-        'language': ['js'],
+        'icons': ['js'],
         'category': 'code',
         'width': 2,
         'height': 1
@@ -216,9 +225,20 @@ build_masonry(
         'description': "Hack weekend project. Freecycle + Geopositional + Custom alerts + SMS interface.",
         'year':'2011',
         'team': ['shish','greg','proto'],
-        'language': ['py'],
+        'icons': ['py'],
         'category': 'code',
         'width': 2,
+        'height': 1
+    },
+    
+    {
+        'title':'CAS Conference Speaker',
+        'link': '',
+        'image': '',
+        'description': "Spoke at the national 'Computing at School' conference about innovative ways to teach programming",
+        'year':'2010',
+        'icons': ['py', 'js', 'php', 'java', 'vb'],
+        'width': 1,
         'height': 1
     },
     
@@ -227,6 +247,7 @@ build_masonry(
         'image': 'projects/luggage.png',
         'description': 'Custom made retractable latex feet and leavers to control the mouth. An interesting construction project.',
         'category': 'costume',
+        'year': 2009,
         'width': 2,
         'height': 1
     },
@@ -234,6 +255,7 @@ build_masonry(
     {
         'title': 'Nessessary Evil',
         'description': 'Gamemastered an epic action comedy adventure for a single 2 year campaine',
+        'image': 'projects/nessessary_evil.jpg',
         'year': '2009-2011',
         'category': 'other',
         'width': 3,
@@ -243,6 +265,8 @@ build_masonry(
     {
         'title': 'Piano Transcriptions',
         'category': 'code',
+        'year': '2009-now',
+        'icons': ['piano'],
         'width': 1,
         'height': 2
     },
@@ -262,7 +286,7 @@ build_masonry(
         'description': "Attempt at reverse engineering the sprite format for sprites in the Sega Saturn game.",
         'description_extended': "Injecting binary data into the ISO and using an emulator with a specific state to read the sprites from disk. Once the corruption had been observed I could makes notes as to algorithum that was processing the data.",
         'year':'2011',
-        'language': ['java'],
+        'icons': ['java'],
         'category': 'code',
         'width': 1,
         'height': 1
@@ -274,6 +298,7 @@ build_masonry(
         'description': '',
         'category': 'code',
         'team': ['joe','lyle','jaz'],
+        'icons': ['piano', 'bass'],
         'width': 2,
         'height': 1
     },
@@ -285,7 +310,7 @@ build_masonry(
         'image': 'projects/quizgraphs.jpg',
         'description': "Pub quiz graph system with separate input interface.",
         'year':'2010',
-        'language': ['py'],
+        'icons': ['py'],
         'category': 'code',
         'width': 1,
         'height': 1
@@ -310,7 +335,7 @@ build_masonry(
         'image': 'projects/3d.png',
         'description': "Bolting two cameras side by side. Python code cyan/red merged the frames. Photographed a wedding and constructed a script to process 3D video.",
         'year': '2009',
-        'language': ['py'],
+        'icons': ['py'],
         'category': 'code',
         'width': 2,
         'height': 1
@@ -327,7 +352,7 @@ build_masonry(
         'description_extended': "Redis was only just being explored. I wrote my own functionaly for users to 'subscribe' to postbox's to recive updates.<br> When the server closed it persisted the world. <br>Learners had to choose and explore there own data structures as they deleloped there applications",
         'year':'2009',
         'team': 'solo',
-        'language': ['java'],
+        'icons': ['java'],
         'category': 'code',
         'width': 1,
         'height': 1
@@ -348,7 +373,7 @@ build_masonry(
         'description_exended': "",
         'year':'2006',
         'team': 'solo',
-        'language': ['access','vb'],
+        'icons': ['access','vb'],
         'category': 'code',
         'width': 1,
         'height': 2
@@ -377,7 +402,7 @@ build_masonry(
         'description': "A generic tile based network game framework, the base to support my UFO, Dune2 and C&C remakes",
         'year':'2003-2009',
         'team': 'solo',
-        'language': ['java'],
+        'icons': ['java'],
         'category': 'code',
         'width': 2,
         'height': 2
@@ -409,7 +434,7 @@ build_masonry(
         'description': "A game lib for Java that gave learners simple access to display, timing, network and sound.",
         'year': '2007',
         'team': 'solo',
-        'language': ['java'],
+        'icons': ['java'],
         'category': 'code',
         'width': 1,
         'height': 1
@@ -427,6 +452,7 @@ build_masonry(
         'title': 'Arcade Cabinet',
         'description': "Built an arcade cabinet with touch screen interface. It's been used in schools and inherited by many people. After 10 years of solid use and abuse it's still standing and used regularty",
         'category': 'construction',
+        'year': 2005,
         'width': 2,
         'height': 1
     },
@@ -436,6 +462,7 @@ build_masonry(
         'image': 'projects/tentacle_festival_hall.jpg',
         'description': 'Constructed a scale costume of a classic Lucusarts comedy game character. Won the 2007 Videogames Live costume competion at the Royal Festival Hall in London',
         'team': ['jon'],
+        'year': 2006,
         'category': 'costume',
         'width': 1,
         'height': 2
@@ -451,7 +478,7 @@ build_masonry(
         'description_extended': "Used as an example to teach learners that tech is understandable and achivable.",
         'year':'2006',
         'team': 'solo',
-        'language': ['java'],
+        'icons': ['java'],
         'category': 'code',
         'width': 1,
         'height': 1
@@ -465,7 +492,7 @@ build_masonry(
         'description_extended': "Research papers were Regex'ed to extract types of reference. Stored in DB. Users could them browse how papers were realted and who was references who.",
         'year':'2003',
         'team': 'solo',
-        'language': ['pl'],
+        'icons': ['pl'],
         'category': 'code',
         'width': 1,
         'height': 1
@@ -478,7 +505,7 @@ build_masonry(
         'description': "Isometric map editor, troop animator, interactive inventory.",
         'year':'2003',
         'team': 'solo',
-        'language': ['java'],
+        'icons': ['java'],
         'category': 'code',
         'width': 2,
         'height': 2
@@ -492,7 +519,7 @@ build_masonry(
         'description_extended': "Many sites didnt support RSS for little details. I was spending too much time manually checking sites for driver updates etc. So I wrote my own tool to generate a custom RSS feed of all my sites but cunningly looking for specific DOM elements that had updated.</p> I was going to create a frontend for multiple users to registers searchs but never completed the public web interface.",
         'year':'2006',
         'team': 'solo',
-        'language': ['java'],
+        'icons': ['java'],
         'category': 'code',
         'width': 1,
         'height': 1
@@ -516,7 +543,7 @@ build_masonry(
         'description_extended': "Final year research project into how real time simulation could help solve real problems. By modling simple physical rules the emergent behaviour was awesome, e.g friction with the floor made the wheels of a car actually turn.",
         'year':'2002',
         'team': 'solo',
-        'language': ['java'],
+        'icons': ['java'],
         'category': 'code',
         'width': 2,
         'height': 2
@@ -530,7 +557,7 @@ build_masonry(
         'description_exended': "Over 100 regular users. The library was distributed as personal items. The sytem allowed members to search and request items. The system then sent reminder emails and request emails before pickup time. Items had loan history and ratings.",
         'year':'2001',
         'team': 'solo',
-        'language': ['pl'],
+        'icons': ['pl'],
         'category': 'code',
         'width': 2,
         'height': 2
@@ -555,7 +582,7 @@ build_masonry(
         'description': "Create a slideshow with music and video. A custom UI experiment. Advanced animated timeline.",
         'year':'2002',
         'team': 'group',
-        'language': ['java'],
+        'icons': ['java'],
         'category': 'code',
         'width': 1,
         'height': 1
@@ -579,7 +606,7 @@ build_masonry(
         'description_extended': "Custom HTML Graph output",
         'year':'1999',
         'team': 'solo',
-        'language': ['pl'],
+        'icons': ['pl'],
         'category': 'code',
         'width': 1,
         'height': 1
@@ -592,7 +619,7 @@ build_masonry(
         'description_extended': "Had level editor, variable width font system and car physics. Wrote my own sprite rotation algorithum.",
         'year':'1998',
         'team': 'solo',
-        'language': ['pas'],
+        'icons': ['pas'],
         'category': 'code',
         'width': 2,
         'height': 2
@@ -605,7 +632,7 @@ build_masonry(
         'description_exended': "Copter had physics, sprite animation. Terrain generation was a mathmatical experiment.",
         'year':'1997',
         'team': 'solo',
-        'language': ['pas'],
+        'icons': ['pas'],
         'category': 'code',
         'width': 1,
         'height': 1
@@ -618,7 +645,7 @@ build_masonry(
         'description_exended': "The final scores were compared against known systems. The final output was displayed in a set of bar charts thats animated and grew.",
         'year':'1996',
         'team': 'solo',
-        'language': ['pas'],
+        'icons': ['pas'],
         'category': 'code',
         'width': 1,
         'height': 1
@@ -632,7 +659,7 @@ build_masonry(
         'description_exended': "It could print new orders forms and stock charts. The grocery store it was designed for went bust before the project was finished.",
         'year':'1998',
         'team': 'solo',
-        'language': ['pas'],
+        'icons': ['pas'],
         'category': 'code',
         'width': 1,
         'height': 1
@@ -641,6 +668,7 @@ build_masonry(
     {
         'title': 'Code based animations',
         'image': 'projects/dnalogo.png',
+        'year': 1996,
         'width': 1,
         'height': 1
     },

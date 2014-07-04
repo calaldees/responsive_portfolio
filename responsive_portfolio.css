@@ -52,6 +52,11 @@ body {
 }
 
 
+.header .links li a span {
+	display: none;
+}
+
+
 /* Masonry ------------------------------------------------------------------ */
 
 #masonry {
