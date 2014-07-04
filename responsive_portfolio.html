@@ -43,13 +43,15 @@
 			<div class="item_wrapper"> \
 				<img src="" class="background"> \
 				<div class="content"> \
-					<h2 class="title"></h2> \
+					<div class="titlebar"><span class="year"></span><h2 class="title"></h2></div> \
+					<p class="description"></p> \
+					<div class="footer"><div class="icons"></div></div> \
 				</div> \
 			</div> \
 		</li> \
 	';
 				// <div class="overlay"></div> \
-			   //<p class="description"></p> \
+			   // \
 			   //
 	
 	function build_masonry(items) {
@@ -58,8 +60,17 @@
 			$item = $(ITEM_TEMPLATE);
 			$item.find('.title').html(item.title);
 			$item.find('.description').html(item.description);
-			$item.find('.background').attr('src', 'images/projects/'+item.image);
+			$item.find('.year').html(item.year);
+			$item.find('.background').attr('src', 'images/'+item.image);
 			//$item.find('.item_wrapper').css('background-image', 'url("images/projects/'+item.image+'")');
+			
+			if (item.icons) {
+				$.each(item.icons, function(i, icon){
+					console.log(icon);
+					$item.find('.icons').append('<span class="icon16 i_'+icon+'"></span>');
+				});
+			}
+			
 			$item.addClass('w'+(item.width || DEFAULT_WIDTH));
 			$item.addClass('h'+(item.height || DEFAULT_HEIGHT));
 			$masonry.append($item);
