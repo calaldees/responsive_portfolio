@@ -1,3 +1,80 @@
+LOOKUP_ICON_LINKS = {
+    'python': 'http://',
+    'html5': 'http://',
+    'vb': 'http://',
+    'pascal': 'http://',
+    'ubuntu': 'http://',
+    'postgresql': 'http://',
+    'mysql': 'http://',
+    'pyramid': 'http://',
+    'android': 'http://',
+    'jquerymobile': 'http://',
+    'threejs': 'http://',
+    'java': 'http://',
+    'perl': 'http://',
+    'elasticsearch': 'http://',
+    'php': 'http://',
+    'bootstrap': 'http://',
+    'robot': 'http://',
+    'vagrant': 'http://',
+    'django': 'http://',
+    'jenkins': 'http://',
+    'redmine': 'http://',
+    'pygame': 'http://',
+    'buildbot': 'http://'
+};
+
+LOOKUP_TEAM = {
+    'shish': {
+        'name': 'Chris Girling',
+        'website': 'http://www.shishnet.org/',
+    },
+    'carl': {
+        'name': 'Carl Ritson',
+        'website': 'http://www.shishnet.org/',
+    },
+    'lyle': {
+        'name': 'Lyle Young',
+        'website': '',
+    },
+    'matt': {
+        'name': 'Matt Jones',
+        'website': 'http://www.harmonyinautum.com/',
+    },
+    'joe': {
+        'name': 'Joe Reid',
+        'website': '',
+    },
+    'jon': {
+        'name': 'Jon Cullinane',
+        'website': 'www.manylemons.co.uk',
+    },
+    'greg': {
+        'name': 'Greg Miell',
+        'website': '',
+    },
+    'proto': {
+        'name': 'Greg Mackelden',
+        'website': '',
+    },
+    'amy': {
+        'name': 'Amy',
+        'website': ''
+    },
+    'dan': {
+        'name': 'Daniel Colman',
+        'website': '',
+    },
+    'terry': {
+        'name': 'Terry Colman',
+        'website': '',
+    },
+    'mike': {
+        'name': 'Mike Gardener',
+        'website': '',
+    }
+}
+
 build_masonry(
 [
     {
@@ -298,13 +375,11 @@ build_masonry(
         'year': '2009-2011',
         'description': '',
         'category': 'code',
-        'team': ['joe','lyle','jaz'],
         'icons': ['piano', 'bass'],
         'width': 2,
         'height': 1
     },
 
-    
     {
         'title':'QuizGraphs',
         'link': 'http://calaldees.dreamhosters.com/AnimeSoc/AnimeQuiz2011/graph.py',
@@ -322,7 +397,6 @@ build_masonry(
         'link': '',
         'image': 'projects/',
         'description': "AQA AS/A2 Computing.",
-        'team': 'solo',
         'year': '2007-2009',
         'category': 'code',
         'width': 2,
@@ -352,7 +426,6 @@ build_masonry(
         'description': "A key value server similar to Redis for teaching simple massively multiplayer games.",
         'description_extended': "Redis was only just being explored. I wrote my own functionaly for users to 'subscribe' to postbox's to recive updates.<br> When the server closed it persisted the world. <br>Learners had to choose and explore there own data structures as they deleloped there applications",
         'year':'2009',
-        'team': 'solo',
         'icons': ['java'],
         'category': 'code',
         'width': 1,
@@ -373,7 +446,6 @@ build_masonry(
         'description': "Learn2Care was a career training company. They needed database consultancy for developing their data stores and required a custom event/room booking system with attendees and prices.",
         'description_exended': "",
         'year':'2006',
-        'team': 'solo',
         'icons': ['access','vb'],
         'category': 'code',
         'width': 1,
@@ -384,6 +456,7 @@ build_masonry(
         'title': 'Baby godzilla suite',
         'description': 'Constructed a cardboard tokyo and a mini godzilla suite for a 1 year old and put Mum at the other side of the room. Raaawww.',
         'year': 2007,
+        'team': ['jon']
     },
     
     {
@@ -402,7 +475,6 @@ build_masonry(
         'image': 'projects/dune.png',
         'description': "A generic tile based network game framework, the base to support my UFO, Dune2 and C&C remakes",
         'year':'2003-2009',
-        'team': 'solo',
         'icons': ['java'],
         'category': 'code',
         'width': 2,
@@ -427,14 +499,12 @@ build_masonry(
         'height': 1
     },
 
-    
     {
         'title':'GameFrame',
         'link': 'https://github.com/calaldees/javalib/tree/master/Game/ProgrammingWorkshop',
         'image': 'projects/',
         'description': "A game lib for Java that gave learners simple access to display, timing, network and sound.",
         'year': '2007',
-        'team': 'solo',
         'icons': ['java'],
         'category': 'code',
         'width': 1,
@@ -478,7 +548,6 @@ build_masonry(
         'description': "Experiment to create a minimal HTTP file server in 100 lines of code.",
         'description_extended': "Used as an example to teach learners that tech is understandable and achivable.",
         'year':'2006',
-        'team': 'solo',
         'icons': ['java'],
         'category': 'code',
         'width': 1,
@@ -489,12 +558,11 @@ build_masonry(
         'title':'Bibliographic Database',
         'link': '',
         'image': 'projects/',
-        'description': "Web database of how research papers referenced each other",
+        'description': "Web database cataloging a graph structure of how research papers referenced each other",
         'description_extended': "Research papers were Regex'ed to extract types of reference. Stored in DB. Users could them browse how papers were realted and who was references who.",
         'year':'2003',
-        'team': 'solo',
         'icons': ['perl'],
-        'category': 'code',
+        'category': 'employer',
         'width': 1,
         'height': 1
     },
@@ -505,7 +573,6 @@ build_masonry(
         'image': 'projects/ufo2.png',
         'description': "Isometric map editor, troop animator, interactive inventory.",
         'year':'2003',
-        'team': 'solo',
         'icons': ['java'],
         'category': 'code',
         'width': 2,
@@ -519,7 +586,6 @@ build_masonry(
         'description': "Webpage Regex hawk to create RSS feeds for when appropriate content on pages updated.",
         'description_extended': "Many sites didnt support RSS for little details. I was spending too much time manually checking sites for driver updates etc. So I wrote my own tool to generate a custom RSS feed of all my sites but cunningly looking for specific DOM elements that had updated.</p> I was going to create a frontend for multiple users to registers searchs but never completed the public web interface.",
         'year':'2006',
-        'team': 'solo',
         'icons': ['java'],
         'category': 'code',
         'width': 1,
@@ -527,9 +593,10 @@ build_masonry(
     },
 
     {
-        'title': 'KenANIMEted',
+        'title': 'KentANIMEted',
         'description': 'For 14 years have contributed/advised/assited with the largest anime socity in Kent. Helped take it from an unknown small crowd trhough to a regular 50+ attendees a week',
         'link': ['overload'],
+        'team': ['jon','carl'],
         'year': '1999-2013',
         'category': 'code',
         'width': 3,
@@ -543,7 +610,6 @@ build_masonry(
         'description': "Physics system based on masses and springs. User could interact in realtime and deform/break structures.",
         'description_extended': "Final year research project into how real time simulation could help solve real problems. By modling simple physical rules the emergent behaviour was awesome, e.g friction with the floor made the wheels of a car actually turn.",
         'year':'2002',
-        'team': 'solo',
         'icons': ['java'],
         'category': 'code',
         'width': 2,
@@ -557,7 +623,6 @@ build_masonry(
         'description': "Tracking over 1000 items in multiple locations. Members could reserve items for pickup.",
         'description_exended': "Over 100 regular users. The library was distributed as personal items. The sytem allowed members to search and request items. The system then sent reminder emails and request emails before pickup time. Items had loan history and ratings.",
         'year':'2001',
-        'team': 'solo',
         'icons': ['perl'],
         'category': 'code',
         'width': 2,
@@ -582,7 +647,7 @@ build_masonry(
         'image': 'projects/',
         'description': "Create a slideshow with music and video. A custom UI experiment. Advanced animated timeline.",
         'year':'2002',
-        'team': 'group',
+        'team': ['mike'],
         'icons': ['java'],
         'category': 'code',
         'width': 1,
@@ -606,7 +671,6 @@ build_masonry(
         'description': "A web based bug status/reporting tool for management.",
         'description_extended': "Custom HTML Graph output",
         'year':'1999',
-        'team': 'solo',
         'icons': ['perl'],
         'category': 'code',
         'width': 1,
@@ -619,7 +683,6 @@ build_masonry(
         'description': "Micro machines style car game.",
         'description_extended': "Had level editor, variable width font system and car physics. Wrote my own sprite rotation algorithum.",
         'year':'1998',
-        'team': 'solo',
         'icons': ['pascal'],
         'category': 'code',
         'width': 2,
@@ -632,7 +695,6 @@ build_masonry(
         'description': "Choplifter style helicopter game with random terrain generation.",
         'description_exended': "Copter had physics, sprite animation. Terrain generation was a mathmatical experiment.",
         'year':'1997',
-        'team': 'solo',
         'icons': ['pascal'],
         'category': 'code',
         'width': 1,
@@ -645,7 +707,6 @@ build_masonry(
         'description': "Simple benchmark utility to test processor, ASCI, VGA and disk access.",
         'description_exended': "The final scores were compared against known systems. The final output was displayed in a set of bar charts thats animated and grew.",
         'year':'1996',
-        'team': 'solo',
         'icons': ['pascal'],
         'category': 'code',
         'width': 1,
@@ -659,7 +720,6 @@ build_masonry(
         'description': "Real barcode checkout system written in Pascal. Created my own relational database structure with search/sort algorithms.",
         'description_exended': "It could print new orders forms and stock charts. The grocery store it was designed for went bust before the project was finished.",
         'year':'1998',
-        'team': 'solo',
         'icons': ['pascal'],
         'category': 'code',
         'width': 1,
@@ -681,7 +741,6 @@ build_masonry(
         'description': "",
         'description_exended': "",
         'year':'1996',
-        'team': 'solo',
         'width': 1,
         'height': 1
     },

@@ -9,7 +9,7 @@ body {
 
 /* Icons -------------------------------------------------------------------- */
 
-.icon16 {background-image:url('images/icons.png'); display:inline-block; vertical-align:top;}
+.icon16 {background-image:url('images/icons.png'); display:inline-block; vertical-align:bottom;}
 .icon16 span {display: none;}
 .icon16 {width: 16px; height: 16px; display: inline-block;}
 
@@ -54,20 +54,33 @@ body {
 
 /* Title */
 
-.header .title {
+.header {
     font-size: large;
+	margin: 0.5em;
 }
 
-.header .title .quote {
+.header h1 {
+	font-weight: bold;
+	font-size: larger;
+	display: inline;
+	margin-right: 0.5em;
+}
+
+
+.header .quote {
+	margin-right: 1em;
+	display: inline-block;
 }
 
 /* Links */
 
 .header .links {
-    float: right;
+    /*float: right;*/
+	display: inline-block;
+	margin-top: 0.5em;
 }
 
-.header .links ul li {
+.header .links li {
     display: inline;
 }
 
@@ -151,8 +164,23 @@ li.item {
 	padding: 0.5em;
 }
 
+.item .content .footer .team {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 0.5em;
+}
+
 .item .content .footer .icons {
-	float: right;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	padding: 0.5em;
+}
+
+.item .content .footer .team a {
+	text-decoration: none;
+	color: inherit;
 }
 
 

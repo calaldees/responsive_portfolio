@@ -13,21 +13,17 @@
 <body>
 
 	<div class="header">
-		<div class="links">
-			<ul>
-				<li><a href="http://"><span class="icon16 i_linkedin"><span>LinkedIn</span></span></a></li>
-				<li><a href="http://"><span class="icon16 i_twitter"><span>Twitter</span></span></a></li>
-				<li><a href="http://"><span class="icon16 i_googleplus"><span>Google+</span></span></a></li>
-				<li><a href="http://"><span class="icon16 i_facebook"><span>Facebook</span></span></a></li>
-				<li><a href="http://"><span class="icon16 i_github"><span>Github</span></span></a></li>
-				<li><a href="http://"><span class="icon16 i_amazon"><span>Amazon Wishlist</span></span></a></li>
-				<li><a href="http://"><span class="icon16 i_rc"><span>Retro Collect</span></span></a></li>
-			<ul>
-		</div>
-		<div class="title">
-			<h1>Allan Callaghan</h1>
-			<p class="quote">"Because building stuff rocks!"</p>
-		</div>
+		<h1>Allan Callaghan</h1>
+		<span class="quote">"Because building stuff rocks!"</span>
+		<ul class="links">
+			<li><a href="http://"><span class="icon16 i_linkedin"><span>LinkedIn</span></span></a></li>
+			<li><a href="http://"><span class="icon16 i_twitter"><span>Twitter</span></span></a></li>
+			<li><a href="http://"><span class="icon16 i_googleplus"><span>Google+</span></span></a></li>
+			<li><a href="http://"><span class="icon16 i_facebook"><span>Facebook</span></span></a></li>
+			<li><a href="http://"><span class="icon16 i_github"><span>Github</span></span></a></li>
+			<li><a href="http://"><span class="icon16 i_amazon"><span>Amazon Wishlist</span></span></a></li>
+			<li><a href="http://"><span class="icon16 i_rc"><span>Retro Collect</span></span></a></li>
+		<ul>
 	</div>
 
 	<ul id="masonry"></ul>
@@ -46,36 +42,14 @@
 				<div class="content"> \
 					<div class="titlebar"><span class="year"></span><h2 class="title"></h2></div> \
 					<p class="description"></p> \
-					<div class="footer"><div class="icons"></div></div> \
+					<div class="footer"> \
+						<ul class="team"></ul> \
+						<div class="icons"></div> \
+					</div> \
 				</div> \
 			</div> \
 		</li> \
 	';
-	LOOKUP_ICON_LINKS = {
-		'python': 'http://',
-		'html5': 'http://',
-		'vb': 'http://',
-		'pascal': 'http://',
-		'ubuntu': 'http://',
-		'postgresql': 'http://',
-		'mysql': 'http://',
-		'pyramid': 'http://',
-		'android': 'http://',
-		'jquerymobile': 'http://',
-		'threejs': 'http://',
-		'java': 'http://',
-		'perl': 'http://',
-		'elasticsearch': 'http://',
-		'php': 'http://',
-		'bootstrap': 'http://',
-		'robot': 'http://',
-		'vagrant': 'http://',
-		'django': 'http://',
-		'jenkins': 'http://',
-		'redmine': 'http://',
-		'pygame': 'http://',
-		'buildbot': 'http://'
-	}
 	
 	function build_masonry(items) {
 		$masonry = $('#masonry');
@@ -91,9 +65,16 @@
 				$.each(item.icons, function(i, icon){
 					var icon_html = '<span class="icon16 i_'+icon+'"></span>';
 					if (LOOKUP_ICON_LINKS[icon]) {
-						icon_html = '<a href="LOOKUP_ICON_LINKS[icon]" title="'+icon+'">'+icon_html+'</a>';
+						icon_html = '<a href="'+LOOKUP_ICON_LINKS[icon]+'" title="'+icon+'">'+icon_html+'</a>';
 					}
 					$item.find('.icons').append(icon_html);
+				});
+			}
+			
+			if (item.team) {
+				$.each(item.team, function(i, person){
+					var person_html = '<li><a href="'+LOOKUP_TEAM[person].website+'"><span class="icon16 i_solo"></span>'+LOOKUP_TEAM[person].name+'</a></li>';
+					$item.find('.team').append(person_html);
 				});
 			}
 			
