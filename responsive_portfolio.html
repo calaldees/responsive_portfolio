@@ -51,9 +51,31 @@
 			</div> \
 		</li> \
 	';
-				// <div class="overlay"></div> \
-			   // \
-			   //
+	LOOKUP_ICON_LINKS = {
+		'python': 'http://',
+		'html5': 'http://',
+		'vb': 'http://',
+		'pascal': 'http://',
+		'ubuntu': 'http://',
+		'postgresql': 'http://',
+		'mysql': 'http://',
+		'pyramid': 'http://',
+		'android': 'http://',
+		'jquerymobile': 'http://',
+		'threejs': 'http://',
+		'java': 'http://',
+		'perl': 'http://',
+		'elasticsearch': 'http://',
+		'php': 'http://',
+		'bootstrap': 'http://',
+		'robot': 'http://',
+		'vagrant': 'http://',
+		'django': 'http://',
+		'jenkins': 'http://',
+		'redmine': 'http://',
+		'pygame': 'http://',
+		'buildbot': 'http://'
+	}
 	
 	function build_masonry(items) {
 		$masonry = $('#masonry');
@@ -67,7 +89,11 @@
 			
 			if (item.icons) {
 				$.each(item.icons, function(i, icon){
-					$item.find('.icons').append('<span class="icon16 i_'+icon+'"></span>');
+					var icon_html = '<span class="icon16 i_'+icon+'"></span>';
+					if (LOOKUP_ICON_LINKS[icon]) {
+						icon_html = '<a href="LOOKUP_ICON_LINKS[icon]" title="'+icon+'">'+icon_html+'</a>';
+					}
+					$item.find('.icons').append(icon_html);
 				});
 			}
 			
