@@ -6,7 +6,7 @@ build_masonry(
         'image': 'employers/global-logo.png',
         'description': "Hired as a server side Python specailist, help build and maintain Global Radio's digital presence for web and mobile. Working with a crack shot team we support CapitalFM, HeartFM, ClassicFM, XFM, CapitalXtra, SmoothRadio, Gold, LBC and BigTop40. \n Python, Django, MySQL, ElasticSearch, Jenkins, Android",
         'year': '2012-now',
-        'icons': ['py','js'],
+        'icons': ['py','js','mysql','elasticsearch','django','ubuntu'],
         'category': 'code',
         'width': 3,
         'height': 3
@@ -20,7 +20,7 @@ build_masonry(
         'description_extended': "HTML5 websocket full screen projector displays the main view to the audience. Mobile/Tablets can connect to a local 'karaoke' wifi. Used at Minamicon 2014",
         'year': '2012-now',
         'team': ['carl','shish'],
-        'icons': ['py','js','postgres','jquerymobile'],
+        'icons': ['py','js','postgresql','jquerymobile','pyramid'],
         'category': 'code',
         'width': 2,
         'height': 3
@@ -44,7 +44,7 @@ build_masonry(
         'description': "Used as the focus for a live music performance. A mock Final Fantasy style 3D battle system designed for crowd participation from mobile phones.",
         'year': 2014,
         'category': 'code',
-        'icons': ['py','js','threejs'],
+        'icons': ['py','js','threejs','pyramid'],
         'width': 1,
         'height': 2
     },
@@ -55,7 +55,7 @@ build_masonry(
         'category': 'code',
         'team': ['shish', 'joe'],
         'year': 2014,
-        'icons': ['py','js','posgres'],
+        'icons': ['py','js','postgresql','pyramid'],
         'width': 1,
         'height': 1
     },
@@ -122,7 +122,7 @@ build_masonry(
         'description': "Learn to program multiplayer games in HTML5/Javascript, Python, Java, VB.NET and PHP. Teaching resources and activities.",
         'description_extended': "",
         'year':'2012',
-        'icons': ['py','java','vb','php','js'],
+        'icons': ['py','java','vb','php','js','pyramid'],
         'category': 'code',
         'width': 3,
         'height': 1
@@ -141,6 +141,7 @@ build_masonry(
         'description': 'Contracted to work remotely on volume social media tools and web content crawling',
         'year': 2012,
         'category': 'employer',
+        'icons': ['python'],
         'width': 1,
         'height': 1
     },
@@ -152,7 +153,7 @@ build_masonry(
         'description': "Lead developer of a team of four. A citizen journalism platform with an API, Mobile apps, Media uploads, Geopositioning, QRCode generation, Facebook/Twitter integration, Segmented server architecture. 60,000 lines of Python/HTML/JS code with formal bug tracking using the agile methadology.",
         'year':'2009-2012',
         'team': ['shish','greg','proto'],
-        'icons': ['py','js'],
+        'icons': ['py','js','postgresql','ubuntu'],
         'category': 'employer',
         'width': 3,
         'height': 3
@@ -225,7 +226,7 @@ build_masonry(
         'description': "Hack weekend project. Freecycle + Geopositional + Custom alerts + SMS interface.",
         'year':'2011',
         'team': ['shish','greg','proto'],
-        'icons': ['py'],
+        'icons': ['py', 'pyramid'],
         'category': 'code',
         'width': 2,
         'height': 1
