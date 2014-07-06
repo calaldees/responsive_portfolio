@@ -1,27 +1,27 @@
 LOOKUP_ICON_LINKS = {
-    'python': 'http://',
-    'html5': 'http://',
-    'vb': 'http://',
-    'pascal': 'http://',
-    'ubuntu': 'http://',
-    'postgresql': 'http://',
-    'mysql': 'http://',
-    'pyramid': 'http://',
-    'android': 'http://',
-    'jquerymobile': 'http://',
-    'threejs': 'http://',
-    'java': 'http://',
-    'perl': 'http://',
-    'elasticsearch': 'http://',
-    'php': 'http://',
-    'bootstrap': 'http://',
-    'robot': 'http://',
-    'vagrant': 'http://',
-    'django': 'http://',
-    'jenkins': 'http://',
-    'redmine': 'http://',
-    'pygame': 'http://',
-    'buildbot': 'http://'
+    'python': 'https://www.python.org/',
+    'html5': 'http://en.wikipedia.org/wiki/HTML5',
+    'vb': 'http://www.visualstudio.com/downloads/download-visual-studio-vs',
+    'pascal': 'http://en.wikipedia.org/wiki/Turbo_Pascal',
+    'ubuntu': 'http://www.ubuntu.com/',
+    'postgresql': 'http://www.postgresql.org/',
+    'mysql': 'http://www.mysql.com/',
+    'pyramid': 'http://www.pylonsproject.org/',
+    'android': 'http://developer.android.com/index.html',
+    'jquerymobile': 'http://jquerymobile.com/',
+    'threejs': 'http://threejs.org/',
+    'java': 'http://java.com/',
+    'perl': 'http://www.perl.org/',
+    'elasticsearch': 'http://www.elasticsearch.org/',
+    'php': 'http://www.php.net/',
+    'bootstrap': 'http://getbootstrap.com/',
+    'robot': 'http://robotframework.org/',
+    'vagrant': 'http://vagrantup.com/',
+    'django': 'https://www.djangoproject.com/',
+    'jenkins': 'http://jenkins-ci.org/',
+    'redmine': 'http://www.redmine.org/',
+    'pygame': 'http://www.pygame.org',
+    'buildbot': 'http://buildbot.net/'
 };
 
 LOOKUP_TEAM = {
@@ -31,7 +31,7 @@ LOOKUP_TEAM = {
     },
     'carl': {
         'name': 'Carl Ritson',
-        'website': 'http://www.shishnet.org/',
+        'website': 'https://www.linkedin.com/pub/carl-ritson/23/989/605',
     },
     'lyle': {
         'name': 'Lyle Young',
@@ -47,19 +47,19 @@ LOOKUP_TEAM = {
     },
     'jon': {
         'name': 'Jon Cullinane',
-        'website': 'www.manylemons.co.uk',
+        'website': 'http://www.manylemons.co.uk/',
     },
     'greg': {
         'name': 'Greg Miell',
-        'website': '',
+        'website': 'https://twitter.com/GothAck',
     },
     'proto': {
         'name': 'Greg Mackelden',
-        'website': '',
+        'website': 'https://twitter.com/iloveclarkkent',
     },
     'amy': {
-        'name': 'Amy',
-        'website': ''
+        'name': 'Amy Zofia Brooks',
+        'website': 'https://twitter.com/AmyZofiaBrooks'
     },
     'dan': {
         'name': 'Daniel Colman',
@@ -71,12 +71,36 @@ LOOKUP_TEAM = {
     },
     'mike': {
         'name': 'Mike Gardener',
-        'website': '',
+        'website': 'http://uk.linkedin.com/pub/mike-gardiner/1/4a1/b4',
     }
 }
 
 build_masonry(
 [
+    {
+        'title': 'Pentatonic Hero',
+        'image': 'projects/guitar-hero-controller.jpg',
+        'description': 'Map GuitarHero controlls to MIDI syths to facilitate amatures playing with a live band.',
+        'description_extended': "A pentatonic scale has 5 notes. A Guitar Hero controller has 5 buttons. Making the controls to a MIDI guitar synth, an amature can join a live band, bash any key in any order and it sounds good. They user cant go wrong. Used in live music performances to call audience member up to play with a band live. Demoed at Canterbury Barcamp 2014",
+        'year': '2014',
+        'category': 'code',
+        'icons': ['python', 'pygame'],
+        'width': 1,
+        'height': 1
+    },
+
+    {
+        'title': 'VoteBattle',
+        'link': 'https://github.com/calaldees/VoteBattle',
+        'image': 'projects/VoteBattle_screenshot2.png',
+        'description': "Used as the focus for a live music performance. A mock Final Fantasy style 3D battle system designed for crowd participation from mobile phones.",
+        'year': 2014,
+        'category': 'code',
+        'icons': ['python','html5','threejs','pyramid'],
+        'width': 1,
+        'height': 2
+    },
+
     {
         'title':'Global Radio',
         'link': 'www.thisisglobal.com',
@@ -103,29 +127,6 @@ build_masonry(
         'height': 3
     },
     
-    {
-        'title': 'Pentatonic Hero',
-        'description': 'Map GuitarHero controlls to MIDI syths to facilitate amatures playing with a live band.',
-        'description_extended': "A pentatonic scale has 5 notes. A Guitar Hero controller has 5 buttons. Making the controls to a MIDI guitar synth, an amature can join a live band, bash any key in any order and it sounds good. They user cant go wrong. Used in live music performances to call audience member up to play with a band live. Demoed at Canterbury Barcamp 2014",
-        'year': '2014',
-        'category': 'code',
-        'icons': ['python', 'pygame'],
-        'width': 1,
-        'height': 1
-    },
-
-    {
-        'title': 'VoteBattle',
-        'link': 'https://github.com/calaldees/VoteBattle',
-        'image': 'projects/VoteBattle_screenshot2.png',
-        'description': "Used as the focus for a live music performance. A mock Final Fantasy style 3D battle system designed for crowd participation from mobile phones.",
-        'year': 2014,
-        'category': 'code',
-        'icons': ['python','html5','threejs','pyramid'],
-        'width': 1,
-        'height': 2
-    },
-
     {
         'title': 'TrackMy',
         'description': 'Hack day project to provide a free open source comunity tracking system. Trial example to track Buss, Taxis, School trips',
@@ -155,6 +156,7 @@ build_masonry(
         'title': 'Ayacon: Live Music Pannel',
         'image': 'projects/ayacon.jpg',
         'description': 'Performed live music backing a virtual 3D lead singer (Hatsune Miku) with a home constructed holographic projection screen',
+        'link': ['http://calaldees.dreamhosters.com/music/miku_low.mp4'],
         'category': ['music'],
         'year': 2013,
         'team': ['lyle','matt','joe'],
@@ -175,8 +177,8 @@ build_masonry(
     {
         'title': 'RetroPrice Statistics',
         'description': 'Scraping data over the course of a year to assertain the average price and rarity of retrogames in the uk. Created a mobile interfae to access deatails at a possible bargins notice',
+        'link': ['http://calaldees.dreamhosters.com/misc/retro_extract/collection.html#/platforms'],
         'year': 2013,
-        'link': '',
         'category': 'code',
         'icons': ['python', 'html5'],
         'width': 2,
@@ -206,6 +208,7 @@ build_masonry(
     },
     {
         'title': 'Open mic performances',
+        'image': 'projects/openmic.jpg',
         'year': '2013',
         'category': 'music',
         'icons': ['piano'],
@@ -215,6 +218,7 @@ build_masonry(
 
     {
         'title': 'Access Europe',
+        'link': 'https://www.linkedin.com/company/access-europe',
         'description': 'Contracted to work remotely on volume social media tools and web content crawling',
         'year': 2012,
         'category': 'employer',
@@ -260,7 +264,7 @@ build_masonry(
     },
     {
         'title':'CarMuse',
-        'link': 'http://hacks.rewiredstate.org/events/power-of-minds/car-muse',
+        'link': ['http://hacks.rewiredstate.org/events/power-of-minds/car-muse', 'http://youtu.be/yRfgwcmjv1s?t=3m20s'],
         'image': 'projects/carmuse.jpg',
         'description': "Creates pseudo random music based on the output of the engine management system of a car. Car simulated in 3D.",
         'description_extended': "I wrote the music generator based on speed, gear, indicators, breaks, etc.",
@@ -311,8 +315,8 @@ build_masonry(
     
     {
         'title':'CAS Conference Speaker',
-        'link': '',
-        'image': '',
+        'link': 'http://www.computingatschool.org.uk/index.php?id=conf2010',
+        'image': 'projects/cas_image.jpg',
         'description': "Spoke at the national 'Computing at School' conference about innovative ways to teach programming",
         'year':'2010',
         'icons': ['python', 'html5', 'php', 'java', 'vb'],
@@ -372,6 +376,7 @@ build_masonry(
     
     {
         'title': 'k.alt.del',
+        'image': 'projects/k.alt.del.jpg',
         'year': '2009-2011',
         'description': '',
         'category': 'code',
@@ -394,8 +399,8 @@ build_masonry(
 
     {
         'title': 'Sandwich Technology School',
-        'link': '',
-        'image': 'projects/',
+        'link': 'http://www.sandwich-tech.kent.sch.uk/',
+        'image': 'employers/sts_logo.jpg',
         'description': "AQA AS/A2 Computing.",
         'year': '2007-2009',
         'category': 'code',
@@ -434,6 +439,8 @@ build_masonry(
     
     {
         'title': 'Orco',
+        'image': 'projects/orco.jpg',
+        'link': 'http://www.youtube.com/watch?v=DIr0hydLhw4',
         'description': '',
         'category': 'costume',
         'year': 2007
@@ -454,7 +461,9 @@ build_masonry(
 
     {
         'title': 'Baby godzilla suite',
-        'description': 'Constructed a cardboard tokyo and a mini godzilla suite for a 1 year old and put Mum at the other side of the room. Raaawww.',
+        'image': 'projects/baby_godzilla.jpg',
+        'description': 'Constructed a cardboard tokyo and a baby godzilla suite',
+        'dscription_extended': 'for a 1 year old and put Mum at the other side of the room. Raaawww.',
         'year': 2007,
         'team': ['jon']
     },
@@ -530,8 +539,10 @@ build_masonry(
 
     {
         'title': 'Purple Tentacle',
-        'image': 'projects/tentacle_festival_hall.jpg',
-        'description': 'Constructed a scale costume of a classic Lucusarts comedy game character. Won the 2007 Videogames Live costume competion at the Royal Festival Hall in London',
+        'image': 'projects/tentacle_aya05.jpg',
+        'description': 'Constructed a scale costume of a classic Lucusarts comedy game character.',
+        'description_extended': 'Debut Ayacon 2005. Won the 2007 Videogames Live costume competion at the Royal Festival Hall in London.',
+        'link': ['http://www.cosplayisland.co.uk/costume/view/551', 'http://www.youtube.com/watch?v=dwW0uLgABKE'],
         'team': ['jon'],
         'year': 2006,
         'category': 'costume',
@@ -730,6 +741,7 @@ build_masonry(
         'title': 'Code based animations',
         'image': 'projects/dnalogo.png',
         'year': 1996,
+        'icons': ['pascal'],
         'width': 1,
         'height': 1
     },
@@ -737,7 +749,7 @@ build_masonry(
     {
         'title':'Tracker Tunes',
         'link': '',
-        'image': 'projects/',
+        'image': 'projects/screamtracker3.png',
         'description': "",
         'description_exended': "",
         'year':'1996',

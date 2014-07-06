@@ -11,9 +11,17 @@ body {
 
 .icon16 {background-image:url('images/icons.png'); display:inline-block; vertical-align:bottom;}
 .icon16 span {display: none;}
-.icon16 {width: 16px; height: 16px; display: inline-block;}
+.icon16 {width: 16px; height: 16px; display: inline-block; margin: 0px 1px;}
 
-
+/* http://www.IconDrawer.com*/
+.icon16.i_django {background-position: -480px -0px;}
+.icon16.i_drums {background-position: -464px -0px;}
+.icon16.i_bass {background-position: -448px -0px;}
+.icon16.i_bootstrap {background-position: -432px -0px;}
+.icon16.i_jenkins {background-position:  -416px -0px;}
+.icon16.i_pygame {background-position:  -400px -0px;}
+.icon16.i_jquerymobile {background-position:  -384px -0px;}
+.icon16.i_android {background-position:  -368px -0px;}
 .icon16.i_html5 {background-position:  -352px -0px;}
 .icon16.i_pyramid {background-position: -336px -0px;}
 .icon16.i_postgresql {background-position: -320px -0px;}
