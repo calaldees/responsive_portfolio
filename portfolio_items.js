@@ -26,7 +26,7 @@ LOOKUP_ICON_LINKS = {
 
 LOOKUP_TEAM = {
     'shish': {
-        'name': 'Chris Girling',
+        'name': 'Shish',
         'website': 'http://www.shishnet.org/',
     },
     'carl': {
@@ -88,6 +88,19 @@ build_masonry(
         'width': 1,
         'height': 1
     },
+    
+    {
+        'title': 'Music Projection Trolly',
+        'image': 'projects/trolly_mrk2.jpg',
+        'description': 'Custom metalwork trolly. Portable holographic projection and rackmount.',
+        'description_extended': "",
+        'year': '2014',
+        'category': 'code',
+        'icons': ['build'],
+        'width': 1,
+        'height': 1
+    },
+    
 
     {
         'title': 'VoteBattle',
@@ -129,9 +142,10 @@ build_masonry(
     
     {
         'title': 'TrackMy',
-        'description': 'Hack day project to provide a free open source comunity tracking system. Trial example to track Buss, Taxis, School trips',
+        'description': 'Hack project. Free open source comunity tracking system.',
+        'description_extended': 'Trial example to track Buss, Taxis, School trips',
         'category': 'code',
-        'team': ['shish', 'joe'],
+        'team': ['joe', 'shish'],
         'year': 2014,
         'icons': ['python','html5','postgresql','pyramid'],
         'width': 1,
@@ -167,9 +181,12 @@ build_masonry(
 
     {
         'title': 'Taxpayers alliance',
+        'image': 'projects/taxpayers_alliance.jpg',
+        'link': 'http://hacks.rewiredstate.org/events/nhtg-13/tax-payer-s-association-data-heatmaps',
         'description': 'Heatmap visulation of national statistics',
         'year': 2013,
         'icons': ['python'],
+        'team': ['shish'],
         'width': 1,
         'height': 1
     },
@@ -186,7 +203,10 @@ build_masonry(
     },
     
     {
-        'title': 'Streets of DIFID',
+        'title': 'Pictotrade',
+        'image': 'projects/pictotrade.jpg',
+        'description': 'Online pictorial trade-data explorer',
+        'link': 'http://hacks.rewiredstate.org/events/dfiddc2012/pictotrade',
         'year': 2012,
         'team': ['proto', 'shish', 'amy'],
         'icons': ['python', 'html5'],
@@ -291,8 +311,8 @@ build_masonry(
         'title':'Barcode Thing',
         'link': 'http://rewiredstate.org/projects/barcode-thing',
         'image': 'projects/barcode.jpeg',
-        'description': "Hack weekend project. Online barcode catalog and info retrieval. I wrote the Javascript algorithm to decode a barcode image from the phone camera.",
-        'description_extended': "Scan a barcode from your phone, server gives you, average price on eBay, if it's in your collection, previews of media e.g trailer from youtube, amazon mp3 previews of songs.",
+        'description': "Prototype for PalmOS. Online barcode catalog and info retrieval. Wrote js algorithum to image process barcodes",
+        'description_extended': "I wrote the Javascript algorithm to decode a barcode image from the phone camera. Scan a barcode from your phone, server gives you, average price on eBay, if it's in your collection, previews of media e.g trailer from youtube, amazon mp3 previews of songs.",
         'year':'2011',
         'team': ['shish','greg'],
         'icons': ['html5'],
@@ -331,12 +351,14 @@ build_masonry(
         'category': 'costume',
         'year': 2009,
         'width': 2,
-        'height': 1
+        'height': 1,
+        'icons': ['build'],
     },
     
     {
         'title': 'Nessessary Evil',
-        'description': 'Gamemastered an epic action comedy adventure for a single 2 year campaine',
+        'link': 'https://www.peginc.com/store/necessary-evil-explorers-edition/',
+        'description': 'Gamemastered an epic action comedy adventure for a 2 year campaine',
         'image': 'projects/nessessary_evil.jpg',
         'year': '2009-2011',
         'category': 'other',
@@ -364,8 +386,8 @@ build_masonry(
     {
         'title':'Guardian Heroes Sprites',
         'link': '',
-        'image': 'projects/ghrev1.png',
-        'description': "Attempt at reverse engineering the sprite format for sprites in the Sega Saturn game.",
+        'image': 'projects/ghrev2.png',
+        'description': "Attempt at reverse engineering the sprite format a Sega Saturn game.",
         'description_extended': "Injecting binary data into the ISO and using an emulator with a specific state to read the sprites from disk. Once the corruption had been observed I could makes notes as to algorithum that was processing the data.",
         'year':'2011',
         'icons': ['java'],
@@ -378,7 +400,7 @@ build_masonry(
         'title': 'k.alt.del',
         'image': 'projects/k.alt.del.jpg',
         'year': '2009-2011',
-        'description': '',
+        'description': 'Band performing covers of Anime songs at KentANIMEted.',
         'category': 'code',
         'icons': ['piano', 'bass'],
         'width': 2,
@@ -411,9 +433,10 @@ build_masonry(
     
     {
         'title':'3D Camera Rig and Processing',
-        'link': '',
-        'image': 'projects/3d.png',
-        'description': "Bolting two cameras side by side. Python code cyan/red merged the frames. Photographed a wedding and constructed a script to process 3D video.",
+        'link': 'http://calaldees.dreamhosters.com/misc/Danovs-Emmies%20Wedding%20in%203D/3d/8b.png',
+        'image': 'projects/3d_camera.jpg',
+        'description': "Two cameras + Python code. cyan/red images.",
+        'description_extended': 'Photographed a wedding and constructed a script to process 3D video.',
         'year': '2009',
         'icons': ['python'],
         'category': 'code',
@@ -443,7 +466,8 @@ build_masonry(
         'link': 'http://www.youtube.com/watch?v=DIr0hydLhw4',
         'description': '',
         'category': 'costume',
-        'year': 2007
+        'year': 2007,
+        'icons': ['build'],
     },
 
     {
@@ -502,8 +526,10 @@ build_masonry(
 
     {
         'title': 'Retro Console Shelfs',
-        'description': "Presevation project to make old comuters useable. Custom shelfs to house retro consoles on removable shelf's with standard power and scart connectors. After picking a game for any system, you could be playing it in 60 seconds.",
+        'description': "retro consoles wired into custom removable shelfs with standard power and scart connectors.",
+        'description_extended': 'Presevation project to make old comuters useable. After picking a game for any system, you could be playing it in 60 seconds.',
         'category': 'construction',
+        'icons': ['build'],
         'width': 1,
         'height': 1
     },
@@ -530,11 +556,14 @@ build_masonry(
     
     {
         'title': 'Arcade Cabinet',
-        'description': "Built an arcade cabinet with touch screen interface. It's been used in schools and inherited by many people. After 10 years of solid use and abuse it's still standing and used regularty",
+        'image': 'projects/arcade_cab.jpg',
+        'description': "Built an arcade cabinet, with touch screen.",
+        'description_extended': " It's been used in schools and inherited by many people. After 10 years of solid use and abuse it's still standing and used regularty",
         'category': 'construction',
         'year': 2005,
-        'width': 2,
-        'height': 1
+        'width': 1,
+        'height': 1,
+        'icons': ['build'],
     },
 
     {
@@ -547,7 +576,8 @@ build_masonry(
         'year': 2006,
         'category': 'costume',
         'width': 1,
-        'height': 2
+        'height': 2,
+        'icons': ['build'],
     },    
 
     
@@ -605,6 +635,7 @@ build_masonry(
 
     {
         'title': 'KentANIMEted',
+        'image': 'projects/kentanimeted.jpg',
         'description': 'For 14 years have contributed/advised/assited with the largest anime socity in Kent. Helped take it from an unknown small crowd trhough to a regular 50+ attendees a week',
         'link': ['overload'],
         'team': ['jon','carl'],

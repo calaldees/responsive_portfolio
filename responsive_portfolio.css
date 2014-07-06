@@ -14,6 +14,7 @@ body {
 .icon16 {width: 16px; height: 16px; display: inline-block; margin: 0px 1px;}
 
 /* http://www.IconDrawer.com*/
+.icon16.i_build {background-position: -496px -0px;}
 .icon16.i_django {background-position: -480px -0px;}
 .icon16.i_drums {background-position: -464px -0px;}
 .icon16.i_bass {background-position: -448px -0px;}
@@ -129,7 +130,6 @@ li.item {
     bottom: 0;
     right: 0;
     background-color: white;
-    opacity: 0.5;
 }
 
 .item .background {
@@ -137,7 +137,7 @@ li.item {
     left:0;
     top: 0;
     height: 100%;
-    opacity: 0.3;
+    opacity: 0.2;
     z-index: -1;
 }
 
