@@ -15,15 +15,7 @@
 	<div class="header">
 		<h1>Allan Callaghan</h1>
 		<span class="quote">"Because building stuff rocks!"</span>
-		<ul class="links">
-			<li><a href="http://www.linkedin.com/in/allancallaghan"><span class="icon16 i_linkedin"><span>LinkedIn</span></span></a></li>
-			<li><a href="http://twitter.com/calaldees"><span class="icon16 i_twitter"><span>Twitter</span></span></a></li>
-			<li><a href="https://plus.google.com/+AllanCallaghan/about"><span class="icon16 i_googleplus"><span>Google+</span></span></a></li>
-			<li><a href="http://www.facebook.com/allan.callaghan"><span class="icon16 i_facebook"><span>Facebook</span></span></a></li>
-			<li><a href="http://github.com/calaldees"><span class="icon16 i_github"><span>Github</span></span></a></li>
-			<li><a href="http://www.amazon.co.uk/registry/wishlist/ABBNE2EXWI8"><span class="icon16 i_amazon"><span>Amazon Wishlist</span></span></a></li>
-			<li><a href="http://www.retrocollect.com/search/collectionstats-2317.html"><span class="icon16 i_rc"><span>Retro Collect</span></span></a></li>
-		<ul>
+		<ul id="profile_links"><ul>
 	</div>
 
 	<ul id="masonry"></ul>
@@ -33,21 +25,37 @@
 <script src="external/masonry.pkgd.min.js"></script>
 
 <script>
+	/* Profile Links */
+	PROFILE_LINK_TEMPLATE = '<li><a href="LINK"><span class="icon16 i_ICON"><span>NAME</span></span></a></li>';
+	
+	function build_profile_links(profile_links) {
+		$profile_links = $('#profile_links');
+		$.each(profile_links, function(i, link){
+			$profile_links.append(
+				PROFILE_LINK_TEMPLATE
+					.replace('LINK', link.link)
+					.replace('ICON', link.icon)
+					.replace('NAME', link.name)
+			);
+		});
+	}
+	
+	/* Masonry */
 	DEFAULT_WIDTH = 1;
 	DEFAULT_HEIGHT = 1;
 	ITEM_TEMPLATE = ' \
 		<li class="item"> \
-			<div class="item_wrapper"> \
-				<img src="" class="background"> \
-				<div class="content"> \
-					<div class="titlebar"><span class="year"></span><h2 class="title"></h2></div> \
-					<p class="description"></p> \
-					<div class="footer"> \
-						<ul class="team"></ul> \
-						<div class="icons"></div> \
+				<div class="item_wrapper"> \
+					<img src="" class="background"> \
+					<div class="content"> \
+						<div class="titlebar"><span class="year"></span><h2 class="title"></h2></div> \
+						<p class="description"></p> \
+						<div class="footer"> \
+							<ul class="team"></ul> \
+							<div class="icons"></div> \
+						</div> \
 					</div> \
 				</div> \
-			</div> \
 		</li> \
 	';
 	
@@ -60,6 +68,12 @@
 			$item.find('.year').html(item.year);
 			$item.find('.background').attr('src', 'images/'+item.image);
 			//$item.find('.item_wrapper').css('background-image', 'url("images/projects/'+item.image+'")');
+			
+			if (item.link) {
+				if (typeof(item.link) == 'object') {item.link = item.link[0];}// HACK to support some link arrays
+				console.log(item.link);
+				$item.find('.item_wrapper').wrap('<a href='+item.link+'></a>');
+			}
 			
 			if (item.icons) {
 				$.each(item.icons, function(i, icon){

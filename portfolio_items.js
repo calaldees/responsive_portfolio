@@ -1,3 +1,43 @@
+build_profile_links(
+[
+    {
+        link: "http://www.linkedin.com/in/allancallaghan",
+        name: "LinkedIn",
+        icon: 'linkedin',
+    },
+    {
+        link: "http://twitter.com/calaldees",
+        name: "Twitter",
+        icon: 'twitter',
+    },
+    {
+        link: "https://plus.google.com/+AllanCallaghan/about",
+        name: "Google+",
+        icon: 'googleplus',
+    },
+    {
+        link: "http://www.facebook.com/allan.callaghan",
+        name: "Facebook",
+        icon: 'facebook',
+    },
+    {
+        link: "http://github.com/calaldees",
+        name: "Github",
+        icon: 'github',
+    },
+    {
+        link: "http://www.amazon.co.uk/registry/wishlist/ABBNE2EXWI8",
+        name: "Amazon wishlist",
+        icon: 'amazon',
+    },
+    {
+        link: "http://www.retrocollect.com/search/collectionstats-2317.html",
+        name: "Retrocollect",
+        icon: 'rc',
+    },
+]
+);
+
 LOOKUP_ICON_LINKS = {
     'python': 'https://www.python.org/',
     'html5': 'http://en.wikipedia.org/wiki/HTML5',
@@ -79,6 +119,7 @@ build_masonry(
 [
     {
         'title': 'Pentatonic Hero',
+        'link': 'https://github.com/calaldees/PentatonicHero',
         'image': 'projects/guitar-hero-controller.jpg',
         'description': 'Map GuitarHero controlls to MIDI syths to facilitate amatures playing with a live band.',
         'description_extended': "A pentatonic scale has 5 notes. A Guitar Hero controller has 5 buttons. Making the controls to a MIDI guitar synth, an amature can join a live band, bash any key in any order and it sounds good. They user cant go wrong. Used in live music performances to call audience member up to play with a band live. Demoed at Canterbury Barcamp 2014",
@@ -143,7 +184,7 @@ build_masonry(
     {
         'title': 'TrackMy',
         'description': 'Hack project. Free open source comunity tracking system.',
-        'description_extended': 'Trial example to track Buss, Taxis, School trips',
+        'description_extended': 'Prototype to track Buss, Taxis, School trips. Using rasbery pi and gps dongle or html5 mobile app',
         'category': 'code',
         'team': ['joe', 'shish'],
         'year': 2014,
@@ -151,7 +192,6 @@ build_masonry(
         'width': 1,
         'height': 1
     },
-
     
     {
         'title':'Flexi RPG Responsve Digital Pubication',
@@ -218,7 +258,7 @@ build_masonry(
         'title':'Teach Programming',
         'link': 'http://calaldees.tnkd.net/project/game/copter.html',
         'image': 'projects/teach_programming.png',
-        'description': "Learn to program multiplayer games in HTML5/Javascript, Python, Java, VB.NET and PHP. Teaching resources and activities.",
+        'description': "Learn to program games in HTML5/Javascript, Python, Java, VB.NET and PHP. Teaching resources and activities. Cross platform multiplayer.",
         'description_extended': "",
         'year':'2012',
         'icons': ['python','java','vb','php','html5','pyramid','bootstrap'],
@@ -324,7 +364,7 @@ build_masonry(
         'title':'FreeHoc',
         'link': 'http://rewiredstate.org/projects/freehoc',
         'image': 'projects/freehoc.jpg',
-        'description': "Hack weekend project. Freecycle + Geopositional + Custom alerts + SMS interface.",
+        'description': "Hacktivate weekend project. Freecycle + Geopositional + Custom alerts + SMS interface. Designed for developing countrys with no internet access.",
         'year':'2011',
         'team': ['shish','greg','proto'],
         'icons': ['python', 'pyramid'],
@@ -346,6 +386,7 @@ build_masonry(
     
     {
         'title': 'Luggage (Discworld)',
+        'link': 'http://www.youtube.com/watch?v=XY0qqCgm9GY',
         'image': 'projects/luggage.png',
         'description': 'Custom made retractable latex feet and leavers to control the mouth. An interesting construction project.',
         'category': 'costume',
@@ -368,7 +409,7 @@ build_masonry(
     
     {
         'title': 'Piano Transcriptions',
-        'category': 'code',
+        'description': 'Various transcriptions over the years.',
         'year': '2009-now',
         'icons': ['piano'],
         'width': 1,
@@ -435,10 +476,10 @@ build_masonry(
         'title':'3D Camera Rig and Processing',
         'link': 'http://calaldees.dreamhosters.com/misc/Danovs-Emmies%20Wedding%20in%203D/3d/8b.png',
         'image': 'projects/3d_camera.jpg',
-        'description': "Two cameras + Python code. cyan/red images.",
+        'description': "Two cameras + Python code = Cyan/Red images + video",
         'description_extended': 'Photographed a wedding and constructed a script to process 3D video.',
         'year': '2009',
-        'icons': ['python'],
+        'icons': ['python','build'],
         'category': 'code',
         'width': 2,
         'height': 1
@@ -464,7 +505,7 @@ build_masonry(
         'title': 'Orco',
         'image': 'projects/orco.jpg',
         'link': 'http://www.youtube.com/watch?v=DIr0hydLhw4',
-        'description': '',
+        'description': 'He-man character costume',
         'category': 'costume',
         'year': 2007,
         'icons': ['build'],
@@ -637,7 +678,7 @@ build_masonry(
         'title': 'KentANIMEted',
         'image': 'projects/kentanimeted.jpg',
         'description': 'For 14 years have contributed/advised/assited with the largest anime socity in Kent. Helped take it from an unknown small crowd trhough to a regular 50+ attendees a week',
-        'link': ['overload'],
+        'link': ['http://www.kentanimeted.org/', 'overload'],
         'team': ['jon','carl'],
         'year': '1999-2013',
         'category': 'code',
@@ -722,14 +763,15 @@ build_masonry(
         'title':'Cars',
         'link': '',
         'image': 'projects/cars.png',
-        'description': "Micro machines style car game.",
-        'description_extended': "Had level editor, variable width font system and car physics. Wrote my own sprite rotation algorithum.",
+        'description': "Micro machines style car game. Had level editor, variable width font system and car physics. Wrote my own sprite rotation algorithum.",
+        'description_extended': "",
         'year':'1998',
         'icons': ['pascal'],
         'category': 'code',
         'width': 2,
         'height': 2
     },
+
     {
         'title':'Copter',
         'link': '',
@@ -742,18 +784,6 @@ build_masonry(
         'width': 1,
         'height': 1
     },
-    {
-        'title':'Speed Test',
-        'link': '',
-        'image': 'projects/speedtest.png',
-        'description': "Simple benchmark utility to test processor, ASCI, VGA and disk access.",
-        'description_exended': "The final scores were compared against known systems. The final output was displayed in a set of bar charts thats animated and grew.",
-        'year':'1996',
-        'icons': ['pascal'],
-        'category': 'code',
-        'width': 1,
-        'height': 1
-    },
 
     {
         'title':'Retail Stock Control System',
@@ -761,7 +791,7 @@ build_masonry(
         'image': 'projects/stock.png',
         'description': "Real barcode checkout system written in Pascal. Created my own relational database structure with search/sort algorithms.",
         'description_exended': "It could print new orders forms and stock charts. The grocery store it was designed for went bust before the project was finished.",
-        'year':'1998',
+        'year': 1998,
         'icons': ['pascal'],
         'category': 'code',
         'width': 1,
@@ -770,9 +800,23 @@ build_masonry(
     
     {
         'title': 'Code based animations',
+        'description': 'Using raw code to animate',
         'image': 'projects/dnalogo.png',
-        'year': 1996,
+        'year': 1997,
         'icons': ['pascal'],
+        'width': 1,
+        'height': 1
+    },
+
+    {
+        'title':'Speed Test',
+        'link': '',
+        'image': 'projects/speedtest.png',
+        'description': "Simple benchmark utility to test processor, ASCII, VGA and disk access.",
+        'description_exended': "The final scores were compared against known systems. The final output was displayed in a set of bar charts thats animated and grew.",
+        'year':1996,
+        'icons': ['pascal'],
+        'category': 'code',
         'width': 1,
         'height': 1
     },
@@ -781,9 +825,9 @@ build_masonry(
         'title':'Tracker Tunes',
         'link': '',
         'image': 'projects/screamtracker3.png',
-        'description': "",
+        'description': "Composed a range of 8 channel tracks in Screamtracker3",
         'description_exended': "",
-        'year':'1996',
+        'year': 1996,
         'width': 1,
         'height': 1
     },
