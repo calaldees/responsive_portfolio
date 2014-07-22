@@ -125,7 +125,7 @@ build_masonry(
         'year': '2012-now',
         'icons': ['python','html5','mysql','elasticsearch','django','ubuntu','jenkins','redmine','robot','android'],
         'category': 'code',
-        'width': 3,
+        'width': 2,
         'height': 2,
         'extra_class': 'float',
     },
@@ -188,6 +188,7 @@ build_masonry(
         'title': 'TrackMy',
         'description': 'Hack project. Free open source comunity tracking system.',
         'description_extended': 'Prototype to track Buss, Taxis, School trips. Using rasbery pi and gps dongle or html5 mobile app',
+        'link': 'https://github.com/JoeReid/TrackMyBus',
         'category': 'code',
         'team': ['joe', 'shish'],
         'year': 2014,
@@ -198,7 +199,7 @@ build_masonry(
     
     {
         'title':'Flexi RPG Responsve Digital Pubication',
-        'link': '',
+        'link': 'https://github.com/flexi-system/flexi-core-system',
         //'image': 'projects/',
         'description': "To assit the digitial publication of a 'pen and paper' RPG system developed by a startup. Responsive content distributed with HTML5 offline storeage.",
         'year':'2013-2014',
@@ -409,7 +410,7 @@ build_masonry(
         'title': 'Nessessary Evil',
         'link': 'https://www.peginc.com/store/necessary-evil-explorers-edition/',
         'description': 'Gamemastered an epic action comedy adventure for a 2 year campaine',
-        //'image': 'projects/nessessary_evil.jpg',
+        'image': 'projects/nessesary_evil.jpg',
         'year': '2009-2011',
         'category': 'other',
         'width': 2,
@@ -429,6 +430,7 @@ build_masonry(
     {
         'title': 'AQA Computing',
         'year': '2009-2011',
+        'link': 'http://www.aqa.org.uk/subjects/ict-and-computer-science/a-level/computing-2510',
         'description': 'While continuing to work at Civicboom I continued to work 1 day a week teaching computing. Took a cohort with students as young as age 13 through AS Computing',
         'width': 1,
         'height': 2,
@@ -674,7 +676,7 @@ build_masonry(
     
     {
         'title':'UFO Enemy Unknown remake',
-        'link': '',
+        'link': 'https://github.com/calaldees/javalib/tree/master/Game/Ufo',
         'image': 'projects/ufo2.png',
         'description': "Isometric map editor, troop animator, interactive inventory.",
         'year':'2003',
