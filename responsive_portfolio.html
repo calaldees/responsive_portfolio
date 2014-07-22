@@ -71,7 +71,7 @@
 			
 			if (item.link) {
 				if (typeof(item.link) == 'object') {item.link = item.link[0];}// HACK to support some link arrays
-				console.log(item.link);
+				//console.log(item.link);
 				$item.find('.item_wrapper').wrap('<a href='+item.link+'></a>');
 			}
 			
@@ -97,7 +97,7 @@
 			}
 			
 			if (!item.image) {
-				//$item.remove('.background');
+				$item.find('.background').remove();
 			}
 			
 			$item.addClass('w'+(item.width || DEFAULT_WIDTH));

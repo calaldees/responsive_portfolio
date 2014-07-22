@@ -121,7 +121,7 @@ build_masonry(
         'title':'Global Radio',
         'link': 'http://www.thisisglobal.com/',
         'image': 'employers/global-logo.png',
-        'description': "Hired as a server side Python specailist, help build and maintain Global Radio's digital presence for web and mobile. Working with a crack shot team we support CapitalFM, HeartFM, ClassicFM, XFM, CapitalXtra, SmoothRadio, Gold, LBC and BigTop40. \n Python, Django, MySQL, ElasticSearch, Jenkins, Android, Automated testing with PhantomJS",
+        'description': "<p>Hired as a server side Python specailist building and maintaining Global Radio's digital presence for web and mobile.</p><p>Working with a crack shot team we support CapitalFM, HeartFM, ClassicFM, XFM, CapitalXtra, SmoothRadio, Gold, LBC and BigTop40.</p>",
         'year': '2012-now',
         'icons': ['python','html5','mysql','elasticsearch','django','ubuntu','jenkins','redmine','robot','android'],
         'category': 'code',
@@ -134,7 +134,7 @@ build_masonry(
         'title': 'Pentatonic Hero',
         'link': 'https://github.com/calaldees/PentatonicHero',
         'image': 'projects/guitar-hero-controller.jpg',
-        'description': 'Map GuitarHero controlls to MIDI syths to facilitate amatures playing with a live band.',
+        'description': 'Mapped GuitarHero controlls to MIDI syths to facilitate amatures playing with a live band.',
         'description_extended': "A pentatonic scale has 5 notes. A Guitar Hero controller has 5 buttons. Making the controls to a MIDI guitar synth, an amature can join a live band, bash any key in any order and it sounds good. They user cant go wrong. Used in live music performances to call audience member up to play with a band live. Demoed at Canterbury Barcamp 2014",
         'year': '2014',
         'category': 'code',
@@ -199,8 +199,8 @@ build_masonry(
     {
         'title':'Flexi RPG Responsve Digital Pubication',
         'link': '',
-        'image': 'projects/',
-        'description': "To assit the digitial publication of a 'pen and paper' rpg system developed by a startup. Responsive content distributed with HTML5 offline storeage.",
+        //'image': 'projects/',
+        'description': "To assit the digitial publication of a 'pen and paper' RPG system developed by a startup. Responsive content distributed with HTML5 offline storeage.",
         'year':'2013-2014',
         'team': ['dan','terry'],
         'icons': ['python','html5','pyramid','bootstrap'],
@@ -274,10 +274,11 @@ build_masonry(
         'title': 'Open mic performances',
         'image': 'projects/openmic.jpg',
         'year': '2013',
+        'description': 'Piano and vocal covers of a range of 80s and comedy tracks',
         'category': 'music',
         'icons': ['piano'],
         'width': 1,
-        'height': 1
+        'height': 2,
     },
 
     {
@@ -324,7 +325,7 @@ build_masonry(
         'icons': ['python','pygame'],
         'category': 'code',
         'width': 1,
-        'height': 1
+        'height': 2,
     },
     {
         'title':'CarMuse',
@@ -342,7 +343,7 @@ build_masonry(
     {
         'title':'Parliamentary',
         'link': 'http://rewiredstate.org/projects/parliamentary',
-        'image': 'projects/',
+        //'image': 'projects/',
         'description': "Hack weekend project. Every word said in parliament is logged. We process this and create a word cloud browser to browse what politicians are talking about.",
         'year':'2011',
         'icons': ['python'],
@@ -362,7 +363,8 @@ build_masonry(
         'icons': ['html5'],
         'category': 'code',
         'width': 2,
-        'height': 1
+        'height': 1,
+        'extra_class': 'horizontal_right',
     },
     {
         'title':'FreeHoc',
@@ -374,7 +376,8 @@ build_masonry(
         'icons': ['python', 'pyramid'],
         'category': 'code',
         'width': 2,
-        'height': 1
+        'height': 1,
+        'extra_class': 'horizontal',
     },
     
     {
@@ -406,7 +409,7 @@ build_masonry(
         'title': 'Nessessary Evil',
         'link': 'https://www.peginc.com/store/necessary-evil-explorers-edition/',
         'description': 'Gamemastered an epic action comedy adventure for a 2 year campaine',
-        'image': 'projects/nessessary_evil.jpg',
+        //'image': 'projects/nessessary_evil.jpg',
         'year': '2009-2011',
         'category': 'other',
         'width': 2,
@@ -415,12 +418,12 @@ build_masonry(
     },
     
     {
-        'title': 'Piano Transcriptions',
+        'title': 'Piano/Bass Transcriptions',
         'description': 'Various transcriptions over the years.',
         'year': '2009-now',
         'icons': ['piano'],
         'width': 1,
-        'height': 2
+        'height': 1,
     },
 
     {
@@ -435,7 +438,7 @@ build_masonry(
         'title':'Guardian Heroes Sprites',
         'link': '',
         'image': 'projects/ghrev2.png',
-        'description': "Attempt at reverse engineering the sprite format a Sega Saturn game.",
+        'description': "Attempt at reverse engineering the sprites format a Sega Saturn game.",
         'description_extended': "Injecting binary data into the ISO and using an emulator with a specific state to read the sprites from disk. Once the corruption had been observed I could makes notes as to algorithum that was processing the data.",
         'year':'2011',
         'icons': ['java'],
@@ -465,7 +468,7 @@ build_masonry(
         'icons': ['python'],
         'category': 'code',
         'width': 1,
-        'height': 1
+        'height': 2
     },
 
     {
@@ -475,8 +478,9 @@ build_masonry(
         'description': "AQA AS/A2 Computing.",
         'year': '2007-2009',
         'category': 'code',
-        'width': 2,
-        'height': 2
+        'width': 1,
+        'height': 2,
+        //'extra_class': 'horizontal',
     },
 
     
@@ -490,7 +494,8 @@ build_masonry(
         'icons': ['python','build'],
         'category': 'code',
         'width': 2,
-        'height': 2
+        'height': 1,
+        'extra_class': 'horizontal',
     },
 
 
@@ -499,7 +504,7 @@ build_masonry(
     {
         'title':'PostOffice Server',
         'link': 'https://github.com/calaldees/javalib/tree/master/lib/Utils/Utils/Network/PostOfficeServer',
-        'image': 'projects/',
+        //'image': 'projects/',
         'description': "A key value server similar to Redis for teaching simple massively multiplayer games.",
         'description_extended': "Redis was only just being explored. I wrote my own functionaly for users to 'subscribe' to postbox's to recive updates.<br> When the server closed it persisted the world. <br>Learners had to choose and explore there own data structures as they deleloped there applications",
         'year':'2009',
@@ -540,16 +545,20 @@ build_masonry(
         'description': 'Constructed a cardboard tokyo and a baby godzilla suite',
         'dscription_extended': 'for a 1 year old and put Mum at the other side of the room. Raaawww.',
         'year': 2007,
-        'team': ['jon']
+        'team': ['jon'],
+        'width': 2,
+        'height': 1,
+        'extra_class': 'horizontal',
+        'icons': ['build'],
     },
     
     {
         'title': 'Youth Group Summer Camp Volenteer',
-        'decription': 'Action and advanture camp with local youth group. Physically and emotionally demanding, but pure awesome',
+        'description': 'Action and advanture camp with local youth group. Physically and emotionally demanding, but pure awesome',
         'year': '2005-2010',
         'category': 'code',
         'width': 1,
-        'height': 2
+        'height': 1,
     },
 
     
@@ -562,7 +571,8 @@ build_masonry(
         'icons': ['java'],
         'category': 'code',
         'width': 2,
-        'height': 2
+        'height': 1,
+        'extra_class': 'horizontal',
     },
     
     
@@ -577,18 +587,19 @@ build_masonry(
 
     {
         'title': 'Retro Console Shelfs',
-        'description': "retro consoles wired into custom removable shelfs with standard power and scart connectors.",
+        'image': 'projects/retro_shelfs.jpg',
+        'description': "Retro consoles wired into custom removable shelfs with standard power and scart connectors. (image is of shelfs to house games and not the console shelfs)",
         'description_extended': 'Presevation project to make old comuters useable. After picking a game for any system, you could be playing it in 60 seconds.',
         'category': 'construction',
         'icons': ['build'],
         'width': 1,
-        'height': 1
+        'height': 2,
     },
 
     {
         'title':'GameFrame',
         'link': 'https://github.com/calaldees/javalib/tree/master/Game/ProgrammingWorkshop',
-        'image': 'projects/',
+        //'image': 'projects/',
         'description': "A game lib for Java that gave learners simple access to display, timing, network and sound.",
         'year': '2007',
         'icons': ['java'],
@@ -599,10 +610,11 @@ build_masonry(
 
     {
         'title': 'Chaucer Technology School',
+        'image': 'employers/chaucer.png',
         'description': 'AQA A2 Computing',
         'year': '2005-2006',
         'width': 2,
-        'height': 2
+        'height': 2,
     },
     
     {
@@ -636,8 +648,8 @@ build_masonry(
 
     {
         'title':'Mini Webserver',
-        'link': '',
-        'image': 'projects/',
+        //'link': '',
+        //'image': 'projects/',
         'description': "Experiment to create a minimal HTTP file server in 100 lines of code.",
         'description_extended': "Used as an example to teach learners that tech is understandable and achivable.",
         'year':'2006',
@@ -649,8 +661,8 @@ build_masonry(
 
     {
         'title':'Bibliographic Database',
-        'link': '',
-        'image': 'projects/',
+        //'link': '',
+        //'image': 'projects/',
         'description': "Web database cataloging a graph structure of how research papers referenced each other",
         'description_extended': "Research papers were Regex'ed to extract types of reference. Stored in DB. Users could them browse how papers were realted and who was references who.",
         'year':'2003',
@@ -675,7 +687,7 @@ build_masonry(
     {
         'title':'JHawk',
         'link': '',
-        'image': 'projects/',
+        //'image': 'projects/',
         'description': "Webpage Regex hawk to create RSS feeds for when appropriate content on pages updated.",
         'description_extended': "Many sites didnt support RSS for little details. I was spending too much time manually checking sites for driver updates etc. So I wrote my own tool to generate a custom RSS feed of all my sites but cunningly looking for specific DOM elements that had updated.</p> I was going to create a frontend for multiple users to registers searchs but never completed the public web interface.",
         'year':'2006',
@@ -699,7 +711,7 @@ build_masonry(
     
     {
         'title':'Material Modeller',
-        'link': '',
+        //'link': '',
         'image': 'projects/springs.png',
         'description': "Physics system based on masses and springs. User could interact in realtime and deform/break structures.",
         'description_extended': "Final year research project into how real time simulation could help solve real problems. By modling simple physical rules the emergent behaviour was awesome, e.g friction with the floor made the wheels of a car actually turn.",
@@ -726,19 +738,20 @@ build_masonry(
     {
         'title':'Ninja training grouds',
         'link': '',
-        'image': 'projects/',
+        'image': 'projects/ninja_training.jpg',
         'description': "A comedy page about 'How to be a REAL ninja'",
         'description_exended': "",
         'year':'2000',
         'width': 1,
-        'height': 1
+        'height': 2,
+        //'extra_class': 'horizontal',
     },
 
     
     {
         'title':'Java Multimedia Player',
         'link': '',
-        'image': 'projects/',
+        //'image': 'projects/',
         'description': "Create a slideshow with music and video. A custom UI experiment. Advanced animated timeline.",
         'year':'2002',
         'team': ['mike'],
