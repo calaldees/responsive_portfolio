@@ -138,13 +138,30 @@ li.item {
 }
 
 .item .background {
+	/*
     position: absolute;
     left:0;
     top: 0;
     height: 100%;
     opacity: 0.2;
     z-index: -1;
+    */
+	width: 100%;
 }
+.item.horizontal .background {
+	width: 50%;
+	/*height: 100%;*/
+	float: left;
+	margin-right: 0.5em;
+}
+.item.float .background {
+	/*height: 100%;*/
+	float: right;
+	margin-left: 0.5em;
+	width: auto;
+}
+
+
 
 .item .content {
 }

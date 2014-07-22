@@ -46,9 +46,9 @@
 	ITEM_TEMPLATE = ' \
 		<li class="item"> \
 				<div class="item_wrapper"> \
-					<img src="" class="background"> \
 					<div class="content"> \
 						<div class="titlebar"><span class="year"></span><h2 class="title"></h2></div> \
+						<img src="" class="background"> \
 						<p class="description"></p> \
 						<div class="footer"> \
 							<ul class="team"></ul> \
@@ -90,6 +90,14 @@
 					var person_html = '<li><a href="'+LOOKUP_TEAM[person].website+'"><span class="icon16 i_solo"></span>'+LOOKUP_TEAM[person].name+'</a></li>';
 					$item.find('.team').append(person_html);
 				});
+			}
+			
+			if (item.extra_class) {
+				$item.addClass(item.extra_class);
+			}
+			
+			if (!item.image) {
+				//$item.remove('.background');
 			}
 			
 			$item.addClass('w'+(item.width || DEFAULT_WIDTH));

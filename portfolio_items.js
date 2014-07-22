@@ -118,6 +118,19 @@ LOOKUP_TEAM = {
 build_masonry(
 [
     {
+        'title':'Global Radio',
+        'link': 'http://www.thisisglobal.com/',
+        'image': 'employers/global-logo.png',
+        'description': "Hired as a server side Python specailist, help build and maintain Global Radio's digital presence for web and mobile. Working with a crack shot team we support CapitalFM, HeartFM, ClassicFM, XFM, CapitalXtra, SmoothRadio, Gold, LBC and BigTop40. \n Python, Django, MySQL, ElasticSearch, Jenkins, Android, Automated testing with PhantomJS",
+        'year': '2012-now',
+        'icons': ['python','html5','mysql','elasticsearch','django','ubuntu','jenkins','redmine','robot','android'],
+        'category': 'code',
+        'width': 3,
+        'height': 2,
+        'extra_class': 'float',
+    },
+    
+    {
         'title': 'Pentatonic Hero',
         'link': 'https://github.com/calaldees/PentatonicHero',
         'image': 'projects/guitar-hero-controller.jpg',
@@ -126,8 +139,9 @@ build_masonry(
         'year': '2014',
         'category': 'code',
         'icons': ['python', 'pygame'],
-        'width': 1,
-        'height': 1
+        'width': 2,
+        'height': 1,
+        'extra_class': 'horizontal',
     },
     
     {
@@ -138,8 +152,9 @@ build_masonry(
         'year': '2014',
         'category': 'code',
         'icons': ['build'],
-        'width': 1,
-        'height': 1
+        'width': 2,
+        'height': 1,
+        'extra_class': 'horizontal',
     },
     
 
@@ -153,18 +168,6 @@ build_masonry(
         'icons': ['python','html5','threejs','pyramid'],
         'width': 1,
         'height': 2
-    },
-
-    {
-        'title':'Global Radio',
-        'link': 'www.thisisglobal.com',
-        'image': 'employers/global-logo.png',
-        'description': "Hired as a server side Python specailist, help build and maintain Global Radio's digital presence for web and mobile. Working with a crack shot team we support CapitalFM, HeartFM, ClassicFM, XFM, CapitalXtra, SmoothRadio, Gold, LBC and BigTop40. \n Python, Django, MySQL, ElasticSearch, Jenkins, Android, Automated testing with PhantomJS",
-        'year': '2012-now',
-        'icons': ['python','html5','mysql','elasticsearch','django','ubuntu','jenkins','redmine','robot','android'],
-        'category': 'code',
-        'width': 3,
-        'height': 3
     },
 
     {
@@ -216,7 +219,7 @@ build_masonry(
         'team': ['lyle','matt','joe'],
         'icons': ['piano', 'bass', 'drums'],
         'width': 2,
-        'height': 2
+        'height': 3
     },
 
     {
@@ -228,7 +231,7 @@ build_masonry(
         'icons': ['python'],
         'team': ['shish'],
         'width': 1,
-        'height': 1
+        'height': 2
     },
     
     {
@@ -264,7 +267,8 @@ build_masonry(
         'icons': ['python','java','vb','php','html5','pyramid','bootstrap'],
         'category': 'code',
         'width': 3,
-        'height': 1
+        'height': 1,
+        'extra_class': 'horizontal',
     },
     {
         'title': 'Open mic performances',
@@ -343,7 +347,7 @@ build_masonry(
         'year':'2011',
         'icons': ['python'],
         'category': 'code',
-        'team': ['shish','greg'],
+        'team': ['shish','greg', 'proto'],
         'width': 2,
         'height': 1
     },
@@ -380,8 +384,9 @@ build_masonry(
         'description': "Spoke at the national 'Computing at School' conference about innovative ways to teach programming",
         'year':'2010',
         'icons': ['python', 'html5', 'php', 'java', 'vb'],
-        'width': 1,
-        'height': 1
+        'width': 2,
+        'height': 1,
+        'extra_class': 'horizontal',
     },
     
     {
@@ -394,6 +399,7 @@ build_masonry(
         'width': 2,
         'height': 1,
         'icons': ['build'],
+        'extra_class': 'horizontal',
     },
     
     {
@@ -403,8 +409,9 @@ build_masonry(
         'image': 'projects/nessessary_evil.jpg',
         'year': '2009-2011',
         'category': 'other',
-        'width': 3,
-        'height': 1
+        'width': 2,
+        'height': 1,
+        'extra_class': 'horizontal',
     },
     
     {
@@ -433,8 +440,9 @@ build_masonry(
         'year':'2011',
         'icons': ['java'],
         'category': 'code',
-        'width': 1,
-        'height': 1
+        'width': 2,
+        'height': 1,
+        'extra_class': 'horizontal',
     },
     
     {
@@ -445,7 +453,7 @@ build_masonry(
         'category': 'code',
         'icons': ['piano', 'bass'],
         'width': 2,
-        'height': 1
+        'height': 2
     },
 
     {
@@ -482,7 +490,7 @@ build_masonry(
         'icons': ['python','build'],
         'category': 'code',
         'width': 2,
-        'height': 1
+        'height': 2
     },
 
 
@@ -509,6 +517,8 @@ build_masonry(
         'category': 'costume',
         'year': 2007,
         'icons': ['build'],
+        'width': 1,
+        'height': 2
     },
 
     {
@@ -602,9 +612,10 @@ build_masonry(
         'description_extended': " It's been used in schools and inherited by many people. After 10 years of solid use and abuse it's still standing and used regularty",
         'category': 'construction',
         'year': 2005,
-        'width': 1,
+        'width': 2,
         'height': 1,
         'icons': ['build'],
+        'extra_class': 'horizontal',
     },
 
     {
@@ -683,7 +694,7 @@ build_masonry(
         'year': '1999-2013',
         'category': 'code',
         'width': 3,
-        'height': 1
+        'height': 2
     },
     
     {
@@ -696,7 +707,7 @@ build_masonry(
         'icons': ['java'],
         'category': 'code',
         'width': 2,
-        'height': 2
+        'height': 3
     },
 
     {
@@ -781,8 +792,9 @@ build_masonry(
         'year':'1997',
         'icons': ['pascal'],
         'category': 'code',
-        'width': 1,
-        'height': 1
+        'width': 2,
+        'height': 1,
+        'extra_class': 'horizontal',
     },
 
     {
@@ -804,8 +816,9 @@ build_masonry(
         'image': 'projects/dnalogo.png',
         'year': 1997,
         'icons': ['pascal'],
-        'width': 1,
-        'height': 1
+        'width': 2,
+        'height': 1,
+        'extra_class': 'horizontal',
     },
 
     {
@@ -818,7 +831,7 @@ build_masonry(
         'icons': ['pascal'],
         'category': 'code',
         'width': 1,
-        'height': 1
+        'height': 2
     },
     
     {
@@ -829,7 +842,7 @@ build_masonry(
         'description_exended': "",
         'year': 1996,
         'width': 1,
-        'height': 1
+        'height': 2
     },
     
 
