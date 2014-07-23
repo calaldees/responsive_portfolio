@@ -304,8 +304,8 @@ build_masonry(
         'team': ['shish','greg','proto'],
         'icons': ['python','html5','postgresql','ubuntu','buildbot'],
         'category': 'employer',
-        'width': 3,
-        'height': 3
+        'width': 2,
+        'height': 3,
     },
     
     {
