@@ -100,6 +100,10 @@
 				$item.find('.background').remove();
 			}
 			
+			if (item.category) {
+				$item.addClass('category_'+item.category);
+			}
+			
 			$item.addClass('w'+(item.width || DEFAULT_WIDTH));
 			$item.addClass('h'+(item.height || DEFAULT_HEIGHT));
 			$masonry.append($item);

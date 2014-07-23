@@ -177,10 +177,18 @@ li.item {
 
 .item .content .titlebar {
     width: 100%;
-    background-color: #000044;
     padding: 0.5em;
     color: white;
 }
+.titlebar {background-color: #000000;}
+.category_build .titlebar,
+.category_costume .titlebar  {background-color: #600000;}
+.category_employer .titlebar {background-color: #000000;}
+.category_code .titlebar     {background-color: #000060;}
+.category_music .titlebar    {background-color: #004000;}
+.category_other .titlebar    {background-color: #606000;}
+
+
 
 .item .content .titlebar .title {
 	font-weight: bold;

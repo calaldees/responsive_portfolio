@@ -124,7 +124,7 @@ build_masonry(
         'description': "<p>Hired as a server side Python specailist building and maintaining Global Radio's digital presence for web and mobile.</p><p>Working with a crack shot team we support CapitalFM, HeartFM, ClassicFM, XFM, CapitalXtra, SmoothRadio, Gold, LBC and BigTop40.</p>",
         'year': '2012-now',
         'icons': ['python','html5','mysql','elasticsearch','django','ubuntu','jenkins','redmine','robot','android'],
-        'category': 'code',
+        'category': 'employer',
         'width': 2,
         'height': 2,
         'extra_class': 'float',
@@ -150,7 +150,7 @@ build_masonry(
         'description': 'Custom metalwork trolly. Portable holographic projection and rackmount.',
         'description_extended': "",
         'year': '2014',
-        'category': 'code',
+        'category': 'build',
         'icons': ['build'],
         'width': 2,
         'height': 1,
@@ -215,7 +215,7 @@ build_masonry(
         'image': 'projects/ayacon.jpg',
         'description': 'Performed live music backing a virtual 3D lead singer (Hatsune Miku) with a home constructed holographic projection screen',
         'link': ['http://calaldees.dreamhosters.com/music/miku_low.mp4'],
-        'category': ['music'],
+        'category': 'music',
         'year': 2013,
         'team': ['lyle','matt','joe'],
         'icons': ['piano', 'bass', 'drums'],
@@ -232,7 +232,8 @@ build_masonry(
         'icons': ['python'],
         'team': ['shish'],
         'width': 1,
-        'height': 2
+        'height': 2,
+        'category': 'code',
     },
     
     {
@@ -256,6 +257,7 @@ build_masonry(
         'icons': ['python', 'html5'],
         'width': 1,
         'height': 2,
+        'category': 'code',
     },
     
     {
@@ -310,7 +312,7 @@ build_masonry(
         'title': 'Coastal Cycle',
         'year': '2010',
         'description': 'Canterbury-Hastings-Brightion-Arendel-Southempton',
-        'category': 'code',
+        'category': 'other',
         'width': 1,
         'height': 1
     },
@@ -391,6 +393,7 @@ build_masonry(
         'width': 2,
         'height': 1,
         'extra_class': 'horizontal',
+        'category': 'other',
     },
     
     {
@@ -425,13 +428,15 @@ build_masonry(
         'icons': ['piano'],
         'width': 1,
         'height': 1,
+        'category': 'music',
     },
 
     {
-        'title': 'AQA Computing',
+        'title': 'AQA A2 Computing',
         'year': '2009-2011',
         'link': 'http://www.aqa.org.uk/subjects/ict-and-computer-science/a-level/computing-2510',
-        'description': 'While continuing to work at Civicboom I continued to work 1 day a week teaching computing. Took a cohort with students as young as age 13 through AS Computing',
+        'description': 'While working at Civicboom, I continued to work 1 day a week teaching ALevel Computing. Took a cohort with students as young as age 13 through the AS',
+        'category': 'employer',
         'width': 1,
         'height': 2,
     },
@@ -455,7 +460,7 @@ build_masonry(
         'image': 'projects/k.alt.del.jpg',
         'year': '2009-2011',
         'description': 'Band performing covers of Anime songs at KentANIMEted.',
-        'category': 'code',
+        'category': 'music',
         'icons': ['piano', 'bass'],
         'width': 2,
         'height': 2
@@ -477,11 +482,11 @@ build_masonry(
         'title': 'Sandwich Technology School',
         'link': 'http://www.sandwich-tech.kent.sch.uk/',
         'image': 'employers/sts_logo.jpg',
-        'description': "AQA AS/A2 Computing.",
+        'description': "Secondary School teaching 11 to 18 year olds. AQA A-Level Computing. Ran after school workshops building linux machines and programing simple games. Lego robotics.",
         'year': '2007-2009',
-        'category': 'code',
         'width': 1,
         'height': 2,
+        'category': 'employer',
         //'extra_class': 'horizontal',
     },
 
@@ -532,11 +537,11 @@ build_masonry(
         'title':'Learn2Care Booking System',
         'link': '',
         'image': 'projects/l2c_booking.png',
-        'description': "Learn2Care was a career training company. They needed database consultancy for developing their data stores and required a custom event/room booking system with attendees and prices.",
+        'description': "Learn2Care was a career training company. Database consultancy for extending their system and required a custom event/room booking system with attendees",
         'description_exended': "",
         'year':'2006',
         'icons': ['access','vb'],
-        'category': 'code',
+        'category': 'employer',
         'width': 1,
         'height': 2
     },
@@ -550,15 +555,16 @@ build_masonry(
         'team': ['jon'],
         'width': 2,
         'height': 1,
-        'extra_class': 'horizontal',
+        'extra_class': 'horizontal_right',
         'icons': ['build'],
+        'category': 'build',
     },
     
     {
         'title': 'Youth Group Summer Camp Volenteer',
         'description': 'Action and advanture camp with local youth group. Physically and emotionally demanding, but pure awesome',
         'year': '2005-2010',
-        'category': 'code',
+        'category': 'other',
         'width': 1,
         'height': 1,
     },
@@ -584,7 +590,7 @@ build_masonry(
         'year': '2006',
         'category': 'teaching',
         'width': 1,
-        'height': 2
+        'height': 1,
     },
 
     {
@@ -592,7 +598,7 @@ build_masonry(
         'image': 'projects/retro_shelfs.jpg',
         'description': "Retro consoles wired into custom removable shelfs with standard power and scart connectors. (image is of shelfs to house games and not the console shelfs)",
         'description_extended': 'Presevation project to make old comuters useable. After picking a game for any system, you could be playing it in 60 seconds.',
-        'category': 'construction',
+        'category': 'build',
         'icons': ['build'],
         'width': 1,
         'height': 2,
@@ -613,10 +619,11 @@ build_masonry(
     {
         'title': 'Chaucer Technology School',
         'image': 'employers/chaucer.png',
-        'description': 'AQA A2 Computing',
+        'description': 'Secondary School teaching 11 to 18 year olds. Took a cohort through AQA A2 Computing. Ran after school programming workshops.',
         'year': '2005-2006',
         'width': 2,
         'height': 2,
+        'category': 'employer',
     },
     
     {
@@ -624,7 +631,7 @@ build_masonry(
         'image': 'projects/arcade_cab.jpg',
         'description': "Built an arcade cabinet, with touch screen.",
         'description_extended': " It's been used in schools and inherited by many people. After 10 years of solid use and abuse it's still standing and used regularty",
-        'category': 'construction',
+        'category': 'build',
         'year': 2005,
         'width': 2,
         'height': 1,
@@ -706,7 +713,7 @@ build_masonry(
         'link': ['http://www.kentanimeted.org/', 'overload'],
         'team': ['jon','carl'],
         'year': '1999-2013',
-        'category': 'code',
+        'category': 'other',
         'width': 3,
         'height': 2
     },
@@ -746,6 +753,7 @@ build_masonry(
         'year':'2000',
         'width': 1,
         'height': 2,
+        'category': 'other',
         //'extra_class': 'horizontal',
     },
 
@@ -767,7 +775,7 @@ build_masonry(
         'title': '80s Cartoon Preservation Project',
         'description': 'Before comercial DVDs were avalable, I invested in equipment to digitise and preserve old cartoons onto VCDs. Enhanced with noise reduction. Well respected amoung university students.',
         'year': '1998-2001',
-        'category': 'code',
+        'category': 'other',
         'width': 1,
         'height': 2
     },
@@ -781,7 +789,7 @@ build_masonry(
         'description_extended': "Custom HTML Graph output",
         'year':'1999',
         'icons': ['perl'],
-        'category': 'code',
+        'category': 'employer',
         'width': 1,
         'height': 1
     },
@@ -821,13 +829,14 @@ build_masonry(
         'year': 1998,
         'icons': ['pascal'],
         'category': 'code',
-        'width': 1,
-        'height': 1
+        'width': 2,
+        'height': 1,
+        'extra_class': 'horizontal_right',
     },
     
     {
         'title': 'Code based animations',
-        'description': 'Using raw code to animate',
+        'description': 'Using raw code to construct animations',
         'image': 'projects/dnalogo.png',
         'year': 1997,
         'icons': ['pascal'],
@@ -856,8 +865,10 @@ build_masonry(
         'description': "Composed a range of 8 channel tracks in Screamtracker3",
         'description_exended': "",
         'year': 1996,
-        'width': 1,
-        'height': 2
+        'width': 2,
+        'height': 1,
+        'extra_class': 'horizontal_right',
+        'category': 'other',
     },
     
 
