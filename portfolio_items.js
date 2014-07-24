@@ -239,7 +239,7 @@ build_masonry(
     {
         'title': 'RetroPrice Statistics',
         'description': 'Scraping data over the course of a year to assertain the average price and rarity of retrogames in the uk. Created a mobile interfae to access deatails at a possible bargins notice',
-        'link': ['http://calaldees.dreamhosters.com/misc/retro_extract/collection.html#/platforms'],
+        'link': 'http://calaldees.dreamhosters.com/misc/retro_extract/collection.html#/platforms',
         'year': 2013,
         'category': 'code',
         'icons': ['python', 'html5'],

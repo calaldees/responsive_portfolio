@@ -61,37 +61,48 @@ a {
 
 /* Header ------------------------------------------------------------------- */
 
-.header {
-    padding: 0.25em;
-    
-}
 
 /* Title */
 
-.header {
-    font-size: large;
-	margin: 0.5em;
+.item_identity {
+
 }
 
-.header h1 {
-	font-weight: bold;
-	font-size: larger;
-	display: inline;
+.item_identity .wrapper {
+	padding: 1em;
+}
+
+.item_identity .wrapper > img {
 	margin-right: 0.5em;
+	height: 120px;
+	float: left;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+.item_identity h1 {
+	font-weight: bold;
+	font-size: 20px;
+	display: block;
+	margin-bottom: 0.5em;
+}
+
+.item_identity .quote {
+	margin-bottom: 0.5em;
 }
 
 
-.header .quote {
-	margin-right: 1em;
-	display: inline-block;
+.header .email {
+	margin-bottom: 0.5em;
 }
 
 /* Links */
 
 #profile_links {
-    /*float: right;*/
-	display: inline-block;
-	margin-top: 0.5em;
+	display: block;
+	position: absolute;
+	bottom: 1em;
+	right: 2.5em;
 }
 
 #profile_links li {
@@ -105,6 +116,7 @@ a {
 
 #masonry {
     width: 100%;
+	clear: both;
 }
 
 li.item {
