@@ -6,8 +6,8 @@
 
 	<title>Allan Callaghan</title>
 
-	<link rel="stylesheet" type="text/css" href="external/cssreset-min.css">
-	<link rel="stylesheet" type="text/css" href="responsive_portfolio.css">
+	<link rel="stylesheet" type="text/css" href="responsive_portfolio_assets/external/cssreset-min.css">
+	<link rel="stylesheet" type="text/css" href="responsive_portfolio_assets/responsive_portfolio.css">
 </head>
 
 <!-- Body --------------------------------------------------------------------->
@@ -26,8 +26,8 @@
 	</ul>
 
 <!-- Scripts ------------------------------------------------------------------>
-<script src="external/jquery.min.js"></script>
-<script src="external/masonry.pkgd.min.js"></script>
+<script src="responsive_portfolio_assets/external/jquery.min.js"></script>
+<script src="responsive_portfolio_assets/external/masonry.pkgd.min.js"></script>
 
 <script>
 	/* Profile Links */
@@ -71,7 +71,7 @@
 			$item.find('.title').html(item.title);
 			$item.find('.description').html(item.description);
 			$item.find('.year').html(item.year);
-			$item.find('.background').attr('src', 'images/'+item.image);
+			$item.find('.background').attr('src', 'responsive_portfolio_assets/images/'+item.image);
 			//$item.find('.item_wrapper').css('background-image', 'url("images/projects/'+item.image+'")');
 			
 			if (item.link) {
@@ -115,7 +115,7 @@
 		});
 	};
 </script>
-<script src="portfolio_items.js"></script>
+<script src="responsive_portfolio_assets/portfolio_items.js"></script>
 
 <script>
 	docReady( function() {
