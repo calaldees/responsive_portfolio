@@ -747,7 +747,7 @@ build_masonry(
     {
         'title':'Ninja training grouds',
         'link': '',
-        'image': 'projects/ninja_training.jpg',
+        'image': 'projects/ninja_training_.jpg',
         'description': "A comedy page about 'How to be a REAL ninja'",
         'description_exended': "",
         'year':'2000',
