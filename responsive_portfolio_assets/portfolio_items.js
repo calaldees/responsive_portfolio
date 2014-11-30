@@ -35,6 +35,11 @@ build_profile_links(
         name: "Retrocollect",
         icon: 'rc',
     },
+    {
+        link: "https://www.kickstarter.com/profile/423960807",
+        name: "kickstarter",
+        icon: "kickstarter",
+    }
 ]
 );
 
