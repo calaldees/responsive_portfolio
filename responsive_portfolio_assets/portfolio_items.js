@@ -90,6 +90,10 @@ LOOKUP_TEAM = {
         'name': 'Joe Reid',
         'website': '',
     },
+    'richard': {
+        'name': 'Richard Lancaster',
+        'website': '',
+    },
     'jon': {
         'name': 'Jon Cullinane',
         'website': 'http://www.manylemons.co.uk/',
@@ -120,13 +124,25 @@ LOOKUP_TEAM = {
     }
 }
 
+/* In progress
+    {
+        'title': 'Projector Array',
+        'link': '',
+        'description': "Calibrate an array of inexpensive projectors to form one super bright projection. Used for cheap live stage holograms.",
+        'category': 'code',
+        'year': '2015',
+        'icons': ['html5'],
+    },
+
+*/
+
 build_masonry(
 [
     {
         'title':'Global Radio',
         'link': 'http://www.thisisglobal.com/',
         'image': 'employers/global-logo.png',
-        'description': "<p>Hired as a server side Python specailist building and maintaining Global Radio's digital presence for web and mobile.</p><p>Working with a crack shot team we support CapitalFM, HeartFM, ClassicFM, XFM, CapitalXtra, SmoothRadio, Gold, LBC and BigTop40.</p>",
+        'description': "<p>Hired as a server side Python specailist building and maintaining Global Radio's digital presence for web and mobile.</p><p>Working with a crack shot team we support CapitalFM, HeartFM, ClassicFM, XFM, CapitalXtra, SmoothRadio, Gold, LBC and BigTop40.</p><p>Notable projects include Selenium Automated testing suite and Android app development</p>",
         'year': '2012-now',
         'icons': ['python','html5','mysql','elasticsearch','django','ubuntu','jenkins','redmine','robot','android'],
         'category': 'employer',
@@ -136,12 +152,54 @@ build_masonry(
     },
     
     {
+        'title': 'DMX Lighting Automation',
+        'link': 'https://github.com/JoeReid/lighting-automation',
+        'description': 'Beat matched prgramable lighting system. Used for live music performances. Uses ArtNet3 UDP.',
+        'category': 'code',
+        'year': '2015',
+        'icons': ['python'],
+        'team': ['joe'],
+        'width': 1,
+        'height': 2,
+    },
+
+    {
+        'title': 'DitherJS Video',
+        'link': 'http://dpiccone.github.io/ditherjs/',
+        'description': "Contributed some refactoring to facilitate realtime dithered video processing in html5",
+        'category': 'code',
+        'year': '2015',
+        'icons': ['html5'],
+    },
+    
+    {
+        'title': 'GlueGov',
+        'link': 'http://hacks.rewiredstate.org/events/nhtg-2015-london/gluegov',
+        'description': 'Surfacing disporate goverment spreadsheet data with a clean searchable API. Winner of National Hack the Goverment 2015 London',
+        'category': 'code',
+        'year': '2015',
+        'icons': ['python'],
+        'team': ['joe','richard'],
+    },
+
+    {
+        'title': 'Display Trigger',
+        'link': 'https://github.com/calaldees/display-trigger',
+        'description': 'Used to link a live Cuebase music enviroment to trigger videos/images/functions for a realtime live music display. Used as the connerstone of PentatonicHero and LightingAutomation.',
+        'category': 'code',
+        'year': '2015',
+        'icons': ['python','html5'],
+        'width': 2,
+        'height': 1,
+    },
+    
+    {
         'title': 'Pentatonic Hero',
         'link': 'https://github.com/calaldees/PentatonicHero',
         'image': 'projects/guitar-hero-controller.jpg',
         'description': 'Mapped GuitarHero controlls to MIDI syths to facilitate amatures playing with a live band.',
         'description_extended': "A pentatonic scale has 5 notes. A Guitar Hero controller has 5 buttons. Making the controls to a MIDI guitar synth, an amature can join a live band, bash any key in any order and it sounds good. They user cant go wrong. Used in live music performances to call audience member up to play with a band live. Demoed at Canterbury Barcamp 2014",
-        'year': '2014',
+        'year': '2014-2015',
         'category': 'code',
         'icons': ['python', 'pygame'],
         'width': 2,
@@ -162,7 +220,6 @@ build_masonry(
         'extra_class': 'horizontal',
     },
     
-
     {
         'title': 'VoteBattle',
         'link': 'https://github.com/calaldees/VoteBattle',
