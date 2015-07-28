@@ -164,8 +164,8 @@ build_masonry(
     },
 
     {
-        'title': 'DitherJS Video',
-        'link': 'http://dpiccone.github.io/ditherjs/',
+        'title': 'DitherJS Video Contributions',
+        'link': 'https://github.com/dpiccone/ditherjs/pull/2',
         'description': "Contributed some refactoring to facilitate realtime dithered video processing in html5",
         'category': 'code',
         'year': '2015',
@@ -180,6 +180,8 @@ build_masonry(
         'year': '2015',
         'icons': ['python'],
         'team': ['joe','richard'],
+        'width': 1,
+        'height': 2,
     },
 
     {
