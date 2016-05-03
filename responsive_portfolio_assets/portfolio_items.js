@@ -66,7 +66,10 @@ LOOKUP_ICON_LINKS = {
     'jenkins': 'http://jenkins-ci.org/',
     'redmine': 'http://www.redmine.org/',
     'pygame': 'http://www.pygame.org',
-    'buildbot': 'http://buildbot.net/'
+    'buildbot': 'http://buildbot.net/',
+    'github': 'https://github.com/calaldees',
+    'github_superlimitbreak': 'https://github.com/SuperLimitBreak',
+    'appium': 'http://appium.io/'
 };
 
 LOOKUP_TEAM = {
@@ -78,9 +81,13 @@ LOOKUP_TEAM = {
         'name': 'Carl Ritson',
         'website': 'https://www.linkedin.com/pub/carl-ritson/23/989/605',
     },
+    'choco': {
+        'name': 'Choco',
+        'website': 'https://twitter.com/chocokittycat',
+    },
     'lyle': {
         'name': 'Lyle Young',
-        'website': '',
+        'website': 'https://www.youtube.com/channel/UCX6OVgoJeuw6626dwGYxteg',
     },
     'matt': {
         'name': 'Matt Jones',
@@ -88,11 +95,11 @@ LOOKUP_TEAM = {
     },
     'joe': {
         'name': 'Joe Reid',
-        'website': '',
+        'website': 'https://github.com/JoeReid',
     },
     'richard': {
         'name': 'Richard Lancaster',
-        'website': '',
+        'website': 'https://github.com/richlanc',
     },
     'jon': {
         'name': 'Jon Cullinane',
@@ -121,6 +128,10 @@ LOOKUP_TEAM = {
     'mike': {
         'name': 'Mike Gardener',
         'website': 'http://uk.linkedin.com/pub/mike-gardiner/1/4a1/b4',
+    },
+    'lizzie': {
+        'name': 'Lizzie Hodgson',
+        'website': 'https://twitter.com/lizziehodgson01',
     }
 }
 
@@ -142,9 +153,9 @@ build_masonry(
         'title':'Global Radio',
         'link': 'http://www.thisisglobal.com/',
         'image': 'employers/global-logo.png',
-        'description': "<p>Hired as a server side Python specailist building and maintaining Global Radio's digital presence for web and mobile.</p><p>Working with a crack shot team we support CapitalFM, HeartFM, ClassicFM, XFM, CapitalXtra, SmoothRadio, Gold, LBC and BigTop40.</p><p>Notable projects include Selenium Automated testing suite and Android app development</p>",
+        'description': "<p>Hired as a server side Python specailist building and maintaining Global Radio's digital presence for web and mobile.</p><p>Working with a crack shot team we support CapitalFM, HeartFM, ClassicFM, XFM, CapitalXtra, SmoothRadio, Gold, LBC and BigTop40.</p><p>Notable projects include Selenium/Appium Automated testing suite and Android app development</p>",
         'year': '2012-now',
-        'icons': ['python','html5','mysql','elasticsearch','django','ubuntu','jenkins','redmine','robot','android'],
+        'icons': ['python','html5','mysql','elasticsearch','django','ubuntu','jenkins','redmine','robot','android','appium'],
         'category': 'employer',
         'width': 2,
         'height': 2,
@@ -152,12 +163,59 @@ build_masonry(
     },
     
     {
+        'title': 'Super Limit Break: Minamicon22 Live music performance',
+        'link': 'https://www.facebook.com/media/set/?set=a.971260369631838.1073741832.285641901527025&type=3',
+        'image': '',
+        'description': '',
+        'category': 'music',
+        'year': 2016,
+        'width': 2,
+        'height': 2,
+        'team': ['lyle','matt','joe','choco'],
+        'icons': ['piano', 'bass'],
+    },
+
+    {
+        'title':'KaraKara',
+        'link': 'https://github.com/calaldees/KaraKara',
+        'image': 'projects/karakara.png',
+        'description': "Karaoke event system. Users can search/preview/queue tracks from their mobile phones.",
+        'description_extended': "HTML5 websocket full screen projector displays the main view to the audience. Mobile/Tablets can connect to a local 'karaoke' wifi. Used at Minamicon 2014",
+        'year': '2012-now',
+        'team': ['carl','shish'],
+        'icons': ['python','html5','postgresql','jquerymobile','pyramid','vagrant','bootstrap'],
+        'category': 'code',
+        'width': 2,
+        'height': 3
+    },
+    
+    {
+        'title': 'webMidiTools',
+        'link': 'https://github.com/SuperLimitBreak/webMidiTools',
+        'description': 'needed',
+        'category': 'code',
+        'year': '2016',
+        'icons': ['html5', 'github_superlimitbreak'],
+        'width': 1,
+        'height': 1,
+    },
+
+    {
+        'title': 'Bus Licence',
+        'description': 'Full category D Bus driving licence',
+        'year': '2015',
+        'icons': [],
+        'width': 1,
+        'height': 1,
+    },
+    
+    {
         'title': 'DMX Lighting Automation',
-        'link': 'https://github.com/JoeReid/lighting-automation',
+        'link': 'https://github.com/SuperLimitBreak/lightingAutomation',
         'description': 'Beat matched prgramable lighting system. Used for live music performances. Uses ArtNet3 UDP.',
         'category': 'code',
         'year': '2015',
-        'icons': ['python'],
+        'icons': ['python', 'github_superlimitbreak'],
         'team': ['joe'],
         'width': 1,
         'height': 2,
@@ -174,7 +232,7 @@ build_masonry(
     
     {
         'title': 'GlueGov',
-        'link': 'http://hacks.rewiredstate.org/events/nhtg-2015-london/gluegov',
+        'link': 'https://github.com/JoeReid/GlueGov',
         'description': 'Surfacing disporate goverment spreadsheet data with a clean searchable API. Winner of National Hack the Goverment 2015 London',
         'category': 'code',
         'year': '2015',
@@ -186,24 +244,24 @@ build_masonry(
 
     {
         'title': 'Display Trigger',
-        'link': 'https://github.com/calaldees/display-trigger',
+        'link': 'https://github.com/SuperLimitBreak/displayTrigger',
         'description': 'Used to link a live Cuebase music enviroment to trigger videos/images/functions for a realtime live music display. Used as the connerstone of PentatonicHero and LightingAutomation.',
         'category': 'code',
         'year': '2015',
-        'icons': ['python','html5'],
+        'icons': ['html5', 'github_superlimitbreak'],
         'width': 2,
         'height': 1,
     },
     
     {
         'title': 'Pentatonic Hero',
-        'link': 'https://github.com/calaldees/PentatonicHero',
+        'link': 'https://github.com/SuperLimitBreak/pentatonicHero',
         'image': 'projects/guitar-hero-controller.jpg',
         'description': 'Mapped GuitarHero controlls to MIDI syths to facilitate amatures playing with a live band.',
         'description_extended': "A pentatonic scale has 5 notes. A Guitar Hero controller has 5 buttons. Making the controls to a MIDI guitar synth, an amature can join a live band, bash any key in any order and it sounds good. They user cant go wrong. Used in live music performances to call audience member up to play with a band live. Demoed at Canterbury Barcamp 2014",
         'year': '2014-2015',
         'category': 'code',
-        'icons': ['python', 'pygame'],
+        'icons': ['python', 'pygame', 'html5', 'github_superlimitbreak'],
         'width': 2,
         'height': 1,
         'extra_class': 'horizontal',
@@ -224,30 +282,16 @@ build_masonry(
     
     {
         'title': 'VoteBattle',
-        'link': 'https://github.com/calaldees/VoteBattle',
+        'link': 'https://github.com/SuperLimitBreak/voteBattle',
         'image': 'projects/VoteBattle_screenshot2.png',
         'description': "Used as the focus for a live music performance. A mock Final Fantasy style 3D battle system designed for crowd participation from mobile phones.",
         'year': 2014,
         'category': 'code',
-        'icons': ['python','html5','threejs','pyramid'],
+        'icons': ['python','html5','threejs','pyramid','github_superlimitbreak'],
         'width': 1,
         'height': 2
     },
 
-    {
-        'title':'KaraKara',
-        'link': 'https://github.com/calaldees/KaraKara',
-        'image': 'projects/karakara.png',
-        'description': "Karaoke event system. Users can search/preview/queue tracks from their mobile phones.",
-        'description_extended': "HTML5 websocket full screen projector displays the main view to the audience. Mobile/Tablets can connect to a local 'karaoke' wifi. Used at Minamicon 2014",
-        'year': '2012-now',
-        'team': ['carl','shish'],
-        'icons': ['python','html5','postgresql','jquerymobile','pyramid','vagrant','bootstrap'],
-        'category': 'code',
-        'width': 2,
-        'height': 3
-    },
-    
     {
         'title': 'TrackMy',
         'description': 'Hack project. Free open source comunity tracking system.',
@@ -365,7 +409,7 @@ build_masonry(
         'image': 'projects/civicboom.png',
         'description': "Lead developer of a team of four. A citizen journalism platform with an API, Mobile apps, Media uploads, Geopositioning, QRCode generation, Facebook/Twitter integration, Segmented server architecture. 60,000 lines of Python/HTML/JS code with formal bug tracking using the agile methadology.",
         'year':'2009-2012',
-        'team': ['shish','greg','proto'],
+        'team': ['shish','greg','proto','lizzie'],
         'icons': ['python','html5','postgresql','ubuntu','buildbot'],
         'category': 'employer',
         'width': 2,
