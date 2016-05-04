@@ -1,6 +1,11 @@
 build_profile_links(
 [
     {
+        link: "http://github.com/calaldees",
+        name: "Github",
+        icon: 'github',
+    },
+    {
         link: "http://www.linkedin.com/in/allancallaghan",
         name: "LinkedIn",
         icon: 'linkedin',
@@ -19,11 +24,6 @@ build_profile_links(
         link: "http://www.facebook.com/allan.callaghan",
         name: "Facebook",
         icon: 'facebook',
-    },
-    {
-        link: "http://github.com/calaldees",
-        name: "Github",
-        icon: 'github',
     },
     {
         link: "http://www.amazon.co.uk/registry/wishlist/ABBNE2EXWI8",
@@ -153,9 +153,9 @@ build_masonry(
         'title':'Global Radio',
         'link': 'http://www.thisisglobal.com/',
         'image': 'employers/global-logo.png',
-        'description': "<p>Hired as a server side Python specailist building and maintaining Global Radio's digital presence for web and mobile.</p><p>Working with a crack shot team we support CapitalFM, HeartFM, ClassicFM, XFM, CapitalXtra, SmoothRadio, Gold, LBC and BigTop40.</p><p>Notable projects include Selenium/Appium Automated testing suite and Android app development</p>",
+        'description': "<p>Hired as a server side Python specailist building and maintaining Global Radio's digital presence for web and mobile.</p><p>Working with a crack shot team we support CapitalFM, Capital Xtra, HeartFM, ClassicFM, XFM, CapitalXtra, SmoothRadio, Gold, LBC and BigTop40.</p><p>Notable projects include Selenium/Appium Automated testing suite and Android app development</p>",
         'year': '2012-now',
-        'icons': ['python','html5','mysql','elasticsearch','django','ubuntu','jenkins','redmine','robot','android','appium'],
+        'icons': ['python','html5','mysql','elasticsearch','django','ubuntu','jenkins','robot','android','appium'],
         'category': 'employer',
         'width': 2,
         'height': 2,
@@ -163,16 +163,16 @@ build_masonry(
     },
     
     {
-        'title': 'Super Limit Break: Minamicon22 Live music performance',
+        'title': 'Super Limit Break',
         'link': 'https://www.facebook.com/media/set/?set=a.971260369631838.1073741832.285641901527025&type=3',
-        'image': '',
-        'description': '',
+        'image': 'projects/superlimitbreak_minami22.jpg',
+        'description': '<p>Super Limit Break: A band that covers Anime and Game music with interesting tech and audience participation. Holographic projection, dmx beatmatched lights, handbuilt PA system and audience participation with mobile phones. A cumination of years of practice and construction. Many of the other software projects listed here are components of this project.</p><p>Performed at Minamicon22</p>',
         'category': 'music',
-        'year': 2016,
+        'year': '2015-now',
         'width': 2,
-        'height': 2,
+        'height': 3,
         'team': ['lyle','matt','joe','choco'],
-        'icons': ['piano', 'bass'],
+        'icons': ['piano', 'bass', 'build', 'github_superlimitbreak'],
     },
 
     {
@@ -183,7 +183,7 @@ build_masonry(
         'description_extended': "HTML5 websocket full screen projector displays the main view to the audience. Mobile/Tablets can connect to a local 'karaoke' wifi. Used at Minamicon 2014",
         'year': '2012-now',
         'team': ['carl','shish'],
-        'icons': ['python','html5','postgresql','jquerymobile','pyramid','vagrant','bootstrap'],
+        'icons': ['python','html5','postgresql','jquerymobile','pyramid','vagrant','bootstrap','github'],
         'category': 'code',
         'width': 2,
         'height': 3
@@ -192,7 +192,7 @@ build_masonry(
     {
         'title': 'webMidiTools',
         'link': 'https://github.com/SuperLimitBreak/webMidiTools',
-        'description': 'needed',
+        'description': 'Simple MIDI routing tool deployable entirely with Chrome/HTML5/js',
         'category': 'code',
         'year': '2016',
         'icons': ['html5', 'github_superlimitbreak'],
@@ -213,6 +213,7 @@ build_masonry(
         'title': 'DMX Lighting Automation',
         'link': 'https://github.com/SuperLimitBreak/lightingAutomation',
         'description': 'Beat matched prgramable lighting system. Used for live music performances. Uses ArtNet3 UDP.',
+        'image': 'projects/dmx_light.jpg',
         'category': 'code',
         'year': '2015',
         'icons': ['python', 'github_superlimitbreak'],
@@ -374,8 +375,8 @@ build_masonry(
         'image': 'projects/teach_programming.png',
         'description': "Learn to program games in HTML5/Javascript, Python, Java, VB.NET and PHP. Teaching resources and activities. Cross platform multiplayer.",
         'description_extended': "",
-        'year':'2012',
-        'icons': ['python','java','vb','php','html5','pyramid','bootstrap'],
+        'year':'2012-2014',
+        'icons': ['python','java','vb','php','html5','pyramid','bootstrap', 'github'],
         'category': 'code',
         'width': 3,
         'height': 1,
@@ -410,7 +411,7 @@ build_masonry(
         'description': "Lead developer of a team of four. A citizen journalism platform with an API, Mobile apps, Media uploads, Geopositioning, QRCode generation, Facebook/Twitter integration, Segmented server architecture. 60,000 lines of Python/HTML/JS code with formal bug tracking using the agile methadology.",
         'year':'2009-2012',
         'team': ['shish','greg','proto','lizzie'],
-        'icons': ['python','html5','postgresql','ubuntu','buildbot'],
+        'icons': ['python','html5','postgresql','ubuntu','buildbot','redmine'],
         'category': 'employer',
         'width': 2,
         'height': 3,
@@ -433,7 +434,7 @@ build_masonry(
         'description': "A three projector pong game with mobile phones as input devices.",
         'year':'2012',
         'team': ['shish','greg'],
-        'icons': ['python','pygame'],
+        'icons': ['python','pygame','github'],
         'category': 'code',
         'width': 1,
         'height': 2,
@@ -655,6 +656,17 @@ build_masonry(
     },
 
     {
+        'title':'Motorcycle Licence',
+        'link': '',
+        'description': "Full category A motorcycle licence.",
+        'description_exended': "",
+        'year':'2006',
+        'icons': [],
+        'width': 1,
+        'height': 1
+    },
+        
+    {
         'title': 'Baby godzilla suite',
         'image': 'projects/baby_godzilla.jpg',
         'description': 'Constructed a cardboard tokyo and a baby godzilla suite',
@@ -728,7 +740,7 @@ build_masonry(
         'title': 'Chaucer Technology School',
         'image': 'employers/chaucer.png',
         'description': 'Secondary School teaching 11 to 18 year olds. Took a cohort through AQA A2 Computing. Ran after school programming workshops.',
-        'year': '2005-2006',
+        'year': '2004-2006',
         'width': 2,
         'height': 2,
         'category': 'employer',
@@ -777,6 +789,15 @@ build_masonry(
     },
 
     {
+        'title': 'PGCE Secondary Education',
+        'description': 'Canterbury Christ Church',
+        'year': 2004,
+        'width': 1,
+        'height': 1
+    },
+
+    
+    {
         'title':'Bibliographic Database',
         //'link': '',
         //'image': 'projects/',
@@ -824,6 +845,14 @@ build_masonry(
         'category': 'other',
         'width': 3,
         'height': 2
+    },
+    
+    {
+        'title': 'Computer Science BSc',
+        'description': 'University of Kent.',
+        'year': 2002,
+        'width': 1,
+        'height': 1
     },
     
     {

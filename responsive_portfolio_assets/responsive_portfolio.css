@@ -19,6 +19,7 @@ a {
 .icon16 {width: 16px; height: 16px; display: inline-block; margin: 0px 1px;}
 
 /* http://www.IconDrawer.com*/
+.icon16.i_appium {background-position: -528px -0px;}
 .icon16.i_kickstarter {background-position: -512px -0px;}
 .icon16.i_build {background-position: -496px -0px;}
 .icon16.i_django {background-position: -480px -0px;}
@@ -52,6 +53,7 @@ a {
 .icon16.i_python {background-position: -32px -0px;}
 .icon16.i_vb {background-position: -16px -0px;}
 
+.icon16.i_github_superlimitbreak {background-position: -144px -0px;}
 
 
 /*
@@ -102,8 +104,8 @@ a {
 #profile_links {
 	display: block;
 	position: absolute;
-	bottom: 1em;
-	right: 2.5em;
+	bottom: 1.5em;
+	right: 1em;
 }
 
 #profile_links li {
