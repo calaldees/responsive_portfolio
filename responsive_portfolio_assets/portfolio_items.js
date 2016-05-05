@@ -182,7 +182,7 @@ build_masonry(
         'description': "Karaoke event system. Users can search/preview/queue tracks from their mobile phones.",
         'description_extended': "HTML5 websocket full screen projector displays the main view to the audience. Mobile/Tablets can connect to a local 'karaoke' wifi. Used at Minamicon 2014",
         'year': '2012-now',
-        'team': ['carl','shish'],
+        'team': ['carl','shish','joe','richard'],
         'icons': ['python','html5','postgresql','jquerymobile','pyramid','vagrant','bootstrap','github'],
         'category': 'code',
         'width': 2,
