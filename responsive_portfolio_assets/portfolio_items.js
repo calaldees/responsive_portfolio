@@ -39,6 +39,11 @@ build_profile_links(
         link: "https://www.kickstarter.com/profile/423960807",
         name: "kickstarter",
         icon: "kickstarter",
+    },
+    {
+        link: "https://www.airbnb.co.uk/users/show/74419990",
+        name: "AirBnB",
+        icon: "airbnb",
     }
 ]
 );
@@ -153,20 +158,20 @@ build_masonry(
         'title':'Global Radio',
         'link': 'http://www.thisisglobal.com/',
         'image': 'employers/global-logo.png',
-        'description': "<p>Hired as a server side Python specailist building and maintaining Global Radio's digital presence for web and mobile.</p><p>Working with a crack shot team we support CapitalFM, Capital Xtra, HeartFM, ClassicFM, XFM, CapitalXtra, SmoothRadio, Gold, LBC and BigTop40.</p><p>Notable projects include Selenium/Appium Automated testing suite and Android app development</p>",
+        'description': "<p>Hired as a server side Python specialist building and maintaining Global Radio's digital presence for web and mobile.</p><p>Working with a crack shot team we support CapitalFM, Capital Xtra, HeartFM, ClassicFM, XFM, CapitalXtra, SmoothRadio, Gold, LBC and BigTop40.</p><p>Notable projects include Selenium/Appium Automated testing suite and Android app development</p>",
         'year': '2012-now',
-        'icons': ['python','html5','mysql','elasticsearch','django','ubuntu','jenkins','robot','android','appium'],
+        'icons': ['python','html5','mysql','elasticsearch','django','ubuntu','jenkins','robot','android','appium','docker'],
         'category': 'employer',
         'width': 2,
         'height': 2,
         'extra_class': 'float',
     },
-    
+
     {
         'title': 'Super Limit Break',
         'link': 'https://www.facebook.com/media/set/?set=a.971260369631838.1073741832.285641901527025&type=3',
         'image': 'projects/superlimitbreak_minami22.jpg',
-        'description': '<p>Super Limit Break: A band that covers Anime and Game music with interesting tech and audience participation. Holographic projection, dmx beatmatched lights, handbuilt PA system and audience participation with mobile phones. A cumination of years of practice and construction. Many of the other software projects listed here are components of this project.</p><p>Performed at Minamicon22</p>',
+        'description': '<p>Super Limit Break: A band that covers Anime and Game music with interesting tech and audience participation. Holographic projection, dmx beat-matched lights, hand-built PA system and audience participation with mobile phones. A culmination of years of practice and construction. Many of the other software projects listed here are components of this project.</p><p>Performed at Minamicon22</p>',
         'category': 'music',
         'year': '2015-now',
         'width': 2,
@@ -188,7 +193,7 @@ build_masonry(
         'width': 2,
         'height': 3
     },
-    
+
     {
         'title': 'webMidiTools',
         'link': 'https://github.com/SuperLimitBreak/webMidiTools',
@@ -208,11 +213,11 @@ build_masonry(
         'width': 1,
         'height': 1,
     },
-    
+
     {
         'title': 'DMX Lighting Automation',
         'link': 'https://github.com/SuperLimitBreak/lightingAutomation',
-        'description': 'Beat matched prgramable lighting system. Used for live music performances. Uses ArtNet3 UDP.',
+        'description': 'Beat matched programable lighting system. Used for live music performances. Uses ArtNet3 UDP.',
         'image': 'projects/dmx_light.jpg',
         'category': 'code',
         'year': '2015',
@@ -230,11 +235,11 @@ build_masonry(
         'year': '2015',
         'icons': ['html5'],
     },
-    
+
     {
         'title': 'GlueGov',
         'link': 'https://github.com/JoeReid/GlueGov',
-        'description': 'Surfacing disporate goverment spreadsheet data with a clean searchable API. Winner of National Hack the Goverment 2015 London',
+        'description': 'Surfacing disparate government spreadsheet data with a clean searchable API. Winner of National Hack the Government 2015 London',
         'category': 'code',
         'year': '2015',
         'icons': ['python'],
@@ -246,20 +251,20 @@ build_masonry(
     {
         'title': 'Display Trigger',
         'link': 'https://github.com/SuperLimitBreak/displayTrigger',
-        'description': 'Used to link a live Cuebase music enviroment to trigger videos/images/functions for a realtime live music display. Used as the connerstone of PentatonicHero and LightingAutomation.',
+        'description': 'Used to link a live Cuebase music environment to trigger videos/images/functions for a realtime live music display. Used as the cornerstone of PentatonicHero and LightingAutomation.',
         'category': 'code',
         'year': '2015',
         'icons': ['html5', 'github_superlimitbreak'],
         'width': 2,
         'height': 1,
     },
-    
+
     {
         'title': 'Pentatonic Hero',
         'link': 'https://github.com/SuperLimitBreak/pentatonicHero',
         'image': 'projects/guitar-hero-controller.jpg',
-        'description': 'Mapped GuitarHero controlls to MIDI syths to facilitate amatures playing with a live band.',
-        'description_extended': "A pentatonic scale has 5 notes. A Guitar Hero controller has 5 buttons. Making the controls to a MIDI guitar synth, an amature can join a live band, bash any key in any order and it sounds good. They user cant go wrong. Used in live music performances to call audience member up to play with a band live. Demoed at Canterbury Barcamp 2014",
+        'description': 'Mapped GuitarHero controls to MIDI syths to facilitate armatures playing with a live band.',
+        'description_extended': "A pentatonic scale has 5 notes. A Guitar Hero controller has 5 buttons. Making the controls to a MIDI guitar synth, an armature can join a live band, bash any key in any order and it sounds good. They user cant go wrong. Used in live music performances to call audience member up to play with a band live. Demoed at Canterbury Barcamp 2014",
         'year': '2014-2015',
         'category': 'code',
         'icons': ['python', 'pygame', 'html5', 'github_superlimitbreak'],
@@ -267,11 +272,11 @@ build_masonry(
         'height': 1,
         'extra_class': 'horizontal',
     },
-    
+
     {
         'title': 'Music Projection Trolly',
         'image': 'projects/trolly_mrk2.jpg',
-        'description': 'Custom metalwork trolly. Portable holographic projection and rackmount.',
+        'description': 'Custom metalwork trolly. Portable holographic projection and rack-mount.',
         'description_extended': "",
         'year': '2014',
         'category': 'build',
@@ -280,7 +285,7 @@ build_masonry(
         'height': 1,
         'extra_class': 'horizontal',
     },
-    
+
     {
         'title': 'VoteBattle',
         'link': 'https://github.com/SuperLimitBreak/voteBattle',
@@ -295,8 +300,8 @@ build_masonry(
 
     {
         'title': 'TrackMy',
-        'description': 'Hack project. Free open source comunity tracking system.',
-        'description_extended': 'Prototype to track Buss, Taxis, School trips. Using rasbery pi and gps dongle or html5 mobile app',
+        'description': 'Hack project. Free open source community tracking system.',
+        'description_extended': 'Prototype to track Buss, Taxis, School trips. Using raspberry pi and gps dongle or html5 mobile app',
         'link': 'https://github.com/JoeReid/TrackMyBus',
         'category': 'code',
         'team': ['joe', 'shish'],
@@ -305,12 +310,12 @@ build_masonry(
         'width': 1,
         'height': 1
     },
-    
+
     {
         'title':'Flexi RPG Responsve Digital Pubication',
         'link': 'https://github.com/flexi-system/flexi-core-system',
         //'image': 'projects/',
-        'description': "To assit the digitial publication of a 'pen and paper' RPG system developed by a startup. Responsive content distributed with HTML5 offline storeage.",
+        'description': "To assist the digital publication of a 'pen and paper' RPG system developed by a startup. Responsive content distributed with HTML5 offline storage.",
         'year':'2013-2014',
         'team': ['dan','terry'],
         'icons': ['python','html5','pyramid','bootstrap'],
@@ -318,9 +323,9 @@ build_masonry(
         'width': 2,
         'height': 1
     },
-    
+
     {
-        'title': 'Ayacon: Live Music Pannel',
+        'title': 'Ayacon: Live Music Panel',
         'image': 'projects/ayacon.jpg',
         'description': 'Performed live music backing a virtual 3D lead singer (Hatsune Miku) with a home constructed holographic projection screen',
         'link': ['http://calaldees.dreamhosters.com/music/miku_low.mp4'],
@@ -336,7 +341,7 @@ build_masonry(
         'title': 'Taxpayers alliance',
         'image': 'projects/taxpayers_alliance.jpg',
         'link': 'http://hacks.rewiredstate.org/events/nhtg-13/tax-payer-s-association-data-heatmaps',
-        'description': 'Heatmap visulation of national statistics',
+        'description': 'Heatmap visualization of national statistics',
         'year': 2013,
         'icons': ['python'],
         'team': ['shish'],
@@ -344,10 +349,10 @@ build_masonry(
         'height': 2,
         'category': 'code',
     },
-    
+
     {
         'title': 'RetroPrice Statistics',
-        'description': 'Scraping data over the course of a year to assertain the average price and rarity of retrogames in the uk. Created a mobile interfae to access deatails at a possible bargins notice',
+        'description': 'Scraping data over the course of a year to ascertain the average price and rarity of retro-games in the uk. Created a mobile interface to access details at a possible bargains notice',
         'link': 'http://calaldees.dreamhosters.com/misc/retro_extract/collection.html#/platforms',
         'year': 2013,
         'category': 'code',
@@ -355,7 +360,7 @@ build_masonry(
         'width': 2,
         'height': 1
     },
-    
+
     {
         'title': 'Pictotrade',
         'image': 'projects/pictotrade.jpg',
@@ -368,7 +373,7 @@ build_masonry(
         'height': 2,
         'category': 'code',
     },
-    
+
     {
         'title':'Teach Programming',
         'link': 'http://calaldees.tnkd.net/project/game/copter.html',
@@ -403,12 +408,12 @@ build_masonry(
         'width': 1,
         'height': 1
     },
-    
+
     {
         'title':'Civicboom',
         'link': 'http://www.civicboom.com',
         'image': 'projects/civicboom.png',
-        'description': "Lead developer of a team of four. A citizen journalism platform with an API, Mobile apps, Media uploads, Geopositioning, QRCode generation, Facebook/Twitter integration, Segmented server architecture. 60,000 lines of Python/HTML/JS code with formal bug tracking using the agile methadology.",
+        'description': "Lead developer of a team of four. A citizen journalism platform with an API, Mobile apps, Media uploads, Geo-positioning, QRCode generation, Facebook/Twitter integration, Segmented server architecture. 60,000 lines of Python/HTML/JS code with formal bug tracking using the agile methodology.",
         'year':'2009-2012',
         'team': ['shish','greg','proto','lizzie'],
         'icons': ['python','html5','postgresql','ubuntu','buildbot','redmine'],
@@ -416,17 +421,16 @@ build_masonry(
         'width': 2,
         'height': 3,
     },
-    
+
     {
         'title': 'Coastal Cycle',
         'year': '2010',
-        'description': 'Canterbury-Hastings-Brightion-Arendel-Southempton',
+        'description': 'Canterbury-Hastings-Brighton-Arendel-Southampton',
         'category': 'other',
         'width': 1,
         'height': 1
     },
 
-    
     {
         'title':'MultiPong',
         'link': 'https://github.com/calaldees/MultiPong',
@@ -468,7 +472,7 @@ build_masonry(
         'title':'Barcode Thing',
         'link': 'http://rewiredstate.org/projects/barcode-thing',
         'image': 'projects/barcode.jpeg',
-        'description': "Prototype for PalmOS. Online barcode catalog and info retrieval. Wrote js algorithum to image process barcodes",
+        'description': "Prototype for PalmOS. Online barcode catalog and info retrieval. Wrote js algorithm to image process barcodes",
         'description_extended': "I wrote the Javascript algorithm to decode a barcode image from the phone camera. Scan a barcode from your phone, server gives you, average price on eBay, if it's in your collection, previews of media e.g trailer from youtube, amazon mp3 previews of songs.",
         'year':'2011',
         'team': ['shish','greg'],
@@ -482,7 +486,7 @@ build_masonry(
         'title':'FreeHoc',
         'link': 'http://rewiredstate.org/projects/freehoc',
         'image': 'projects/freehoc.jpg',
-        'description': "Hacktivate weekend project. Freecycle + Geopositional + Custom alerts + SMS interface. Designed for developing countrys with no internet access.",
+        'description': "Hacktivate weekend project. Freecycle + Geopositional + Custom alerts + SMS interface. Designed for developing country's with no internet access.",
         'year':'2011',
         'team': ['shish','greg','proto'],
         'icons': ['python', 'pyramid'],
@@ -491,7 +495,7 @@ build_masonry(
         'height': 1,
         'extra_class': 'horizontal',
     },
-    
+
     {
         'title':'CAS Conference Speaker',
         'link': 'http://www.computingatschool.org.uk/index.php?id=conf2010',
@@ -504,7 +508,7 @@ build_masonry(
         'extra_class': 'horizontal',
         'category': 'other',
     },
-    
+
     {
         'title': 'Luggage (Discworld)',
         'link': 'http://www.youtube.com/watch?v=XY0qqCgm9GY',
@@ -517,11 +521,11 @@ build_masonry(
         'icons': ['build'],
         'extra_class': 'horizontal',
     },
-    
+
     {
-        'title': 'Nessessary Evil',
+        'title': 'Necessary Evil',
         'link': 'https://www.peginc.com/store/necessary-evil-explorers-edition/',
-        'description': 'Gamemastered an epic action comedy adventure for a 2 year campaine',
+        'description': 'Game-mastered an epic action comedy adventure for a 2 year campagne',
         'image': 'projects/nessesary_evil.jpg',
         'year': '2009-2011',
         'category': 'other',
@@ -529,7 +533,7 @@ build_masonry(
         'height': 1,
         'extra_class': 'horizontal',
     },
-    
+
     {
         'title': 'Piano/Bass Transcriptions',
         'description': 'Various transcriptions over the years.',
@@ -549,7 +553,7 @@ build_masonry(
         'width': 1,
         'height': 2,
     },
-    
+
     {
         'title':'Guardian Heroes Sprites',
         'link': '',
@@ -563,7 +567,7 @@ build_masonry(
         'height': 1,
         'extra_class': 'horizontal',
     },
-    
+
     {
         'title': 'k.alt.del',
         'image': 'projects/k.alt.del.jpg',
@@ -599,7 +603,6 @@ build_masonry(
         //'extra_class': 'horizontal',
     },
 
-    
     {
         'title':'3D Camera Rig and Processing',
         'link': 'http://calaldees.dreamhosters.com/misc/Danovs-Emmies%20Wedding%20in%203D/3d/8b.png',
@@ -614,22 +617,19 @@ build_masonry(
         'extra_class': 'horizontal',
     },
 
-
-    
-    
     {
         'title':'PostOffice Server',
         'link': 'https://github.com/calaldees/javalib/tree/master/lib/Utils/Utils/Network/PostOfficeServer',
         //'image': 'projects/',
         'description': "A key value server similar to Redis for teaching simple massively multiplayer games.",
-        'description_extended': "Redis was only just being explored. I wrote my own functionaly for users to 'subscribe' to postbox's to recive updates.<br> When the server closed it persisted the world. <br>Learners had to choose and explore there own data structures as they deleloped there applications",
+        'description_extended': "Redis was only just being explored. I wrote my own functionally for users to 'subscribe' to postbox's to receive updates.<br> When the server closed it persisted the world. <br>Learners had to choose and explore there own data structures as they developed there applications",
         'year':'2009',
         'icons': ['java'],
         'category': 'code',
         'width': 1,
         'height': 1
     },
-    
+
     {
         'title': 'Orco',
         'image': 'projects/orco.jpg',
@@ -665,7 +665,7 @@ build_masonry(
         'width': 1,
         'height': 1
     },
-        
+
     {
         'title': 'Baby godzilla suite',
         'image': 'projects/baby_godzilla.jpg',
@@ -679,7 +679,7 @@ build_masonry(
         'icons': ['build'],
         'category': 'build',
     },
-    
+
     {
         'title': 'Youth Group Summer Camp Volenteer',
         'description': 'Action and advanture camp with local youth group. Physically and emotionally demanding, but pure awesome',
@@ -689,7 +689,6 @@ build_masonry(
         'height': 1,
     },
 
-    
     {
         'title':'Tile Based Game Framework',
         'link': 'https://github.com/calaldees/javalib/tree/master/lib/Tile',
@@ -702,8 +701,7 @@ build_masonry(
         'height': 1,
         'extra_class': 'horizontal',
     },
-    
-    
+
     {
         'title': 'Advanced computing workshop',
         'description': "Extra curricular 3 month workshop taking students through building a computer, installing linux, setup + program dynamic webpages and games",
@@ -745,7 +743,7 @@ build_masonry(
         'height': 2,
         'category': 'employer',
     },
-    
+
     {
         'title': 'Arcade Cabinet',
         'image': 'projects/arcade_cab.jpg',
@@ -771,9 +769,7 @@ build_masonry(
         'width': 1,
         'height': 2,
         'icons': ['build'],
-    },    
-
-    
+    },
 
     {
         'title':'Mini Webserver',
@@ -796,7 +792,6 @@ build_masonry(
         'height': 1
     },
 
-    
     {
         'title':'Bibliographic Database',
         //'link': '',
@@ -809,7 +804,7 @@ build_masonry(
         'width': 1,
         'height': 1
     },
-    
+
     {
         'title':'UFO Enemy Unknown remake',
         'link': 'https://github.com/calaldees/javalib/tree/master/Game/Ufo',
@@ -846,7 +841,7 @@ build_masonry(
         'width': 3,
         'height': 2
     },
-    
+
     {
         'title': 'Computer Science BSc',
         'description': 'University of Kent.',
@@ -854,7 +849,7 @@ build_masonry(
         'width': 1,
         'height': 1
     },
-    
+
     {
         'title':'Material Modeller',
         //'link': '',
@@ -894,7 +889,6 @@ build_masonry(
         //'extra_class': 'horizontal',
     },
 
-    
     {
         'title':'Java Multimedia Player',
         'link': '',
@@ -917,7 +911,6 @@ build_masonry(
         'height': 2
     },
 
-    
     {
         'title':'Nortel ProSTAR Tracker',
         'link': '',
@@ -970,7 +963,7 @@ build_masonry(
         'height': 1,
         'extra_class': 'horizontal_right',
     },
-    
+
     {
         'title': 'Code based animations',
         'description': 'Using raw code to construct animations',
@@ -994,7 +987,7 @@ build_masonry(
         'width': 1,
         'height': 2
     },
-    
+
     {
         'title':'Tracker Tunes',
         'link': '',
@@ -1007,7 +1000,6 @@ build_masonry(
         'extra_class': 'horizontal_right',
         'category': 'other',
     },
-    
 
 ]
 );
