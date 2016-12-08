@@ -40,11 +40,11 @@ build_profile_links(
         name: "kickstarter",
         icon: "kickstarter",
     },
-    {
-        link: "https://www.airbnb.co.uk/users/show/74419990",
-        name: "AirBnB",
-        icon: "airbnb",
-    }
+    //{
+    //    link: "https://www.airbnb.co.uk/users/show/74419990",
+    //    name: "AirBnB",
+    //    icon: "airbnb",
+    //},
 ]
 );
 
@@ -525,7 +525,7 @@ build_masonry(
     {
         'title': 'Necessary Evil',
         'link': 'https://www.peginc.com/store/necessary-evil-explorers-edition/',
-        'description': 'Game-mastered an epic action comedy adventure for a 2 year campagne',
+        'description': 'Game-mastered an epic action comedy adventure for a 2 year campaign',
         'image': 'projects/nessesary_evil.jpg',
         'year': '2009-2011',
         'category': 'other',
