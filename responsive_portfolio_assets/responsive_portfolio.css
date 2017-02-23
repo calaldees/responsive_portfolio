@@ -19,6 +19,8 @@ a {
 .icon16 {width: 16px; height: 16px; display: inline-block; margin: 0px 1px;}
 
 /* http://www.IconDrawer.com*/
+.icon16.i_robotframework {background-position: -560px -0px;}
+.icon16.i_docker {background-position: -544px -0px;}
 .icon16.i_appium {background-position: -528px -0px;}
 .icon16.i_kickstarter {background-position: -512px -0px;}
 .icon16.i_build {background-position: -496px -0px;}

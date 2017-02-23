@@ -65,7 +65,7 @@ LOOKUP_ICON_LINKS = {
     'elasticsearch': 'http://www.elasticsearch.org/',
     'php': 'http://www.php.net/',
     'bootstrap': 'http://getbootstrap.com/',
-    'robot': 'http://robotframework.org/',
+    'robotframework': 'http://robotframework.org/',
     'vagrant': 'http://vagrantup.com/',
     'django': 'https://www.djangoproject.com/',
     'jenkins': 'http://jenkins-ci.org/',
@@ -150,7 +150,7 @@ build_masonry(
         'image': 'employers/global-logo.png',
         'description': "<p>Lead Test and Tooling Engineer: Hired as a server side Python specialist building and maintaining global.com 's digital presence for web and native mobile.</p><p>Working with a crack shot team we support CapitalFM, Capital Xtra, HeartFM, ClassicFM, RadioX, CapitalXtra, SmoothRadio, Gold, LBC and BigTop40.</p>",
         'year': '2012-now',
-        'icons': ['python','html5','mysql','elasticsearch','django','ubuntu','jenkins','robot','android','appium','docker'],
+        'icons': ['python','html5','mysql','elasticsearch','django','ubuntu','jenkins','robotframework','android','appium','docker'],
         'category': 'employer',
         'width': 2,
         'height': 2,
@@ -170,7 +170,7 @@ build_masonry(
     */
     {
         'title': 'superLimitBreak',
-        'link': 'https://www.facebook.com/media/set/?set=a.971260369631838.1073741832.285641901527025&type=3',
+        'link': ['http://www.superlimitbreak.uk', 'https://www.facebook.com/media/set/?set=a.971260369631838.1073741832.285641901527025&type=3'],
         'image': 'projects/superlimitbreak_minami22.jpg',
         'description': '<p>superLimitBreak: A band that covers Anime and Game music with interesting tech and audience participation. Holographic projection, dmx beat-matched lights, hand-built PA system and audience participation with mobile phones. A culmination of years of practice and construction. Many of the other software projects listed here are components of this project.</p><p>Performed at Minamicon22 and Ayacon2016</p>',
         'category': 'music',
