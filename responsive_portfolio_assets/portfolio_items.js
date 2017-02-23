@@ -141,25 +141,14 @@ LOOKUP_TEAM = {
     }
 }
 
-/* In progress
-    {
-        'title': 'Projector Array',
-        'link': '',
-        'description': "Calibrate an array of inexpensive projectors to form one super bright projection. Used for cheap live stage holograms.",
-        'category': 'code',
-        'year': '2015',
-        'icons': ['html5'],
-    },
-
-*/
 
 build_masonry(
 [
     {
-        'title':'Global Radio',
-        'link': 'http://www.thisisglobal.com/',
+        'title':'Global (Media Group)',
+        'link': 'http://www.global.com/',
         'image': 'employers/global-logo.png',
-        'description': "<p>Hired as a server side Python specialist building and maintaining Global Radio's digital presence for web and mobile.</p><p>Working with a crack shot team we support CapitalFM, Capital Xtra, HeartFM, ClassicFM, XFM, CapitalXtra, SmoothRadio, Gold, LBC and BigTop40.</p><p>Notable projects include Selenium/Appium Automated testing suite and Android app development</p>",
+        'description': "<p>Lead Test and Tooling Engineer: Hired as a server side Python specialist building and maintaining global.com 's digital presence for web and native mobile.</p><p>Working with a crack shot team we support CapitalFM, Capital Xtra, HeartFM, ClassicFM, RadioX, CapitalXtra, SmoothRadio, Gold, LBC and BigTop40.</p>",
         'year': '2012-now',
         'icons': ['python','html5','mysql','elasticsearch','django','ubuntu','jenkins','robot','android','appium','docker'],
         'category': 'employer',
@@ -167,12 +156,23 @@ build_masonry(
         'height': 2,
         'extra_class': 'float',
     },
-
+    /*
     {
-        'title': 'Super Limit Break',
+        'title': 'pytest-appium',
+        'link': '',
+        'description': 'Created open source library for testing iOS and Andorid apps (Appium) in the pytest framework',
+        'category': 'code',
+        'year': '2017',
+        'width': 1,
+        'height': 1,
+        'icons': ['global', 'appium', 'android'],
+    },
+    */
+    {
+        'title': 'superLimitBreak',
         'link': 'https://www.facebook.com/media/set/?set=a.971260369631838.1073741832.285641901527025&type=3',
         'image': 'projects/superlimitbreak_minami22.jpg',
-        'description': '<p>Super Limit Break: A band that covers Anime and Game music with interesting tech and audience participation. Holographic projection, dmx beat-matched lights, hand-built PA system and audience participation with mobile phones. A culmination of years of practice and construction. Many of the other software projects listed here are components of this project.</p><p>Performed at Minamicon22</p>',
+        'description': '<p>superLimitBreak: A band that covers Anime and Game music with interesting tech and audience participation. Holographic projection, dmx beat-matched lights, hand-built PA system and audience participation with mobile phones. A culmination of years of practice and construction. Many of the other software projects listed here are components of this project.</p><p>Performed at Minamicon22 and Ayacon2016</p>',
         'category': 'music',
         'year': '2015-now',
         'width': 2,
@@ -189,10 +189,21 @@ build_masonry(
         'description_extended': "HTML5 websocket full screen projector displays the main view to the audience. Mobile/Tablets can connect to a local 'karaoke' wifi. Used at Minamicon 2014",
         'year': '2012-now',
         'team': ['carl','shish','joe','richard'],
-        'icons': ['python','html5','postgresql','jquerymobile','pyramid','vagrant','bootstrap','github'],
+        'icons': ['python','html5','postgresql','jquerymobile','pyramid','vagrant','bootstrap','github','docker'],
         'category': 'code',
         'width': 2,
         'height': 3
+    },
+
+    {
+        'title': '3D Realtime Stage Visualization',
+        'link': 'https://github.com/SuperLimitBreak/stageViewer',
+        'description': 'To facilitate curating complex stage multi-screen projections and lighting choreography; I developed a html5/CSS3D stage visualization tool. It reacts to live updates and has a unique timeline visualization/seeking system. Uses lightingAutomation and displayTrigger projects',
+        'category': 'code',
+        'year': '2016',
+        'icons': ['html5', 'threejs', 'github_superlimitbreak'],
+        'width': 1,
+        'height': 2,
     },
 
     {
@@ -216,14 +227,13 @@ build_masonry(
     },
 
     {
-        'title': 'DMX Lighting Automation',
+        'title': 'DMX lightingAutomation',
         'link': 'https://github.com/SuperLimitBreak/lightingAutomation',
         'description': 'Beat matched programable lighting system. Used for live music performances. Uses ArtNet3 UDP.',
         'image': 'projects/dmx_light.jpg',
         'category': 'code',
         'year': '2015-now',
         'icons': ['python', 'github_superlimitbreak'],
-        'team': ['joe'],
         'width': 1,
         'height': 2,
     },
@@ -250,7 +260,7 @@ build_masonry(
     },
 
     {
-        'title': 'Display Trigger',
+        'title': 'displayTrigger',
         'link': 'https://github.com/SuperLimitBreak/displayTrigger',
         'description': 'Used to link a live Cuebase music environment to trigger videos/images/functions for a realtime live music display. Used as the cornerstone of PentatonicHero and LightingAutomation.',
         'category': 'code',
