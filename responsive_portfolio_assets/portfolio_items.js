@@ -74,7 +74,8 @@ LOOKUP_ICON_LINKS = {
     'buildbot': 'http://buildbot.net/',
     'github': 'https://github.com/calaldees',
     'github_superlimitbreak': 'https://github.com/SuperLimitBreak',
-    'appium': 'http://appium.io/'
+    'appium': 'http://appium.io/',
+    'docker': 'https://www.docker.com/',
 };
 
 LOOKUP_TEAM = {
@@ -220,7 +221,7 @@ build_masonry(
         'description': 'Beat matched programable lighting system. Used for live music performances. Uses ArtNet3 UDP.',
         'image': 'projects/dmx_light.jpg',
         'category': 'code',
-        'year': '2015',
+        'year': '2015-now',
         'icons': ['python', 'github_superlimitbreak'],
         'team': ['joe'],
         'width': 1,
@@ -253,7 +254,7 @@ build_masonry(
         'link': 'https://github.com/SuperLimitBreak/displayTrigger',
         'description': 'Used to link a live Cuebase music environment to trigger videos/images/functions for a realtime live music display. Used as the cornerstone of PentatonicHero and LightingAutomation.',
         'category': 'code',
-        'year': '2015',
+        'year': '2015-now',
         'icons': ['html5', 'github_superlimitbreak'],
         'width': 2,
         'height': 1,
@@ -762,7 +763,7 @@ build_masonry(
         'image': 'projects/tentacle_aya05.jpg',
         'description': 'Constructed a scale costume of a classic Lucusarts comedy game character.',
         'description_extended': 'Debut Ayacon 2005. Won the 2007 Videogames Live costume competion at the Royal Festival Hall in London.',
-        'link': ['http://www.cosplayisland.co.uk/costume/view/551', 'http://www.youtube.com/watch?v=dwW0uLgABKE'],
+        'link': ['http://www.cosplayisland.co.uk/costume/view/551', 'http://www.youtube.com/watch?v=dwW0uLgABKE', 'http://www.youtube.com/watch?v=azVtR7Z9clk'],
         'team': ['jon'],
         'year': 2006,
         'category': 'costume',
