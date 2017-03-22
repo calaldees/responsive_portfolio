@@ -45,6 +45,11 @@ build_profile_links(
     //    name: "AirBnB",
     //    icon: "airbnb",
     //},
+    //{
+    //    link: "https://www.paypal.me/AllanCallaghan",
+    //    name: "PayPal.me",
+    //    icon: "paypal",
+    //},
 ]
 );
 
