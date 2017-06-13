@@ -21,11 +21,6 @@ build_profile_links(
         icon: 'googleplus',
     },
     {
-        link: "http://www.facebook.com/allan.callaghan",
-        name: "Facebook",
-        icon: 'facebook',
-    },
-    {
         link: "http://www.amazon.co.uk/registry/wishlist/ABBNE2EXWI8",
         name: "Amazon wishlist",
         icon: 'amazon',
@@ -45,11 +40,11 @@ build_profile_links(
     //    name: "AirBnB",
     //    icon: "airbnb",
     //},
-    //{
-    //    link: "https://www.paypal.me/AllanCallaghan",
-    //    name: "PayPal.me",
-    //    icon: "paypal",
-    //},
+    {
+        link: "https://www.paypal.me/AllanCallaghan",
+        name: "PayPal.me",
+        icon: "paypal",
+    },
 ]
 );
 
@@ -91,14 +86,6 @@ LOOKUP_TEAM = {
     'carl': {
         'name': 'Carl Ritson',
         'website': 'https://www.linkedin.com/pub/carl-ritson/23/989/605',
-    },
-    'choco': {
-        'name': 'Choco',
-        'website': 'https://twitter.com/chocokittycat',
-    },
-    'lyle': {
-        'name': 'Lyle Young',
-        'website': 'https://www.youtube.com/channel/UCX6OVgoJeuw6626dwGYxteg',
     },
     'matt': {
         'name': 'Matt Jones',
@@ -182,7 +169,7 @@ build_masonry(
         'year': '2015-now',
         'width': 2,
         'height': 3,
-        'team': ['lyle','matt','joe','choco'],
+        'team': ['matt','joe'],
         'icons': ['piano', 'bass', 'build', 'github_superlimitbreak'],
     },
 
@@ -347,7 +334,7 @@ build_masonry(
         'link': ['http://calaldees.dreamhosters.com/music/miku_low.mp4'],
         'category': 'music',
         'year': 2013,
-        'team': ['lyle','matt','joe'],
+        'team': ['matt','joe'],
         'icons': ['piano', 'bass', 'drums'],
         'width': 2,
         'height': 3
