@@ -147,6 +147,9 @@ build_masonry(
         'width': 2,
         'height': 2,
         'extra_class': 'float',
+        // 2016-06-02 Android End
+        // (2015-06-02 Fabio Joins Android)
+        // 2014-12-04 Android Start
     },
     /*
     {
