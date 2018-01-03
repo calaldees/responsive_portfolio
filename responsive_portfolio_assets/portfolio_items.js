@@ -45,6 +45,11 @@ build_profile_links(
         name: "PayPal.me",
         icon: "paypal",
     },
+    {
+        link: "https://remote.com/allancallaghan",
+        name: "Remote",
+        icon: "remote",
+    }
 ]
 );
 
