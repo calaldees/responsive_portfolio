@@ -78,7 +78,7 @@ LOOKUP_ICON_LINKS = {
     'pygame': 'http://www.pygame.org',
     'buildbot': 'http://buildbot.net/',
     'github': 'https://github.com/calaldees',
-    'github_superlimitbreak': 'https://github.com/SuperLimitBreak',
+    'github_superlimitbreak': 'https://github.com/superLimitBreak',
     'appium': 'http://appium.io/',
     'docker': 'https://www.docker.com/',
 };
@@ -183,7 +183,7 @@ build_masonry(
 
     {
         'title':'KaraKara',
-        'link': 'https://github.com/calaldees/KaraKara',
+        'link': 'https://karakara.org.uk',
         'image': 'projects/karakara.png',
         'description': "Karaoke event system. Users can search/preview/queue tracks from their mobile phones.",
         'description_extended': "HTML5 websocket full screen projector displays the main view to the audience. Mobile/Tablets can connect to a local 'karaoke' wifi. Used at Minamicon 2014",
@@ -197,7 +197,7 @@ build_masonry(
 
     {
         'title': '3D Realtime Stage Visualization',
-        'link': 'https://github.com/SuperLimitBreak/stageViewer',
+        'link': 'https://github.com/superLimitBreak/stageViewer',
         'description': 'To facilitate curating complex stage multi-screen projections and lighting choreography; I developed a html5/CSS3D stage visualization tool. It reacts to live updates and has a unique timeline visualization/seeking system. Uses lightingAutomation and displayTrigger projects',
         'category': 'code',
         'year': '2016',
@@ -208,7 +208,7 @@ build_masonry(
 
     {
         'title': 'webMidiTools',
-        'link': 'https://github.com/SuperLimitBreak/webMidiTools',
+        'link': 'https://github.com/superLimitBreak/webMidiTools',
         'description': 'Simple MIDI routing tool deployable entirely with Chrome/HTML5/js',
         'category': 'code',
         'year': '2016',
@@ -228,7 +228,7 @@ build_masonry(
 
     {
         'title': 'DMX lightingAutomation',
-        'link': 'https://github.com/SuperLimitBreak/lightingAutomation',
+        'link': 'https://github.com/superLimitBreak/lightingAutomation',
         'description': 'Beat matched programable lighting system. Used for live music performances. Uses ArtNet3 UDP.',
         'image': 'projects/dmx_light.jpg',
         'category': 'code',
@@ -261,7 +261,7 @@ build_masonry(
 
     {
         'title': 'displayTrigger',
-        'link': 'https://github.com/SuperLimitBreak/displayTrigger',
+        'link': 'https://github.com/superLimitBreak/displayTrigger',
         'description': 'Used to link a live Cuebase music environment to trigger videos/images/functions for a realtime live music display. Used as the cornerstone of PentatonicHero and LightingAutomation.',
         'category': 'code',
         'year': '2015-now',
@@ -272,7 +272,7 @@ build_masonry(
 
     {
         'title': 'Pentatonic Hero',
-        'link': 'https://github.com/SuperLimitBreak/pentatonicHero',
+        'link': 'https://github.com/superLimitBreak/pentatonicHero',
         'image': 'projects/guitar-hero-controller.jpg',
         'description': 'Mapped GuitarHero controls to MIDI syths to facilitate armatures playing with a live band.',
         'description_extended': "A pentatonic scale has 5 notes. A Guitar Hero controller has 5 buttons. Making the controls to a MIDI guitar synth, an armature can join a live band, bash any key in any order and it sounds good. They user cant go wrong. Used in live music performances to call audience member up to play with a band live. Demoed at Canterbury Barcamp 2014",
@@ -299,7 +299,7 @@ build_masonry(
 
     {
         'title': 'VoteBattle',
-        'link': 'https://github.com/SuperLimitBreak/voteBattle',
+        'link': 'https://github.com/superLimitBreak/voteBattle',
         'image': 'projects/VoteBattle_screenshot2.png',
         'description': "Used as the focus for a live music performance. A mock Final Fantasy style 3D battle system designed for crowd participation from mobile phones.",
         'year': 2014,
@@ -456,7 +456,7 @@ build_masonry(
     },
     {
         'title':'CarMuse',
-        'link': ['http://hacks.rewiredstate.org/events/power-of-minds/car-muse', 'http://youtu.be/yRfgwcmjv1s?t=3m20s'],
+        'link': ['http://youtu.be/yRfgwcmjv1s?t=3m20s', 'http://hacks.rewiredstate.org/events/power-of-minds/car-muse'],
         'image': 'projects/carmuse.jpg',
         'description': "Creates pseudo random music based on the output of the engine management system of a car. Car simulated in 3D.",
         'description_extended': "I wrote the music generator based on speed, gear, indicators, breaks, etc.",
