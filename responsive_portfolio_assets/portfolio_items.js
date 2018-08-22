@@ -146,7 +146,7 @@ build_masonry(
         'link': 'http://www.global.com/',
         'image': 'employers/global-logo.png',
         'description': "<p>Lead Test and Tooling Engineer: Hired as a server side Python specialist building and maintaining global.com 's digital presence for web and native mobile.</p><p>Working with a crack shot team we support CapitalFM, Capital Xtra, HeartFM, ClassicFM, RadioX, CapitalXtra, SmoothRadio, Gold, LBC and BigTop40.</p>",
-        'year': '2012-now',
+        'year': '2012-2018',
         'icons': ['python','html5','mysql','elasticsearch','django','ubuntu','jenkins','robotframework','android','appium','docker'],
         'category': 'employer',
         'width': 2,
