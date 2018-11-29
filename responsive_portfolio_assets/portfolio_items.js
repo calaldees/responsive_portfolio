@@ -227,8 +227,8 @@ build_masonry(
     },
 
     {
-        'title': 'DMX lightingAutomation',
-        'link': 'https://github.com/superLimitBreak/lightingAutomation',
+        'title': 'DMX Lighting Automation',
+        'link': 'https://github.com/superLimitBreak/stageOrchestration',
         'description': 'Beat matched programable lighting system. Used for live music performances. Uses ArtNet3 UDP.',
         'image': 'projects/dmx_light.jpg',
         'category': 'code',
