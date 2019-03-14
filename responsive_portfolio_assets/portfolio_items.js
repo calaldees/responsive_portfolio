@@ -388,14 +388,14 @@ build_masonry(
     {
         'title': 'Ayacon: Live Music Panel',
         'image': 'projects/ayacon.jpg',
-        'description': 'Performed live music backing a virtual 3D lead singer (Hatsune Miku) with a home constructed holographic projection screen',
+        'description': 'Performed live music backing a virtual singer with a home constructed holographic projection screen',
         'link': ['http://calaldees.dreamhosters.com/music/miku_low.mp4'],
         'category': 'music',
         'year': 2013,
         'team': ['matt','joe'],
         'icons': ['piano', 'bass', 'drums'],
-        'width': 2,
-        'height': 3
+        'width': 1,
+        'height': 2,
     },
 
     {
