@@ -118,7 +118,9 @@
 <script src="responsive_portfolio_assets/portfolio_items.js"></script>
 
 <script>
-	docReady( function() {
+
+
+	document.addEventListener('DOMContentLoaded', function () {
 		var masonry_element = document.querySelector('#masonry');
 		var masonry = new Masonry( masonry_element, {
 			columnWidth: 150

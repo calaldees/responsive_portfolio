@@ -16,11 +16,6 @@ build_profile_links(
         icon: 'twitter',
     },
     {
-        link: "https://plus.google.com/+AllanCallaghan/about",
-        name: "Google+",
-        icon: 'googleplus',
-    },
-    {
         link: "http://www.amazon.co.uk/registry/wishlist/ABBNE2EXWI8",
         name: "Amazon wishlist",
         icon: 'amazon',
@@ -45,11 +40,11 @@ build_profile_links(
         name: "PayPal.me",
         icon: "paypal",
     },
-    {
-        link: "https://remote.com/allancallaghan",
-        name: "Remote",
-        icon: "remote",
-    }
+    //{
+    //    link: "https://remote.com/allancallaghan",
+    //    name: "Remote",
+    //    icon: "remote",
+    //}
 ]
 );
 
@@ -70,8 +65,6 @@ LOOKUP_ICON_LINKS = {
     'elasticsearch': 'http://www.elasticsearch.org/',
     'php': 'http://www.php.net/',
     'bootstrap': 'http://getbootstrap.com/',
-    'robotframework': 'http://robotframework.org/',
-    'vagrant': 'http://vagrantup.com/',
     'django': 'https://www.djangoproject.com/',
     'jenkins': 'http://jenkins-ci.org/',
     'redmine': 'http://www.redmine.org/',
@@ -142,12 +135,47 @@ LOOKUP_TEAM = {
 build_masonry(
 [
     {
+        'title':'Canterbury Christ Church University',
+        'link': 'https://www.coinvestortechnologies.co.uk/',
+        'image': 'employers/cccu-logo.png',
+        'description': "<p>Teacher Trainer for Secondary Computing. PGCE/SchoolDirect 2018/2019 cohort of Kent Computing teachers.</p>",
+        'year': '2018-2019',
+        'icons': [],
+        'category': 'employer',
+        'width': 2,
+        'height': 1,
+        'extra_class': 'horizontal',
+    },
+    {
+        'title':'CoInvestor',
+        'link': 'https://www.coinvestortechnologies.co.uk/',
+        'image': 'employers/coinvestor-logo.svg',
+        'description': "<p>Created test and build infrastructure for the CoInvestor Alternate Investment Platform. Containerised all existing services for local development and cloud testing pipelines.</p>",
+        'year': '2018',
+        'icons': ['python','jenkins','docker', 'cypress'],
+        'category': 'employer',
+        'width': 1,
+        'height': 2,
+    },
+
+    {
+        'title': 'Automated Testing Demos',
+        'link': 'https://github.com/calaldees/automatedTestingDemos',
+        'description': 'Learning Examples for Selenium, Appium and Cypress',
+        'category': 'code',
+        'year': '2018',
+        'icons': ['docker', 'github'],
+        'width': 1,
+        'height': 1,
+    },
+
+    {
         'title':'Global (Media Group)',
         'link': 'http://www.global.com/',
         'image': 'employers/global-logo.png',
-        'description': "<p>Lead Test and Tooling Engineer: Hired as a server side Python specialist building and maintaining global.com 's digital presence for web and native mobile.</p><p>Working with a crack shot team we support CapitalFM, Capital Xtra, HeartFM, ClassicFM, RadioX, CapitalXtra, SmoothRadio, Gold, LBC and BigTop40.</p>",
+        'description': "<p>Lead Test and Tooling Engineer: Hired as a server side Python specialist building and maintaining global.com 's digital presence for web and native mobile (Android).</p><p>Working with an agile team we supported CapitalFM, Capital Xtra, HeartFM, ClassicFM, RadioX, CapitalXtra, SmoothRadio, Gold, LBC and BigTop40.</p>",
         'year': '2012-2018',
-        'icons': ['python','html5','mysql','elasticsearch','django','ubuntu','jenkins','robotframework','android','appium','docker'],
+        'icons': ['python','html5','mysql','elasticsearch','django','ubuntu','jenkins','android','appium','docker'],
         'category': 'employer',
         'width': 2,
         'height': 2,
@@ -156,10 +184,10 @@ build_masonry(
         // (2015-06-02 Fabio Joins Android)
         // 2014-12-04 Android Start
     },
-    /*
+
     {
         'title': 'pytest-appium',
-        'link': '',
+        'link': 'https://github.com/calaldees/pytest-appium',
         'description': 'Created open source library for testing iOS and Andorid apps (Appium) in the pytest framework',
         'category': 'code',
         'year': '2017',
@@ -167,18 +195,18 @@ build_masonry(
         'height': 1,
         'icons': ['global', 'appium', 'android'],
     },
-    */
+
     {
         'title': 'superLimitBreak',
         'link': ['http://www.superlimitbreak.uk', 'https://www.facebook.com/media/set/?set=a.971260369631838.1073741832.285641901527025&type=3'],
-        'image': 'projects/superlimitbreak_minami22.jpg',
-        'description': '<p>superLimitBreak: A band that covers Anime and Game music with interesting tech and audience participation. Holographic projection, dmx beat-matched lights, hand-built PA system and audience participation with mobile phones. A culmination of years of practice and construction. Many of the other software projects listed here are components of this project.</p><p>Performed at Minamicon22 and Ayacon2016</p>',
+        'image': 'projects/superlimitbreak_hibana2018.jpg',
+        'description': '<p>superLimitBreak: A band that covers Anime and Game music with interesting tech and audience participation. Holographic projection, dmx beat-matched lights, hand-built PA system and audience participation with mobile phones. A culmination of years of practice and construction. Many of the other software projects listed here are components of this project.</p><p>Performed at Minamicon2016, Ayacon2016 and Hibanacon 2018</p>',
         'category': 'music',
         'year': '2015-now',
         'width': 2,
         'height': 3,
         'team': ['matt','joe'],
-        'icons': ['piano', 'bass', 'build', 'github_superlimitbreak'],
+        'icons': ['python', 'html5', 'piano', 'bass', 'build', 'github_superlimitbreak'],
     },
 
     {
@@ -189,7 +217,7 @@ build_masonry(
         'description_extended': "HTML5 websocket full screen projector displays the main view to the audience. Mobile/Tablets can connect to a local 'karaoke' wifi. Used at Minamicon 2014",
         'year': '2012-now',
         'team': ['carl','shish','joe','richard'],
-        'icons': ['python','html5','postgresql','jquerymobile','pyramid','vagrant','bootstrap','github','docker'],
+        'icons': ['python','html5','postgresql','jquerymobile','pyramid','bootstrap','github','docker'],
         'category': 'code',
         'width': 2,
         'height': 3
@@ -320,6 +348,28 @@ build_masonry(
         'icons': ['python','html5','postgresql','pyramid'],
         'width': 1,
         'height': 1
+    },
+
+    {
+        'title': 'Honey Badger Talk',
+        'year': '2014',
+        'description': 'Comical rant about honey badgers.',
+        'link': 'https://www.youtube.com/watch?v=t0HKmCa2CIA',
+        'category': 'music',
+        'icons': [],
+        'width': 1,
+        'height': 1,
+    },
+
+    {
+        'title': 'TeachProgramming Talk',
+        'year': '2014',
+        'description': 'Public talk at Digibury about teaching young people to code',
+        'link': 'https://www.youtube.com/watch?v=9cSWRU3WQXA',
+        'category': 'music',
+        'icons': [],
+        'width': 1,
+        'height': 1,
     },
 
     {
