@@ -161,7 +161,7 @@ build_masonry(
     {
         'title': 'Automated Testing Demos',
         'link': 'https://github.com/calaldees/automatedTestingDemos',
-        'description': 'Learning Examples for Selenium, Appium and Cypress',
+        'description': 'Created Learning examples/resources introducing the discipline of Automated Testing with Selenium, Appium and Cypress',
         'category': 'code',
         'year': '2018',
         'icons': ['docker', 'github'],
