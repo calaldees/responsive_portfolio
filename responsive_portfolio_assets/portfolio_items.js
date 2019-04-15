@@ -128,12 +128,27 @@ LOOKUP_TEAM = {
     'lizzie': {
         'name': 'Lizzie Hodgson',
         'website': 'https://twitter.com/lizziehodgson01',
+    },
+    'delphine': {
+        'name': 'Delphine Martin',
+        'website': '',
     }
 }
 
 
 build_masonry(
 [
+    {
+        'title':'BarCamp Canterbury',
+        'link': 'https://barcampcanterbury.com/',
+        'image': 'projects/barcampcanterbury_logo.svg',
+        'description': "<p>Organiser for 2019 BarCamp Canterbury. Organised sponsors, social media, tickets, refreshments, code-of-conduct, risk assessment.</p>",
+        'year': '2019',
+        'icons': [],
+        'category': 'employer',
+        'width': 1,
+        'height': 2,
+    },
     {
         'title':'Canterbury Christ Church University',
         'link': 'https://www.coinvestortechnologies.co.uk/',
@@ -205,7 +220,7 @@ build_masonry(
         'year': '2015-now',
         'width': 2,
         'height': 3,
-        'team': ['matt','joe'],
+        'team': ['matt','joe', 'delphine'],
         'icons': ['python', 'html5', 'piano', 'bass', 'build', 'github_superlimitbreak'],
     },
 
