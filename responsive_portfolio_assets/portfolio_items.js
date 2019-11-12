@@ -5,6 +5,11 @@ build_profile_links(
         name: "Github",
         icon: 'github',
     },
+    // {
+    //     link: "https://gitlab.com/calaldees",
+    //     name: "GitLab",
+    //     icon: "gitlab",
+    // },
     {
         link: "http://www.linkedin.com/in/allancallaghan",
         name: "LinkedIn",
@@ -139,6 +144,18 @@ LOOKUP_TEAM = {
 build_masonry(
 [
     {
+        'title':'Genomics England',
+        'link': 'https://www.genomicsengland.co.uk/',
+        'image': 'employers/genomics.png',
+        'description': "<p>Working with the Bioinfomatics team. Migrating Genomics England's infrastructure to AWS.</p>",
+        'year': '2019-now',
+        'icons': [],
+        'category': 'employer',
+        'width': 2,
+        'height': 2,
+        //'extra_class': 'float',
+    },
+    {
         'title':'BarCamp Canterbury',
         'link': 'https://barcampcanterbury.com/',
         'image': 'projects/barcampcanterbury_logo.svg',
@@ -188,7 +205,7 @@ build_masonry(
         'title':'Global (Media Group)',
         'link': 'http://www.global.com/',
         'image': 'employers/global-logo.png',
-        'description': "<p>Lead Test and Tooling Engineer: Hired as a server side Python specialist building and maintaining global.com 's digital presence for web and native mobile (Android).</p><p>Working with an agile team we supported CapitalFM, Capital Xtra, HeartFM, ClassicFM, RadioX, CapitalXtra, SmoothRadio, Gold, LBC and BigTop40.</p>",
+        'description': "<p>Worked with an agile team we supported CapitalFM, Capital Xtra, HeartFM, ClassicFM, RadioX, CapitalXtra, SmoothRadio, Gold, LBC and BigTop40.</p><p>I helped build and maintain global.com 's digital presence (web, mobile and test infrastructure)</p><p>I was 'Lead Test and Tooling Engineer'. I started at global as a Python server side specialist. Moved to support native mobile (Android) player. Moved to lead of internal tooling and testing.</p>",
         'year': '2012-2018',
         'icons': ['python','html5','mysql','elasticsearch','django','ubuntu','jenkins','android','appium','docker'],
         'category': 'employer',
@@ -243,7 +260,7 @@ build_masonry(
         'link': 'https://github.com/superLimitBreak/stageViewer',
         'description': 'To facilitate curating complex stage multi-screen projections and lighting choreography; I developed a html5/CSS3D stage visualization tool. It reacts to live updates and has a unique timeline visualization/seeking system. Uses lightingAutomation and displayTrigger projects',
         'category': 'code',
-        'year': '2016',
+        'year': '2016-now',
         'icons': ['html5', 'threejs', 'github_superlimitbreak'],
         'width': 1,
         'height': 2,
