@@ -194,7 +194,7 @@ build_masonry(
         'link': 'https://www.canterbury.ac.uk/study-here/courses/postgraduate/pgce-secondary-20-21.aspx',
         'image': 'employers/cccu-logo.png',
         'description': "<p>Teacher Trainer for Secondary Computing. PGCE/SchoolDirect 2018/2019 cohort of Kent Computing teachers.</p>",
-        'year': '2018-2019',
+        'year': '2018-now',
         'icons': [],
         'category': 'employer',
         'width': 2,
