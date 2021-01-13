@@ -144,11 +144,62 @@ LOOKUP_TEAM = {
 build_masonry(
 [
     {
+        'title':'Canterbury Christ Church University',
+        'link': 'https://www.canterbury.ac.uk/study-here/courses/postgraduate/pgce-secondary-20-21.aspx',
+        'image': 'employers/cccu-logo.png',
+        'description': "<p>Lecturer in Education: Secondary Computing. PGCE/SchoolDirect cohort of Kent Computing teachers.</p>",
+        'year': '2018-now',
+        'icons': [],
+        'category': 'employer',
+        'width': 2,
+        'height': 1,
+        'extra_class': 'horizontal',
+    },
+
+    {
+        'title':'Teach Programming',
+        'link': 'http://calaldees.tnkd.net/project/game/copter.html',
+        'image': 'projects/teach_programming.png',
+        'description': "Learn to program games in HTML5/Javascript, Python, Java, VB.NET and PHP. Teaching resources and activities. Cross platform multiplayer.",
+        'description_extended': "",
+        'year':'2012-present',
+        'icons': ['python','java','vb','php','html5','c#','github'],
+        'category': 'code',
+        'width': 3,
+        'height': 1,
+        'extra_class': 'horizontal',
+    },
+
+    {
+        'title':'Map of Computing',
+        'link': 'https://github.com/calaldees/teachingWorkshops/tree/master/computing',
+        'image': '',
+        'description': "Ongoing notes covering the discipline of Computing",
+        'year': '2020-now',
+        'icons': [],
+        'category': 'code',
+        'width': 1,
+        'height': 1,
+    },
+
+    {
+        'title':'teacherTools',
+        'link': 'https://github.com/calaldees/teacherTools',
+        'image': '',
+        'description': "Prototype experiments for formative assessment tooling with mobile phones",
+        'year': '2021',
+        'icons': [],
+        'category': 'code',
+        'width': 1,
+        'height': 1,
+    },
+
+    {
         'title':'Genomics England',
         'link': 'https://www.genomicsengland.co.uk/',
         'image': 'employers/genomics.png',
         'description': "<p>CI/CD specialist working in the bioinformatics pipeline team processing human genomes for the NHS's upcoming Genomic Medicine Service.</p><p>Splitting apart a monolith into micro-services. Migrated some services to AWS.</p>",
-        'year': '2019-now',
+        'year': '2019-2020',
         'icons': ['python', 'docker', 'jenkins', 'aws', 'gitlab'],
         'category': 'employer',
         'width': 2,
@@ -189,19 +240,6 @@ build_masonry(
         'height': 2,
     },
     {
-        // Lecturer in Education: Computer Science
-        'title':'Canterbury Christ Church University',
-        'link': 'https://www.canterbury.ac.uk/study-here/courses/postgraduate/pgce-secondary-20-21.aspx',
-        'image': 'employers/cccu-logo.png',
-        'description': "<p>Teacher Trainer for Secondary Computing. PGCE/SchoolDirect 2018/2019 cohort of Kent Computing teachers.</p>",
-        'year': '2018-now',
-        'icons': [],
-        'category': 'employer',
-        'width': 2,
-        'height': 1,
-        'extra_class': 'horizontal',
-    },
-    {
         'title':'CoInvestor',
         'link': 'https://www.coinvestortechnologies.co.uk/',
         'image': 'employers/coinvestor-logo.svg',
@@ -212,7 +250,6 @@ build_masonry(
         'width': 1,
         'height': 2,
     },
-
     {
         'title': 'Automated Testing Demos',
         'link': 'https://github.com/calaldees/automatedTestingDemos',
@@ -490,19 +527,6 @@ build_masonry(
         'category': 'code',
     },
 
-    {
-        'title':'Teach Programming',
-        'link': 'http://calaldees.tnkd.net/project/game/copter.html',
-        'image': 'projects/teach_programming.png',
-        'description': "Learn to program games in HTML5/Javascript, Python, Java, VB.NET and PHP. Teaching resources and activities. Cross platform multiplayer.",
-        'description_extended': "",
-        'year':'2012-2014',
-        'icons': ['python','java','vb','php','html5','pyramid','bootstrap', 'github'],
-        'category': 'code',
-        'width': 3,
-        'height': 1,
-        'extra_class': 'horizontal',
-    },
     {
         'title': 'Open mic performances',
         'image': 'projects/openmic.jpg',
