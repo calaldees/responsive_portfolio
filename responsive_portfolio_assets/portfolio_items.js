@@ -144,16 +144,38 @@ LOOKUP_TEAM = {
 build_masonry(
 [
     {
+        'title':'Practical Progaramming',
+        'link': 'https://github.com/calaldees/teachingWorkshops/blob/master/practicalProgramming/README.md',
+        'image': '',
+        'description': "Ran an informal experimental practical programming course for 52 weeks with adult learners. Videoed the process.",
+        'year': '2020-2021',
+        'icons': [],
+        'category': 'other',
+        'width': 1,
+        'height': 1,
+    },
+    {
+        'title':'Partrooper 1982 Remake',
+        'link': 'https://github.com/calaldees/paratrooper',
+        'image': 'projects/paratrooper.png',
+        'description': "Mini javascript remake of 1982 PC DOS Paratrooper. 18 hours. Videoed my process.",
+        'year': '2021',
+        'icons': ['html',],
+        'category': 'code',
+        'width': 1,
+        'height': 2,
+    },
+    {
         'title':'Canterbury Christ Church University',
         'link': 'https://www.canterbury.ac.uk/study-here/courses/postgraduate/pgce-secondary-20-21.aspx',
         'image': 'employers/cccu-logo.png',
-        'description': "<p>Lecturer in Education: Secondary Computing. PGCE/SchoolDirect cohort of Kent Computing teachers.</p>",
+        'description': "<p>Lecturer in Education: Secondary Computing. PGCE/SchoolDirect cohort of Kent Computing teachers.</p><p>Assisted with the delivery of undergraduate modules for the School of Computing including App Development in C#</p>",
         'year': '2018-now',
         'icons': [],
         'category': 'employer',
         'width': 2,
-        'height': 1,
-        'extra_class': 'horizontal',
+        'height': 2,
+        
     },
 
     {
