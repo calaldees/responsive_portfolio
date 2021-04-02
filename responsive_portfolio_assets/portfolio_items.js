@@ -759,7 +759,7 @@ build_masonry(
         'image': 'employers/sts_logo.jpg',
         'description': "Secondary School teaching 11 to 18 year olds. AQA A-Level Computing. Ran after school workshops building linux machines and programing simple games. Lego robotics.",
         'year': '2007-2009',
-        'width': 1,
+        'width': 2,
         'height': 2,
         'category': 'employer',
         //'extra_class': 'horizontal',
