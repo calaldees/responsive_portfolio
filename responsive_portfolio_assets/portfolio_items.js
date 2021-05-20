@@ -144,6 +144,18 @@ LOOKUP_TEAM = {
 build_masonry(
 [
     {
+        'title':'computingteachers.uk',
+        'link': 'https://computingteachers.uk/',
+        'image': '',
+        'description': "Considering the concept of a community of Computing teachers that collaborate on resources using Git.",
+        'year': '2021',
+        'icons': [],
+        'category': 'other',
+        'width': 1,
+        'height': 1,
+    },
+
+    {
         'title':'Practical Progaramming',
         'link': 'https://github.com/calaldees/teachingWorkshops/blob/master/practicalProgramming/README.md',
         'image': '',
