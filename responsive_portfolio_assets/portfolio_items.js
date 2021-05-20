@@ -194,9 +194,9 @@ build_masonry(
 
     {
         'title':'Map of Computing',
-        'link': 'https://github.com/calaldees/teachingWorkshops/tree/master/computing',
+        'link': 'https://github.com/ComputingTeachers/mapOfComputing',
         'image': '',
-        'description': "Ongoing notes covering the discipline of Computing.",
+        'description': "Ongoing knowledge base notes covering the discipline of Computing.",
         'year': '2020-now',
         'icons': [],
         'category': 'code',
@@ -325,12 +325,12 @@ build_masonry(
 
     {
         'title':'KaraKara',
-        'link': 'https://karakara.org.uk',
+        'link': 'https://karakara.uk',
         'image': 'projects/karakara.png',
         'description': "Karaoke event system. Users can search/preview/queue tracks from their mobile phones.",
-        'description_extended': "HTML5 websocket full screen projector displays the main view to the audience. Mobile/Tablets can connect to a local 'karaoke' wifi. Used at Minamicon 2014",
+        'description_extended': "HTML5 websocket full screen projector displays the main view to the audience. Mobile/Tablets connect over the internet. Used at Minamicon and Hibanacon in the UK",
         'year': '2012-now',
-        'team': ['carl','shish','joe','richard'],
+        'team': ['shish','carl','joe'],
         'icons': ['python','html5','postgresql','jquerymobile','pyramid','bootstrap','github','docker'],
         'category': 'code',
         'width': 2,
@@ -340,11 +340,12 @@ build_masonry(
     {
         'title': '3D Realtime Stage Visualization',
         'link': 'https://github.com/superLimitBreak/stageViewer',
+        'image': 'projects/stagevis.jpg',
         'description': 'To facilitate curating complex stage multi-screen projections and lighting choreography; I developed a html5/CSS3D stage visualization tool. It reacts to live updates and has a unique timeline visualization/seeking system. Uses lightingAutomation and displayTrigger projects',
         'category': 'code',
         'year': '2016-now',
         'icons': ['html5', 'threejs', 'github_superlimitbreak'],
-        'width': 1,
+        'width': 2,
         'height': 2,
     },
 
@@ -698,6 +699,7 @@ build_masonry(
 
     {
         'title': 'Piano/Bass Transcriptions',
+        'link': 'https://github.com/calaldees/blog/tree/master/transcriptions',
         'description': 'Various transcriptions over the years.',
         'year': '2009-now',
         'icons': ['piano'],
