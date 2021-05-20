@@ -229,7 +229,7 @@ build_masonry(
     },
     {
         'title':'Arcade Cabinet Mrk2',
-        'link': 'https://github.com/calaldees/blog/tree/master/arcadeCabinet#arcade-cabinet',
+        'link': 'https://github.com/calaldees/blog/tree/master/arcadeCabinet#the-mark2',
         'image': 'projects/arcade-mrk2.jpg',
         'description': "Created a modular CRT JAMMA arcade cabinet with custom modular 4 player control deck.",
         'year': '2020',
@@ -351,9 +351,9 @@ build_masonry(
     {
         'title': 'webMidiTools',
         'link': 'https://github.com/superLimitBreak/webMidiTools',
-        'description': 'Simple MIDI routing tool deployable entirely with Chrome/HTML5/js',
+        'description': 'Simple MIDI routing tool and MTC generator deployable entirely with Chrome/HTML5/js',
         'category': 'code',
-        'year': '2016',
+        'year': '2016, 2021',
         'icons': ['html5', 'github_superlimitbreak'],
         'width': 1,
         'height': 1,
@@ -874,9 +874,21 @@ build_masonry(
     },
 
     {
-        'title': 'Retro Console Shelfs',
+        'title': 'Modular Shelf Storage',
+        'link': 'https://github.com/calaldees/blog/blob/master/consoleShelfs/plywoodShevles.md',
         'image': 'projects/retro_shelfs.jpg',
-        'description': "Retro consoles wired into custom removable shelfs with standard power and scart connectors. (image is of shelfs to house games and not the console shelfs)",
+        'description': "Modular shelving dimensions for a standard size sheet of plywood.",
+        'category': 'build',
+        'icons': ['build'],
+        'width': 1,
+        'height': 2,
+    },
+
+    {
+        'title': 'Retro Console Shelfs',
+        'link': 'https://github.com/calaldees/blog/tree/master/consoleShelfs',
+        'image': 'projects/console_shelves.jpg',
+        'description': "Retro consoles wired into custom removable shelfs with standard power and scart connectors.",
         'description_extended': 'Presevation project to make old comuters useable. After picking a game for any system, you could be playing it in 60 seconds.',
         'category': 'build',
         'icons': ['build'],
@@ -908,6 +920,7 @@ build_masonry(
 
     {
         'title': 'Arcade Cabinet',
+        'link': 'https://github.com/calaldees/blog/tree/master/arcadeCabinet#the-mark1-history',
         'image': 'projects/arcade_cab.jpg',
         'description': "Built an arcade cabinet, with touch screen.",
         'description_extended': " It's been used in schools and inherited by many people. After 10 years of solid use and abuse it's still standing and used regularty",
