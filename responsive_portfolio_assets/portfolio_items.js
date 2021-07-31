@@ -26,9 +26,9 @@ build_profile_links(
         icon: 'amazon',
     },
     {
-        link: "http://www.retrocollect.com/search/collectionstats-2317.html",
-        name: "Retrocollect",
-        icon: 'rc',
+        link: "https://www.pricecharting.com/offers?seller=fypzs5fg6jfzax5fvlo6bhguxa&status=collection",
+        name: "PriceCharting Retrogame Collection",
+        icon: 'pricecharting',
     },
     {
         link: "https://www.kickstarter.com/profile/423960807",
