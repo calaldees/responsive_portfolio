@@ -144,7 +144,7 @@ LOOKUP_TEAM = {
 build_masonry(
 [
     {
-        'title':'computingteachers.uk',
+        'title':'ComputingTeachers.uk',
         'link': 'https://computingteachers.uk/',
         'image': '',
         'description': "Considering the concept of a community of Computing teachers that collaborate on resources using Git.",
@@ -156,7 +156,7 @@ build_masonry(
     },
 
     {
-        'title':'Practical Progaramming',
+        'title':'Practical Programming',
         'link': 'https://github.com/calaldees/teachingWorkshops/blob/master/practicalProgramming/README.md',
         'image': '',
         'description': "Ran an informal experimental practical programming course for 52 weeks with adult learners. Videoed the process.",
@@ -181,7 +181,7 @@ build_masonry(
         'title':'Canterbury Christ Church University',
         'link': 'https://www.canterbury.ac.uk/study-here/courses/postgraduate/pgce-secondary-20-21.aspx',
         'image': 'employers/cccu-logo.png',
-        'description': "<p>Lecturer in Education: Secondary Computing. PGCE/SchoolDirect cohort of Kent Computing teachers.</p><p>Assisted with the delivery of undergraduate modules for the School of Computing including App Development in C#</p>",
+        'description': "<ul><li>Lecturer in Education: Secondary Computing. 0.5fte<ul><li>PGCE/SchoolDirect initial teacher training for Computing teachers in Kent</li></ul></li><li>Lecturer in Computing 0.5fte<ul><li>Frameworks and Languages (level 6)</li><li>Introduction to C# and App Development in C#</li></ul></li></ul>",
         'year': '2018-now',
         'icons': [],
         'category': 'employer',
@@ -241,10 +241,10 @@ build_masonry(
     },
     {
         'title':'Arcade Cabinet Mrk2',
-        'link': 'https://github.com/calaldees/blog/tree/master/arcadeCabinet#the-mark2',
+        'link': 'https://github.com/calaldees/blog/blob/master/construction/arcadeCabinet/mark2.md',
         'image': 'projects/arcade-mrk2.jpg',
-        'description': "Created a modular CRT JAMMA arcade cabinet with custom modular 4 player control deck.",
-        'year': '2020',
+        'description': "Created a modular CRT JAMMA arcade cabinet with custom modular 4 player control deck. Voice activated. Modular steering wheel, bishi bashi Controllers",
+        'year': '2020-2021',
         'icons': ['build'],
         'category': 'build',
         'width': 2,
@@ -328,7 +328,7 @@ build_masonry(
         'image': 'projects/superlimitbreak_hibana2018.jpg',
         'description': '<p>superLimitBreak: A band that covers Anime and Game music with interesting tech and audience participation. Holographic projection, dmx beat-matched lights, hand-built PA system and audience participation with mobile phones. A culmination of years of practice and construction. Many of the other software projects listed here are components of this project.</p><p>Performed at Minamicon2016, Ayacon2016 and Hibanacon 2018, Hibanacon 2019</p>',
         'category': 'music',
-        'year': '2015-now',
+        'year': '2015-2019(paused)',
         'width': 2,
         'height': 3,
         'team': ['matt','joe', 'delphine'],
@@ -355,7 +355,7 @@ build_masonry(
         'image': 'projects/stagevis.jpg',
         'description': 'To facilitate curating complex stage multi-screen projections and lighting choreography; I developed a html5/CSS3D stage visualization tool. It reacts to live updates and has a unique timeline visualization/seeking system. Uses lightingAutomation and displayTrigger projects',
         'category': 'code',
-        'year': '2016-now',
+        'year': '2016-2019(paused)',
         'icons': ['html5', 'threejs', 'github_superlimitbreak'],
         'width': 2,
         'height': 2,
@@ -387,7 +387,7 @@ build_masonry(
         'description': 'Beat matched programable lighting system. Used for live music performances. Uses ArtNet3 UDP.',
         'image': 'projects/dmx_light.jpg',
         'category': 'code',
-        'year': '2015-now',
+        'year': '2015-2019(paused)',
         'icons': ['python', 'github_superlimitbreak'],
         'width': 1,
         'height': 2,
