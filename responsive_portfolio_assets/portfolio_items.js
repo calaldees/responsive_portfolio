@@ -144,6 +144,18 @@ LOOKUP_TEAM = {
 build_masonry(
 [
     {
+        'title':'Joystick Replacement',
+        'link': 'https://github.com/calaldees/blog/tree/master/construction/joystickReplacement',
+        'image': 'projects/joystickReplacement.jpg',
+        'description': "I got fed up with poor joysticks for retro-computers and decided to try and alternate design",
+        'year': '2021',
+        'icons': ['build'],
+        'category': 'build',
+        'width': 1,
+        'height': 2,
+    },
+
+    {
         'title':'ComputingTeachers.uk',
         'link': 'https://computingteachers.uk/',
         'image': '',
