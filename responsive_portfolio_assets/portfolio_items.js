@@ -168,6 +168,33 @@ build_masonry(
     },
 
     {
+        'title':'mame-7z',
+        'link': 'https://github.com/calaldees/mame-7z',
+        'image': '',
+        'description': "A ROM manager for MAME that maintains 7z solid archives. Extracts XML rom data from mame.exe. Runs in a suite of containers with api. Unfinished.",
+        'year': '2020',
+        'icons': ['python',],
+        'category': 'code',
+        'width': 1,
+        'height': 1,
+    },
+
+
+
+    {
+        'title':'Jess',
+        'link': 'https://github.com/calaldees/jess',
+        'image': '',
+        'description': " A simple experiment to write an javascript browser based realtime multiplayer chess game. No frameworks. Custom Websocket server. Served in nginx.",
+        'year': '2020',
+        'icons': ['html',],
+        'category': 'other',
+        'width': 1,
+        'height': 1,
+    },
+
+
+    {
         'title':'Practical Programming',
         'link': 'https://github.com/calaldees/teachingWorkshops/blob/master/practicalProgramming/README.md',
         'image': '',
@@ -178,6 +205,7 @@ build_masonry(
         'width': 1,
         'height': 1,
     },
+
     {
         'title':'Partrooper 1982 Remake',
         'link': 'https://github.com/calaldees/paratrooper',
@@ -322,6 +350,19 @@ build_masonry(
         // (2015-06-02 Fabio Joins Android)
         // 2014-12-04 Android Start
     },
+
+    {
+        'title':'goodMergePy',
+        'link': 'https://github.com/calaldees/goodMergePy',
+        'image': '',
+        'description': "Unfinished. ROM Utility for optimising solid 7z archives. Cross platform Python re-implementation of a subset of GoodMerge's behavior",
+        'year': '2017',
+        'icons': ['python',],
+        'category': 'code',
+        'width': 1,
+        'height': 1,
+    },
+
 
     {
         'title': 'pytest-appium',
