@@ -144,6 +144,32 @@ LOOKUP_TEAM = {
 build_masonry(
 [
     {
+        'title':'KaraKara',
+        'link': 'https://karakara.uk',
+        'image': 'projects/karakara.png',
+        'description': "Karaoke event system. Users can search/preview/queue tracks from their mobile phones.",
+        'description_extended': "Docker. MQTT. Sanic/Async. HyperaApp/TypeScript. AV1 video encoding. Used at Minamicon and Hibanacon in the UK",
+        'year': '2012-now',
+        'team': ['shish','carl','joe'],
+        'icons': ['python','html5','github','docker'],
+        'category': 'code',
+        'width': 2,
+        'height': 3
+    },
+
+    {
+        'title':'BarCamp Canterbury',
+        'link': 'https://barcampcanterbury.com/',
+        'image': 'projects/barcampcanterbury_logo.svg',
+        'description': "<p>Organiser for 2019/2020/2022 BarCamp Canterbury. Organised sponsors, social media, tickets, refreshments, code-of-conduct, risk assessment.</p>",
+        'year': '2019-now',
+        'icons': [],
+        'category': 'employer',
+        'width': 1,
+        'height': 2,
+    },
+
+    {
         'title':'Joystick Replacement',
         'link': 'https://github.com/calaldees/blog/tree/master/construction/joystickReplacement',
         'image': 'projects/joystickReplacement.jpg',
@@ -245,8 +271,22 @@ build_masonry(
     },
 
     {
+        'title':'Language Cheat Sheet (dynamic)',
+        'link': 'https://computingteachers.uk/static/langauge_reference.html#py',
+        'image': '',
+        'description': "A learning tool. Printable dynamic reference to compared core language concepts between programming languages",
+        'description_extended': "",
+        'year':'2012-present',
+        'icons': ['python','java','vb','php','html5','c#','github'],
+        'category': 'code',
+        'width': 2,
+        'height': 1,
+    },
+
+
+    {
         'title':'Map of Computing',
-        'link': 'https://github.com/ComputingTeachers/mapOfComputing',
+        'link': 'https://github.com/calaldees/mapOfComputing',
         'image': '',
         'description': "Ongoing knowledge base notes covering the discipline of Computing.",
         'year': '2020-now',
@@ -296,23 +336,13 @@ build_masonry(
         'link': 'https://github.com/calaldees/blog/tree/master/softwareEnginering',
         'image': '',
         'description': "Notes and thoughts about software development. How to create the right business culture for high quality software.",
-        'year': '2019-now',
+        'year': '2019',
         'icons': [],
         'category': 'code',
         'width': 1,
         'height': 1,
     },
-    {
-        'title':'BarCamp Canterbury',
-        'link': 'https://barcampcanterbury.com/',
-        'image': 'projects/barcampcanterbury_logo.svg',
-        'description': "<p>Organiser for 2019/2020 BarCamp Canterbury. Organised sponsors, social media, tickets, refreshments, code-of-conduct, risk assessment.</p>",
-        'year': '2019-now',
-        'icons': [],
-        'category': 'employer',
-        'width': 1,
-        'height': 2,
-    },
+
     {
         'title':'CoInvestor',
         'link': 'https://www.coinvestortechnologies.co.uk/',
@@ -388,19 +418,6 @@ build_masonry(
         'icons': ['python', 'html5', 'piano', 'bass', 'build', 'github_superlimitbreak'],
     },
 
-    {
-        'title':'KaraKara',
-        'link': 'https://karakara.uk',
-        'image': 'projects/karakara.png',
-        'description': "Karaoke event system. Users can search/preview/queue tracks from their mobile phones.",
-        'description_extended': "HTML5 websocket full screen projector displays the main view to the audience. Mobile/Tablets connect over the internet. Used at Minamicon and Hibanacon in the UK",
-        'year': '2012-now',
-        'team': ['shish','carl','joe'],
-        'icons': ['python','html5','postgresql','jquerymobile','pyramid','bootstrap','github','docker'],
-        'category': 'code',
-        'width': 2,
-        'height': 3
-    },
 
     {
         'title': '3D Realtime Stage Visualization',
@@ -472,7 +489,7 @@ build_masonry(
         'link': 'https://github.com/superLimitBreak/displayTrigger',
         'description': 'Used to link a live Cuebase music environment to trigger videos/images/functions for a realtime live music display. Used as the cornerstone of PentatonicHero and LightingAutomation.',
         'category': 'code',
-        'year': '2015-now',
+        'year': '2015-2019 (paused)',
         'icons': ['html5', 'github_superlimitbreak'],
         'width': 2,
         'height': 1,
@@ -766,7 +783,7 @@ build_masonry(
         'title': 'Piano/Bass Transcriptions',
         'link': 'https://github.com/calaldees/blog/tree/master/transcriptions',
         'description': 'Various transcriptions over the years.',
-        'year': '2009-now',
+        'year': '2009-2012',
         'icons': ['piano'],
         'width': 1,
         'height': 1,
