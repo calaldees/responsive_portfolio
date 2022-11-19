@@ -245,7 +245,7 @@ build_masonry(
     },
     {
         'title':'Canterbury Christ Church University',
-        'link': 'https://www.canterbury.ac.uk/study-here/courses/postgraduate/pgce-secondary-20-21.aspx',
+        'link': 'https://www.canterbury.ac.uk/arts-humanities-and-education/our-work/epistemic-insight/guided-research/tutor-profile.aspx?id=4d006dd7-135f-4ee1-88e3-3b146bc319f0',
         'image': 'employers/cccu-logo.png',
         'description': "<ul><li>Lecturer in Education: Secondary Computing. 0.5fte<ul><li>PGCE/SchoolDirect initial teacher training for Computing teachers in Kent</li></ul></li><li>Lecturer in Computing 0.5fte<ul><li>Frameworks and Languages (level 6)</li><li>Introduction to C# and App Development in C#</li></ul></li></ul>",
         'year': '2018-now',
