@@ -143,6 +143,56 @@ LOOKUP_TEAM = {
 
 build_masonry(
 [
+
+    {
+        'title':'Chaos (Remake)',
+        'link': 'https://calaldees.github.io/chaos/',
+        'image': '',
+        'description': "A faithful remake of Julian Golops Chaos: Battle of the Wizards in HTML/JS for shared mobile interface",
+        'description_extended': "The original game was an 8 player hotseat on the ZX spectrum. Remaking it to have a central projector for a room to see and each of the 8 wizards has a mobile phone interface",
+        'year': '2023',
+        'team': [],
+        'icons': ['html5','github'],
+        'category': 'code',
+        'width': 1,
+        'height': 1
+    },
+
+
+    {
+        'title':'Triumph Herald Restoration',
+        'link': '',
+        'image': '',
+        'description': "Restoring an old Triumph Herald 13/60 convertible",
+        'description_extended': "",
+        'year': '2022-present',
+        'team': [],
+        'icons': ['build'],
+        'category': 'build',
+        'width': 1,
+        'height': 1
+    },
+
+    {
+        'title': 'FHEA Fellowship',
+        'link': 'https://www.advance-he.ac.uk/fellowship/fellowship',
+        'description': 'Advance-HE',
+        'year': 2022,
+        'width': 1,
+        'height': 1
+    },
+
+    {
+        'title': 'PGCAP',
+        'link': 'https://en.wikipedia.org/wiki/Postgraduate_Certificate_in_Higher_Education',
+        'description': 'Postgraduate Certificate in Academic Practice from Canterbury Christ Church University',
+        'year': 2022,
+        'width': 1,
+        'height': 1
+    },
+
+
+
     {
         'title':'KaraKara',
         'link': 'https://karakara.uk',
@@ -1045,7 +1095,7 @@ build_masonry(
 
     {
         'title': 'PGCE Secondary Education',
-        'description': 'Canterbury Christ Church',
+        'description': 'Canterbury Christ Church University',
         'year': 2004,
         'width': 1,
         'height': 1
