@@ -143,11 +143,47 @@ LOOKUP_TEAM = {
 
 build_masonry(
 [
+    {
+        'title':'Canterbury Christ Church University',
+        'link': 'https://www.canterbury.ac.uk/arts-humanities-and-education/our-work/epistemic-insight/guided-research/tutor-profile.aspx?id=4d006dd7-135f-4ee1-88e3-3b146bc319f0',
+        'image': 'employers/cccu-logo.png',
+        'description': "<ul><li>Senior Lecturer in Education: Secondary Computing.<li>PGCE/SchoolDirect initial teacher training for Computing teachers in Kent<ul>Lecturer in Computing<li>Frameworks and Languages (level 6)</li><li>Introduction to C# and App Development in C#</li></ul></li></ul>",
+        'year': '2018-now',
+        'icons': [],
+        'category': 'employer',
+        'width': 2,
+        'height': 2,
+    },
+
+    {
+        'title':'BarCamp Canterbury',
+        'link': 'https://barcampcanterbury.com/',
+        'image': 'projects/barcampcanterbury_logo.svg',
+        'description': "<p>Organiser for 2019/2020/2022/2023 BarCamp Canterbury. Organised sponsors, social media, tickets, refreshments, code-of-conduct, risk assessment.</p>",
+        'year': '2019-now',
+        'icons': [],
+        'category': 'employer',
+        'width': 1,
+        'height': 2,
+    },
+
+    {
+        'title':'CodeKids.org.uk Sessions',
+        'link': 'https://www.codekids.org.uk/',
+        'image': '',
+        'description': "Supporting youth coding sessions",
+        'year': '2023',
+        'team': [],
+        'icons': [],
+        'category': 'employer',
+        'width': 1,
+        'height': 1
+    },
 
     {
         'title':'Chaos (Remake)',
         'link': 'https://calaldees.github.io/chaos/',
-        'image': '',
+        'image': 'projects/chaos.gif',
         'description': "A faithful remake of Julian Golops Chaos: Battle of the Wizards in HTML/JS for shared mobile interface",
         'description_extended': "The original game was an 8 player hotseat on the ZX spectrum. Remaking it to have a central projector for a room to see and each of the 8 wizards has a mobile phone interface",
         'year': '2023',
@@ -155,22 +191,23 @@ build_masonry(
         'icons': ['html5','github'],
         'category': 'code',
         'width': 1,
-        'height': 1
+        'height': 2
     },
 
 
     {
         'title':'Triumph Herald Restoration',
         'link': '',
-        'image': '',
+        'image': 'projects/gerald-restore.jpg',
         'description': "Restoring an old Triumph Herald 13/60 convertible",
         'description_extended': "",
         'year': '2022-present',
         'team': [],
         'icons': ['build'],
         'category': 'build',
-        'width': 1,
-        'height': 1
+        'width': 2,
+        'height': 1,
+        'extra_class': 'horizontal',
     },
 
     {
@@ -207,17 +244,6 @@ build_masonry(
         'height': 3
     },
 
-    {
-        'title':'BarCamp Canterbury',
-        'link': 'https://barcampcanterbury.com/',
-        'image': 'projects/barcampcanterbury_logo.svg',
-        'description': "<p>Organiser for 2019/2020/2022 BarCamp Canterbury. Organised sponsors, social media, tickets, refreshments, code-of-conduct, risk assessment.</p>",
-        'year': '2019-now',
-        'icons': [],
-        'category': 'employer',
-        'width': 1,
-        'height': 2,
-    },
 
     {
         'title':'Joystick Replacement',
@@ -236,7 +262,7 @@ build_masonry(
         'link': 'https://computingteachers.uk/',
         'image': '',
         'description': "Considering the concept of a community of Computing teachers that collaborate on resources using Git.",
-        'year': '2021',
+        'year': '2021-present',
         'icons': [],
         'category': 'other',
         'width': 1,
@@ -292,18 +318,6 @@ build_masonry(
         'category': 'code',
         'width': 1,
         'height': 2,
-    },
-    {
-        'title':'Canterbury Christ Church University',
-        'link': 'https://www.canterbury.ac.uk/arts-humanities-and-education/our-work/epistemic-insight/guided-research/tutor-profile.aspx?id=4d006dd7-135f-4ee1-88e3-3b146bc319f0',
-        'image': 'employers/cccu-logo.png',
-        'description': "<ul><li>Lecturer in Education: Secondary Computing. 0.5fte<ul><li>PGCE/SchoolDirect initial teacher training for Computing teachers in Kent</li></ul></li><li>Lecturer in Computing 0.5fte<ul><li>Frameworks and Languages (level 6)</li><li>Introduction to C# and App Development in C#</li></ul></li></ul>",
-        'year': '2018-now',
-        'icons': [],
-        'category': 'employer',
-        'width': 2,
-        'height': 2,
-        
     },
 
     {
@@ -372,7 +386,7 @@ build_masonry(
     {
         'title':'Arcade Cabinet Mrk2',
         'link': 'https://github.com/calaldees/blog/blob/master/construction/arcadeCabinet/mark2.md',
-        'image': 'projects/arcade-mrk2.jpg',
+        'image': 'projects/arcade-mrk2-b.jpg',
         'description': "Created a modular CRT JAMMA arcade cabinet with custom modular 4 player control deck. Voice activated. Modular steering wheel, bishi bashi Controllers",
         'year': '2020-2021',
         'icons': ['build'],
