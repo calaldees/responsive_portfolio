@@ -144,6 +144,19 @@ LOOKUP_TEAM = {
 build_masonry(
 [
     {
+        'title':'Global (Media Group)',
+        'link': 'http://www.global.com/',
+        'image': 'employers/global-logo.png',
+        'description': "<p>Working on backed services for in-car radio (CarPlayAndroidAuto)</p>",
+        'year': '2024-now',
+        'icons': ['python','docker'],
+        'category': 'employer',
+        'width': 1,
+        'height': 2,
+        'extra_class': 'float',
+    },
+
+    {
         'title':'CV 2024',
         'link': 'responsive_portfolio_assets/cv2024.pdf',
         'description': "Download pdf",
@@ -156,7 +169,7 @@ build_masonry(
         'link': 'https://www.canterbury.ac.uk/arts-humanities-and-education/our-work/epistemic-insight/guided-research/tutor-profile.aspx?id=4d006dd7-135f-4ee1-88e3-3b146bc319f0',
         'image': 'employers/cccu-logo.png',
         'description': "<ul><li>Senior Lecturer in Education: Secondary Computing.<li>PGCE/SchoolDirect initial teacher training for Computing teachers in Kent</ul><ul>Lecturer in Computing<li>Frameworks and Languages (level 6)</li><li>Introduction to C# and App Development in C#</li></ul></li></ul><ul><li>Sessional Lecturer 2018-2019<li>Employed 2020</ul>",
-        'year': '2020-now',
+        'year': '2020-2024',
         'icons': [],
         'category': 'employer',
         'width': 2,
