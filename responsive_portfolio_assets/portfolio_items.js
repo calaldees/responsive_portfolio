@@ -144,6 +144,20 @@ LOOKUP_TEAM = {
 build_masonry(
 [
     {
+        'title':'incredibleBulkAPI',
+        'link': 'https://calaldees.github.io/incredibleBulkAPI/',
+        //'image': '',
+        'description': "API service to index another json/api service + cache and gzip bulk the returns (with preview images in base64/avif). Useful for: Client responsiveness, Service outages fallback, timeline/snapshots",
+        'description_extended': "",
+        'year': '2025',
+        'team': [],
+        'icons': ['python', 'docker'],
+        'category': 'code',
+        'width': 1,
+        'height': 2
+    },
+
+    {
         'title':'Global (Media Group)',
         'link': 'http://www.global.com/',
         'image': 'employers/global-logo.png',
@@ -156,14 +170,6 @@ build_masonry(
         'extra_class': 'float',
     },
 
-    {
-        'title':'CV 2024',
-        'link': 'responsive_portfolio_assets/cv2024.pdf',
-        'description': "Download pdf",
-        'category': 'employer',
-        'width': 1,
-        'height': 1,
-    },
     {
         'title':'Canterbury Christ Church University',
         'link': 'https://www.canterbury.ac.uk/arts-humanities-and-education/our-work/epistemic-insight/guided-research/tutor-profile.aspx?id=4d006dd7-135f-4ee1-88e3-3b146bc319f0',
@@ -193,7 +199,7 @@ build_masonry(
         'link': 'https://www.codekids.org.uk/',
         'image': '',
         'description': "Supporting youth coding sessions",
-        'year': '2023',
+        'year': '2023-now',
         'team': [],
         'icons': [],
         'category': 'employer',
